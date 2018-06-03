@@ -1,0 +1,14 @@
+{
+  "name": "temaki",
+  "version": "0.0.0",
+  "license": "CC0-1.0",
+  "repository": "bhousel/temaki",
+  "author": "Bryan Housel <bryan@mapbox.com>",
+  "description": "An expansion pack for https://github.com/mapbox/maki",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
