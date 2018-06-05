@@ -29,7 +29,7 @@ Icon requests are very welcome!  This project is only for icons that aren't alre
 
 ### The icons
 
-[![](https://rawgit.com/bhousel/temaki/blob/master/dist/temaki-view.svg)](https://bhousel.github.io/temaki/docs)
+[![](https://rawgit.com/bhousel/temaki/master/dist/temaki-view.svg)](https://bhousel.github.io/temaki/docs)
 
 View the icons at https://bhousel.github.io/temaki/docs
 
