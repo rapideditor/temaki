@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/temaki.svg)](https://badge.fury.io/js/temaki)
 
 ## Temaki
 
