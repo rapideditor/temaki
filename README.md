@@ -29,7 +29,7 @@ Icon requests are very welcome!  This project is only for icons that aren't alre
 
 ### The icons
 
-Preview the icons at https://bhousel.github.io/temaki
+Preview the icons at https://bhousel.github.io/temaki/docs
 
 
 ### License
