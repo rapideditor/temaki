@@ -31,7 +31,7 @@ Icon requests are very welcome!  This project is only for icons that aren't alre
 
 [![](https://rawgit.com/bhousel/temaki/master/dist/temaki-view.svg)](https://bhousel.github.io/temaki/docs)
 
-View the icons at https://bhousel.github.io/temaki/docs
+See https://bhousel.github.io/temaki/docs for details.
 
 
 ### License
