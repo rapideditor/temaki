@@ -29,9 +29,7 @@ Icon requests are very welcome!  This project is only for icons that aren't alre
 
 ### The icons
 
-<iframe src="https://rawgit.com/bhousel/temaki/master/preview.html" width="90%" height="1000">
-  <p>Your browser does not support iframes.</p>
-</iframe>
+Preview the icons at https://bhousel.github.io/temaki
 
 
 ### License
