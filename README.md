@@ -27,6 +27,13 @@ I try to mostly follow the excellent [Maki design guidelines](https://www.mapbox
 Icon requests are very welcome!  This project is only for icons that aren't already in [Maki](https://github.com/mapbox/maki).
 
 
+### The icons
+
+<iframe src="https://rawgit.com/bhousel/temaki/master/preview.html" width="90%" height="1000">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+
+
 ### License
 To the extent possible under law, the author(s) have dedicated all copyright and related and neighboring rights to this software to the public domain worldwide. This software is distributed without any warranty.
 
