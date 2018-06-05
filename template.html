@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <title>Temaki Icons</title>
+    <style>
+        body{padding:0;margin:0;color:#666;background:#fafafa;font-family:sans-serif;font-size:1em;line-height:1.4}
+        section{border-top:1px solid #eee;padding:2em 3em 0 3em}
+        section ul{margin:0;padding:0}
+        section li{
+            display:inline;
+            display:inline-block;
+            background-color:#fff;
+            position:relative;
+            margin:0;
+            vertical-align:top;
+            border:1px solid #ccc;
+            padding:5px;
+            margin:3px;
+            cursor:default;
+        }
+        .icon-box{
+            margin:0;
+            width:150px;
+            height:70px;
+            position:relative;
+            background:#fff;
+            display:table-cell;
+            vertical-align:middle;
+            text-align:center;
+        }
+        .icon-lg{
+            display: inline-block;
+            width: 45px;
+            height: 45px;
+            margin: 0 10px;
+        }
+        .icon-sm{
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            margin: 0 10px;
+        }
+        .icon-name{
+            display: block;
+            font-size:12px;
+            font-weight:normal;
+            white-space:nowrap;
+            overflow:hidden;
+            text-overflow:ellipsis;
+            text-align:center;
+        }
+        footer{display:block;margin:0;padding:1em 3em 3em 3em}
+        footer p{margin:0;font-size:.7em}
+        footer a{color:#0f7595;margin-left:0}
+    </style>
+    </head>
+
+    <body>
+    <svg width="0" height="0" style="position:absolute">
+{{#shapes}}     {{{svg}}}
+{{/shapes}}
+    </svg>
+
+    <section>
+        <h3>Temaki Icons</h3>
+        <p>Previews at 40x40 and 15x15</p>
+        <ul>
+
+{{#shapes}}
+            <li title="{{name}}">
+                <div class="icon-box">
+                    <svg class="icon-lg"><use xlink:href="#{{name}}"></use></svg>
+                    <svg class="icon-sm"><use xlink:href="#{{name}}"></use></svg>
+                </div>
+                <div class="icon-name">{{name}}</div>
+            </li>
+{{/shapes}}
+        </ul>
+    </section>
+    <footer>
+        <p>Generated at {{date}} by <a href="https://github.com/jkphl/svg-sprite" target="_blank">svg-sprite</a>.</p>
+    </footer>
+    </body>
+</html>
