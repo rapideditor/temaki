@@ -9,8 +9,8 @@
   "scripts": {
     "all": "npm-run-all -s clean build",
     "build": "npm-run-all -p dist:**",
-    "dist:symbol": "svg-sprite --symbol --symbol-dest . --shape-transform '' --shape-id-generator \"temaki-%s\" --symbol-example true --symbol-example-template docs/template.html --symbol-example-dest docs/index.html --symbol-sprite dist/temaki-symbol.svg icons/*.svg",
-    "dist:view": "svg-sprite --view --view-dest . --shape-transform '' --shape-id-generator \"temaki-%s\" --view-bust false --view-layout horizontal --view-sprite dist/temaki-view.svg icons/*.svg",
+    "dist:symbol": "svg-sprite --symbol --symbol-dest . --shape-transform '' --shape-id-generator \"temaki-%s\" -w 15 -h 15 --symbol-example true --symbol-example-template docs/template.html --symbol-example-dest docs/index.html --symbol-sprite dist/temaki-symbol.svg icons/*.svg",
+    "dist:view": "svg-sprite --view --view-dest . --shape-transform '' --shape-id-generator \"temaki-%s\" -w 15 -h 15 --view-bust false --view-sprite dist/temaki-view.svg icons/*.svg",
     "clean": "shx rm -f dist/*"
   },
   "devDependencies": {
