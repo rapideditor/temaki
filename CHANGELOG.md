@@ -5,6 +5,17 @@
 [#x]: https://github.com/bhousel/temaki/issues/x
 -->
 
+# 1.3.0
+##### 2019-May-15
+
+* Add `boulder1.svg`, `boulder2.svg`, `boulder3.svg` ([#6])
+* Add `donut.svg`
+* Add `swamp.svg` ([#5], thanks [@westnordost])
+
+[#6]: https://github.com/bhousel/temaki/issues/6
+[#5]: https://github.com/bhousel/temaki/issues/5
+[@westnordost]: https://github.com/westnordost
+
 # 1.2.0
 ##### 2019-Jan-22
 
