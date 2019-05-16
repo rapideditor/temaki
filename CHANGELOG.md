@@ -5,6 +5,17 @@
 [#x]: https://github.com/bhousel/temaki/issues/x
 -->
 
+# 1.4.0
+##### 2019-May-16
+
+* Add `kerb-raised.svg`, `kerb-lowered.svg`, `kerb-rolled.svg`, `kerb-flush.svg` ([#4])
+* Add `golf_cart.svg` ([#3])
+* Increase the size of the other new icons so they better fill the available space
+
+[#4]: https://github.com/bhousel/temaki/issues/4
+[#3]: https://github.com/bhousel/temaki/issues/3
+
+
 # 1.3.0
 ##### 2019-May-15
 
