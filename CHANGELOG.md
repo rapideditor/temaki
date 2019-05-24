@@ -5,6 +5,15 @@
 [#x]: https://github.com/bhousel/temaki/issues/x
 -->
 
+# 1.5.0
+##### 2019-May-24
+
+* Add `horseshoes.svg`
+* Add `shuffleboard.svg`
+* Add `disc_golf_basket.svg`
+* Add `clothes_hanger.svg`
+
+
 # 1.4.0
 ##### 2019-May-16
 
