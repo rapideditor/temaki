@@ -5,6 +5,12 @@
 [#x]: https://github.com/bhousel/temaki/issues/x
 -->
 
+# 1.6.0
+##### 2019-Jun-30
+
+* Add `security_camera.svg`
+
+
 # 1.5.0
 ##### 2019-May-24
 
