@@ -5,6 +5,24 @@
 [#x]: https://github.com/bhousel/temaki/issues/x
 -->
 
+# 1.7.0
+##### 2019-Jul-26
+
+* Add `radio.svg` and `speaker.svg` ([#13], [#29])
+* Add `balloon.svg` ([#22], [#28])
+* Add `sandwich.svg` ([#26], [#27])
+* Add `cairn.svg` ([#19], [#25])
+
+[#13]: https://github.com/bhousel/temaki/issues/13
+[#19]: https://github.com/bhousel/temaki/issues/19
+[#22]: https://github.com/bhousel/temaki/issues/22
+[#25]: https://github.com/bhousel/temaki/issues/25
+[#26]: https://github.com/bhousel/temaki/issues/26
+[#27]: https://github.com/bhousel/temaki/issues/27
+[#28]: https://github.com/bhousel/temaki/issues/28
+[#29]: https://github.com/bhousel/temaki/issues/29
+
+
 # 1.6.0
 ##### 2019-Jun-30
 
