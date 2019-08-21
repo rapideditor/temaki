@@ -5,6 +5,17 @@
 [#x]: https://github.com/bhousel/temaki/issues/x
 -->
 
+# 1.8.0
+##### 2019-Aug-21
+
+* Add `power_tower.svg` and `utility_pole.svg` ([#24], [#32])
+* Add `letter_box.svg` ([#31])
+
+[#24]: https://github.com/bhousel/temaki/issues/24
+[#31]: https://github.com/bhousel/temaki/issues/31
+[#32]: https://github.com/bhousel/temaki/issues/32
+
+
 # 1.7.0
 ##### 2019-Jul-26
 
