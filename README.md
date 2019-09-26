@@ -1,6 +1,6 @@
 [![npm version](https://badge.fury.io/js/temaki.svg)](https://badge.fury.io/js/temaki)
 
-## ![](https://cdn.jsdelivr.net/gh/bhousel/temaki/icons/temaki.svg) Temaki
+## ![](https://cdn.jsdelivr.net/gh/bhousel/temaki@master/icons/temaki.svg) Temaki
 
 An expansion pack for [Maki](https://github.com/mapbox/maki)
 
@@ -30,7 +30,7 @@ Icon requests are very welcome!  This project is only for icons that aren't alre
 
 ### The icons
 
-[![](https://rawgit.com/bhousel/temaki/master/dist/temaki-view.svg)](https://bhousel.github.io/temaki/docs)
+[![](https://cdn.jsdelivr.net/gh/bhousel/temaki@master/dist/temaki-view.svg)](https://bhousel.github.io/temaki/docs)
 
 See https://bhousel.github.io/temaki/docs for details.
 
