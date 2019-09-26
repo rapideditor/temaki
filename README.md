@@ -1,6 +1,6 @@
 [![npm version](https://badge.fury.io/js/temaki.svg)](https://badge.fury.io/js/temaki)
 
-## <img width="34" src="https://cdn.jsdelivr.net/gh/bhousel/temaki@master/icons/temaki.svg"/> <sup> Temaki </sup>
+## <sub><img width="28" src="https://cdn.jsdelivr.net/gh/bhousel/temaki@master/icons/temaki.svg"/> </sub> Temaki
 
 An expansion pack for [Maki](https://github.com/mapbox/maki)
 
