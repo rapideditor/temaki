@@ -5,6 +5,56 @@
 [#x]: https://github.com/bhousel/temaki/issues/x
 -->
 
+# 1.9.0
+##### 2019-Sep-29
+
+* Lots of new icons in this release!
+* Add `kitchen_sink.svg`
+* Add `bulldozer.svg` ([#9])
+* Add `roller_coaster.svg` ([#30])
+* Cleanup paths in `binoculars.svg`
+* Cleanup paths in `social_facility.svg`
+* Redo `shower.svg` (it was ugly)
+* Add `vending_newspaper.svg`
+* Redo `vending_machine.svg` (it was ugly)
+* Round corners on `utility_pole.svg`
+* Make kerb_flush a bit more flush
+* Cleanup paths, round corners on `crane.svg`
+* Add `chocolate.svg`
+* Cleanup `bulb.svg` shape, add `bulb2.svg` (stroked), `bulb3.svg` (with filament)
+(solid bulb looks too much like a hot air balloon)
+* Add `ear.svg`
+* Add `hearing_aid.svg` ([#21])
+* Add `lipstick.svg` ([#20])
+* Add `bottles.svg`
+* Add `handbag.svg`, `fashion_accessories.svg`, cleanup `jewelry_store.svg` ([#18])
+* Add `temaki.svg`
+* Add `pipe.svg` ([#12])
+* Add `money_hand.svg` ([#17])
+* Add `perfume.svg` ([#14])
+* Add `tanning.svg`, `tanning2.svg` ([#10])
+* Add `tire.svg` ([#15])
+* Add `psychic.svg` and `hand.svg` ([#23])
+* Add `vacuum.svg` ([#16])
+* Add `gas.svg` ([#11])
+* Add `lift_gate.svg` ([#33])
+
+[#9]: https://github.com/bhousel/temaki/issues/9
+[#10]: https://github.com/bhousel/temaki/issues/10
+[#11]: https://github.com/bhousel/temaki/issues/11
+[#12]: https://github.com/bhousel/temaki/issues/12
+[#14]: https://github.com/bhousel/temaki/issues/14
+[#15]: https://github.com/bhousel/temaki/issues/15
+[#16]: https://github.com/bhousel/temaki/issues/16
+[#17]: https://github.com/bhousel/temaki/issues/17
+[#18]: https://github.com/bhousel/temaki/issues/18
+[#20]: https://github.com/bhousel/temaki/issues/20
+[#21]: https://github.com/bhousel/temaki/issues/21
+[#23]: https://github.com/bhousel/temaki/issues/23
+[#30]: https://github.com/bhousel/temaki/issues/30
+[#33]: https://github.com/bhousel/temaki/issues/33
+
+
 # 1.8.0
 ##### 2019-Aug-21
 
