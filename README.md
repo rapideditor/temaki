@@ -7,15 +7,22 @@ An expansion pack for [Maki](https://github.com/mapbox/maki)
 
 ### What is it?
 
-The [Maki](https://github.com/mapbox/maki) icon pack is pretty great!  I use it in the [iD editor](https://github.com/openstreetmap/iD) project, but sometimes:
+The [Maki](https://github.com/mapbox/maki) icon pack is pretty great!  I use it in the [iD editor](https://github.com/openstreetmap/iD) and [name-suggestion-index](https://github.com/osmlab/name-suggestion-index) projects, but sometimes:
 
 * I need an icon that's out of scope for Maki
 * I don't want to wait for an icon to be added to Maki
 * I'm ok with not having 11px versions
 
-So in these situations, I'll just draw something "good enough" and put it here.
+So in these situations, I'll just draw something "good enough" and put it here.  (Many of these icons also originally came from the [scottdejonge/map-icons repo](https://github.com/bhousel/temaki/issues/2).)
 
 The Temaki icons are a little bigger and messier than the Maki ones, but just as delicious. :yum:
+
+
+### The icons
+
+[![](https://cdn.jsdelivr.net/gh/bhousel/temaki@master/dist/temaki-view.svg)](https://bhousel.github.io/temaki/docs)
+
+See https://bhousel.github.io/temaki/docs for details about each icon.
 
 
 ### Design guidelines
@@ -26,13 +33,6 @@ I try to mostly follow the excellent [Maki design guidelines](https://www.mapbox
 ### Contributing
 
 Icon requests are very welcome!  This project is only for icons that aren't already in [Maki](https://github.com/mapbox/maki).
-
-
-### The icons
-
-[![](https://cdn.jsdelivr.net/gh/bhousel/temaki@master/dist/temaki-view.svg)](https://bhousel.github.io/temaki/docs)
-
-See https://bhousel.github.io/temaki/docs for details.
 
 
 ### License
