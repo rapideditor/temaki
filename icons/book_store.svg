@@ -1,1 +1,5 @@
-<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" overflow="inherit"><path d="M41 40v-34c0-2.2-1.8-4-4-4h-24c-2.2 0-4 1.8-4 4v38c0 2.2 1.8 4 4 4h24c1.858 0 4 0 4-2v-1h-27c-1.1 0-2-.9-2-2v-3h29zm-27-30c0-.55.45-1 1-1h20c.55 0 1 .45 1 1v2c0 .55-.45 1-1 1h-20c-.55 0-1-.45-1-1v-2zm0 8c0-.55.45-1 1-1h20c.55 0 1 .45 1 1v2c0 .55-.45 1-1 1h-20c-.55 0-1-.45-1-1v-2z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="15" height="15" viewBox="0 0 15 15">
+<path d="M11.5,0 C12.5,0 13,0 13,1 C13,1 13,14 13,14 C13,15 12.5,15 11.5,15 C11.5,15 3.5,15 3.5,15 C2.5,15 2,15 2,14 L2,1 C2,0 2.5,0 3.5,0 L11.5,0 z M12.5,12.5 L3,12.5 C3,12.5 3,13.5 3,13.5 C3,14 3.5,14 3.5,14 L12.5,14 L12.5,12.5 z M10.5,5 C10.5,5 4.5,5 4.5,5 C4,5 4,6 4.5,6 C4.5,6 10.5,6 10.5,6 C11,6 11,5 10.5,5 z M10.5,3 C10.5,3 4.5,3 4.5,3 C4,3 4,4 4.5,4 C4.5,4 10.5,4 10.5,4 C11,4 11,3 10.5,3 z"/>
+</svg>
