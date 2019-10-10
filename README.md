@@ -2,7 +2,11 @@
 
 ## <sub><img width="28" src="https://cdn.jsdelivr.net/gh/bhousel/temaki@master/icons/temaki.svg"/> </sub> Temaki
 
-An expansion pack for [Maki](https://github.com/mapbox/maki)
+An icon expansion pack for [Maki](https://github.com/mapbox/maki)
+
+[![](https://cdn.jsdelivr.net/gh/bhousel/temaki@master/dist/temaki-view.svg)](https://bhousel.github.io/temaki/docs)
+
+See https://bhousel.github.io/temaki/docs for details about each icon.
 
 
 ### What is it?
@@ -16,13 +20,6 @@ The [Maki](https://github.com/mapbox/maki) icon pack is pretty great!  I use it 
 So in these situations, I'll just draw something "good enough" and put it here.  (Many of these icons also originally came from the [scottdejonge/map-icons repo](https://github.com/bhousel/temaki/issues/2).)
 
 The Temaki icons are a little bigger and messier than the Maki ones, but just as delicious. :yum:
-
-
-### The icons
-
-[![](https://cdn.jsdelivr.net/gh/bhousel/temaki@master/dist/temaki-view.svg)](https://bhousel.github.io/temaki/docs)
-
-See https://bhousel.github.io/temaki/docs for details about each icon.
 
 
 ### Design guidelines
