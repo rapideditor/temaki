@@ -1,9 +1,67 @@
+:warning: = Breaking change
+
 <!--
 # A.B.C
 ##### YYYY-MMM-DD
 
 [#x]: https://github.com/bhousel/temaki/issues/x
 -->
+
+# 2.0.0
+##### 2019-Oct-21
+
+* Many old icons have been cleaned up to better pixel align to a 15px grid:
+  * `speaker` `plumber`, `balloon`, `donut`, `school`, `post_box`, `silo`, `real_estate_agency`, `radiation`, `beauty_salon`, `rv_park`, `stop`, `furniture`, `yield`, `chimney`, `truck`, `ruins`, `book_store`, `electronic`, `casino`
+
+* New icons for vending machines:
+  * `vending_bread`
+  * `vending_cigarettes`
+  * `vending_cold_drink` (machine), `vending_cold_drink2` (dispenser)
+  * `vending_eggs`
+  * `vending_flat_coin`
+  * `vending_hot_drink` (machine), `vending_hot_drink2` (dispenser)
+  * `vending_ice` (dispenser)
+  * `vending_ice_cream` (machine), `vending_ice_cream2` (dispenser)
+  * `vending_lockers`
+  * `vending_love`
+  * `vending_machine` (generic machine)
+  * `vending_medicine`
+  * `vending_newspaper`
+  * `vending_pet_waste`
+  * `vending_stamps`
+  * `vending_tickets` ([#35])
+  * `vending_venus`
+  * Also added standalone icons for the things in the vending machines: `ticket`, `stamp`, `egg`, `bread`, `heart` `can`
+
+* New icons for utility mapping:
+  * :warning: Note: previous `gas.svg` has been renamed to `propane_tank.svg`
+  * Added base icons for `gas`, `water`, `power`, `cable`, `waste`
+  * Added variations on all of those for shutoffs, meters, manholes, other devices
+  * Several new icons for power utility mapping:
+    * `power_cb`, `power_cb2`  (circuit breakers)
+    * `power_circuit`
+    * `power_ct` (current transducer)
+    * `power_isolator`
+    * `power_la` (lightning arrester)
+    * `power_switch`
+    * `power_transformer`
+
+* New icons for industrial and man-made features
+  * `storage_fermenter`, `storage_drum`
+  * `manhole`
+  * `oil_well`
+  * `wheel`
+  * `bleachers` ([#36])
+
+* New icons for shops/landuse
+  * `coffee` ([#34])
+  * `grapes`
+
+[#34]: https://github.com/bhousel/temaki/issues/34
+[#35]: https://github.com/bhousel/temaki/issues/35
+[#36]: https://github.com/bhousel/temaki/issues/36
+
+
 
 # 1.9.0
 ##### 2019-Sep-29
