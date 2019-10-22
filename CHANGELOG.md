@@ -40,7 +40,7 @@
   * Several new icons for power utility mapping:
     * `power_cb`, `power_cb2`  (circuit breakers)
     * `power_circuit`
-    * `power_ct` (current transducer)
+    * `power_ct` (current transformer)
     * `power_isolator`
     * `power_la` (lightning arrester)
     * `power_switch`
