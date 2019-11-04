@@ -7,6 +7,12 @@
 [#x]: https://github.com/bhousel/temaki/issues/x
 -->
 
+# 2.1.0
+##### 2019-Nov-04
+
+* Add `mast.svg`, `mast_communication.svg`, `tower_communication.svg`
+
+
 # 2.0.0
 ##### 2019-Oct-21
 
