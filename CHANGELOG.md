@@ -7,6 +7,15 @@
 [#x]: https://github.com/bhousel/temaki/issues/x
 -->
 
+# 2.2.0
+##### 2019-Nov-26
+
+*  Add barn, bicycle box, bicycle rental, boat rental, campfire, dog shelter, picnic shelter, sleep shelter, storage rental, and transit shelter icons
+*  Add water tower icon ([#42])
+*  Add rope fence and cattle grid icons ([#46])
+*  Add gates and turnstile icons ([#44, #45])
+
+
 # 2.1.0
 ##### 2019-Nov-04
 
