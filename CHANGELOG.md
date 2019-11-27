@@ -7,13 +7,53 @@
 [#x]: https://github.com/bhousel/temaki/issues/x
 -->
 
+# 2.3.0
+##### 2019-Nov-27
+
+* Update `storage_rental` to be somewhat thinner
+* Add pier icons ([#47])
+  * `pier_fixed`
+  * `pier_floating`
+* Add more car-related icons
+  * `car_pool`
+  * `junk_car`
+  * `height_restrictor`
+* Add signed feature icons
+  * `sign_and_bench`
+  * `sign_and_car`
+  * `sign_and_pedestrian`
+* Add more pedestrian and cycling icons
+  * `cyclist_crosswalk`
+  * `pedestrian_crosswalk`
+  * `pedestrian_and_cyclist`
+  * `pedestrian_walled`
+* Add parking structure icons
+  * `bicycle_structure`
+  * `car_structure`
+* Add motorcycle icons
+  * `motorcycle`
+  * `motorcycle_rental`
+* Add repair icons
+  * `bicycle_repair`
+  * `boat_repair`
+  * `motorcycle_repair`
+* Add another shelter icon
+  * `horse_shelter`
+* Add art and history icons
+  * `plaque`
+  * `sculpture`
+  * `vase`
+
+[#47]: https://github.com/bhousel/temaki/issues/47
+
+
 # 2.2.0
 ##### 2019-Nov-26
 
-*  Add `water_tower` ([#42])
-*  Add `gate`, `tall_gate`, and `turnstile` ([#44], [#45])
-*  Add `rope_fence` and `cattle_grid` ([#46])
-*  Add `barn`, `bicycle_box`, `bicycle_rental`, `boat_rental`, `campfire`, `dog_shelter`, `picnic_shelter`, `sleep_shelter`, `storage_rental`, and `transit_shelter`
+* Add `water_tower` ([#42])
+* Add `gate`, `tall_gate`, and `turnstile` ([#44], [#45])
+* Add `rope_fence` and `cattle_grid` ([#46])
+* Add `barn`, `bicycle_box`, `bicycle_rental`, `boat_rental`, `campfire`, `dog_shelter`, `picnic_shelter`, `sleep_shelter`, `storage_rental`, and `transit_shelter`
 
 [#42]: https://github.com/bhousel/temaki/issues/42
 [#46]: https://github.com/bhousel/temaki/issues/46
