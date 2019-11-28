@@ -4,7 +4,7 @@
 # A.B.C
 ##### YYYY-MMM-DD
 
-[#x]: https://github.com/bhousel/temaki/issues/x
+[#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
 # 2.3.0
@@ -44,7 +44,7 @@
   * `sculpture`
   * `vase`
 
-[#47]: https://github.com/bhousel/temaki/issues/47
+[#47]: https://github.com/ideditor/temaki/issues/47
 
 
 # 2.2.0
@@ -55,10 +55,10 @@
 * Add `rope_fence` and `cattle_grid` ([#46])
 * Add `barn`, `bicycle_box`, `bicycle_rental`, `boat_rental`, `campfire`, `dog_shelter`, `picnic_shelter`, `sleep_shelter`, `storage_rental`, and `transit_shelter`
 
-[#42]: https://github.com/bhousel/temaki/issues/42
-[#46]: https://github.com/bhousel/temaki/issues/46
-[#44]: https://github.com/bhousel/temaki/issues/44
-[#45]: https://github.com/bhousel/temaki/issues/45
+[#42]: https://github.com/ideditor/temaki/issues/42
+[#46]: https://github.com/ideditor/temaki/issues/46
+[#44]: https://github.com/ideditor/temaki/issues/44
+[#45]: https://github.com/ideditor/temaki/issues/45
 
 # 2.1.0
 ##### 2019-Nov-04
@@ -116,9 +116,9 @@
   * `coffee` ([#34])
   * `grapes`
 
-[#34]: https://github.com/bhousel/temaki/issues/34
-[#35]: https://github.com/bhousel/temaki/issues/35
-[#36]: https://github.com/bhousel/temaki/issues/36
+[#34]: https://github.com/ideditor/temaki/issues/34
+[#35]: https://github.com/ideditor/temaki/issues/35
+[#36]: https://github.com/ideditor/temaki/issues/36
 
 
 
@@ -156,20 +156,20 @@
 * Add `gas.svg` ([#11])
 * Add `lift_gate.svg` ([#33])
 
-[#9]: https://github.com/bhousel/temaki/issues/9
-[#10]: https://github.com/bhousel/temaki/issues/10
-[#11]: https://github.com/bhousel/temaki/issues/11
-[#12]: https://github.com/bhousel/temaki/issues/12
-[#14]: https://github.com/bhousel/temaki/issues/14
-[#15]: https://github.com/bhousel/temaki/issues/15
-[#16]: https://github.com/bhousel/temaki/issues/16
-[#17]: https://github.com/bhousel/temaki/issues/17
-[#18]: https://github.com/bhousel/temaki/issues/18
-[#20]: https://github.com/bhousel/temaki/issues/20
-[#21]: https://github.com/bhousel/temaki/issues/21
-[#23]: https://github.com/bhousel/temaki/issues/23
-[#30]: https://github.com/bhousel/temaki/issues/30
-[#33]: https://github.com/bhousel/temaki/issues/33
+[#9]: https://github.com/ideditor/temaki/issues/9
+[#10]: https://github.com/ideditor/temaki/issues/10
+[#11]: https://github.com/ideditor/temaki/issues/11
+[#12]: https://github.com/ideditor/temaki/issues/12
+[#14]: https://github.com/ideditor/temaki/issues/14
+[#15]: https://github.com/ideditor/temaki/issues/15
+[#16]: https://github.com/ideditor/temaki/issues/16
+[#17]: https://github.com/ideditor/temaki/issues/17
+[#18]: https://github.com/ideditor/temaki/issues/18
+[#20]: https://github.com/ideditor/temaki/issues/20
+[#21]: https://github.com/ideditor/temaki/issues/21
+[#23]: https://github.com/ideditor/temaki/issues/23
+[#30]: https://github.com/ideditor/temaki/issues/30
+[#33]: https://github.com/ideditor/temaki/issues/33
 
 
 # 1.8.0
@@ -178,9 +178,9 @@
 * Add `power_tower.svg` and `utility_pole.svg` ([#24], [#32])
 * Add `letter_box.svg` ([#31])
 
-[#24]: https://github.com/bhousel/temaki/issues/24
-[#31]: https://github.com/bhousel/temaki/issues/31
-[#32]: https://github.com/bhousel/temaki/issues/32
+[#24]: https://github.com/ideditor/temaki/issues/24
+[#31]: https://github.com/ideditor/temaki/issues/31
+[#32]: https://github.com/ideditor/temaki/issues/32
 
 
 # 1.7.0
@@ -191,14 +191,14 @@
 * Add `sandwich.svg` ([#26], [#27])
 * Add `cairn.svg` ([#19], [#25])
 
-[#13]: https://github.com/bhousel/temaki/issues/13
-[#19]: https://github.com/bhousel/temaki/issues/19
-[#22]: https://github.com/bhousel/temaki/issues/22
-[#25]: https://github.com/bhousel/temaki/issues/25
-[#26]: https://github.com/bhousel/temaki/issues/26
-[#27]: https://github.com/bhousel/temaki/issues/27
-[#28]: https://github.com/bhousel/temaki/issues/28
-[#29]: https://github.com/bhousel/temaki/issues/29
+[#13]: https://github.com/ideditor/temaki/issues/13
+[#19]: https://github.com/ideditor/temaki/issues/19
+[#22]: https://github.com/ideditor/temaki/issues/22
+[#25]: https://github.com/ideditor/temaki/issues/25
+[#26]: https://github.com/ideditor/temaki/issues/26
+[#27]: https://github.com/ideditor/temaki/issues/27
+[#28]: https://github.com/ideditor/temaki/issues/28
+[#29]: https://github.com/ideditor/temaki/issues/29
 
 
 # 1.6.0
@@ -223,8 +223,8 @@
 * Add `golf_cart.svg` ([#3])
 * Increase the size of the other new icons so they better fill the available space
 
-[#4]: https://github.com/bhousel/temaki/issues/4
-[#3]: https://github.com/bhousel/temaki/issues/3
+[#4]: https://github.com/ideditor/temaki/issues/4
+[#3]: https://github.com/ideditor/temaki/issues/3
 
 
 # 1.3.0
@@ -234,8 +234,8 @@
 * Add `donut.svg`
 * Add `swamp.svg` ([#5], thanks [@westnordost])
 
-[#6]: https://github.com/bhousel/temaki/issues/6
-[#5]: https://github.com/bhousel/temaki/issues/5
+[#6]: https://github.com/ideditor/temaki/issues/6
+[#5]: https://github.com/ideditor/temaki/issues/5
 [@westnordost]: https://github.com/westnordost
 
 # 1.2.0
@@ -243,7 +243,7 @@
 
 * Add 80 icons from [scottdejonge/map-icons](https://github.com/scottdejonge/map-icons) ([#2], thanks [@scottdejonge])
 
-[#2]: https://github.com/bhousel/temaki/issues/2
+[#2]: https://github.com/ideditor/temaki/issues/2
 [@scottdejonge]: https://github.com/scottdejonge
 
 
@@ -252,7 +252,7 @@
 
 * Add `guard_rail.svg`, `railing.svg`, `wall.svg` ([#1], thanks [@RudyTheDev])
 
-[#1]: https://github.com/bhousel/temaki/issues/1
+[#1]: https://github.com/ideditor/temaki/issues/1
 [@RudyTheDev]: https://github.com/RudyTheDev
 
 

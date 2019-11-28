@@ -2,7 +2,7 @@
   "name": "temaki",
   "version": "2.3.0",
   "license": "CC0-1.0",
-  "repository": "bhousel/temaki",
+  "repository": "ideditor/temaki",
   "author": "Bryan Housel <bryan@mapbox.com>",
   "description": "An expansion pack for https://github.com/mapbox/maki",
   "main": "",
