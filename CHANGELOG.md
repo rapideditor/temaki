@@ -11,6 +11,7 @@
 ##### 2019-Dec-02
 
 * Switch temaki to a scoped package under ideditor org: `@ideditor/temaki`
+  * :warning: Note: projects that depend on temaki may need to update their code
 
 
 # 2.3.0
