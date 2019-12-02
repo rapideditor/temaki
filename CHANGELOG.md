@@ -7,6 +7,12 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.0.0
+##### 2019-Dec-02
+
+* Switch temaki to a scoped package under ideditor org: `@ideditor/temaki`
+
+
 # 2.3.0
 ##### 2019-Nov-27
 

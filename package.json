@@ -1,9 +1,9 @@
 {
-  "name": "temaki",
-  "version": "2.3.0",
+  "name": "@ideditor/temaki",
+  "version": "3.0.0",
   "license": "CC0-1.0",
   "repository": "ideditor/temaki",
-  "author": "Bryan Housel <bryan@mapbox.com>",
+  "author": "Bryan Housel <bhousel@gmail.com>",
   "description": "An expansion pack for https://github.com/mapbox/maki",
   "main": "",
   "scripts": {
