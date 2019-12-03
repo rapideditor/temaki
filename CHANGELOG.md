@@ -7,6 +7,11 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.1.0
+##### 2019-Dec-03
+
+* Add `striped_way` icon
+
 # 3.0.0
 ##### 2019-Dec-02
 
