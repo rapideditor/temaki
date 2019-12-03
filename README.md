@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/temaki.svg)](https://badge.fury.io/js/temaki)
+[![npm version](https://badge.fury.io/js/%40ideditor%2Ftemaki.svg)](https://badge.fury.io/js/%40ideditor%2Ftemaki)
 
 ## <sub><img width="28" src="https://cdn.jsdelivr.net/gh/ideditor/temaki@master/icons/temaki.svg"/> </sub> Temaki
 
