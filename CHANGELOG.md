@@ -7,6 +7,22 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.2.0
+##### 2019-Dec-04
+
+* Update `striped_way` to better convey the visual perspective
+* Add more lighting icons
+  * `desk_lamp`
+  * `street_lamp_arm`
+* Add suitcase icons
+  * `suitcase`
+  * `suitcase_key`
+* Add playground icons
+  * `play_structure`
+  * `slide`
+* Add another tower icon
+  * `domed_tower`
+
 # 3.1.0
 ##### 2019-Dec-03
 
