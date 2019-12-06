@@ -7,6 +7,17 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.3.0
+##### 2019-Dec-06
+
+* Update `suitcase` icon to be slightly larger
+* Add briefcase icons
+  * `briefcase`
+  * `briefcase_bolt` (power/energy)
+  * `briefcase_cross` (hospital/healthcare)
+  * `briefcase_info`
+* :warning: `travel_agency` has been removed and replaced by `briefcase_info`
+
 # 3.2.0
 ##### 2019-Dec-04
 
