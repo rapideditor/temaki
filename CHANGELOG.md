@@ -7,6 +7,23 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.4.0
+##### 2019-Dec-09
+
+* Add `billboard` ([#43])
+* Add `embassy`
+* Add structure icons
+  * `bridge`
+  * `tunnel`
+* Add shield icons
+  * `shield`
+  * `briefcase_shield`
+* Add tree icons
+  * `tree_and_bench`
+  * `tree_row`
+
+[#43]: https://github.com/ideditor/temaki/issues/43
+
 # 3.3.0
 ##### 2019-Dec-06
 
