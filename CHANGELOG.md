@@ -7,6 +7,14 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.5.0
+##### 2019-Dec-12
+
+* Add `statue`
+* Add grass icons
+  * `grass`
+  * `lawn`
+
 # 3.4.0
 ##### 2019-Dec-09
 
