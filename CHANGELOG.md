@@ -7,6 +7,13 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.6.0
+##### 2019-Dec-17
+
+* Update `statue` icon to be slightly clearer at small sizes
+* Add `buoy`
+* Add `fish_ladder`
+
 # 3.5.0
 ##### 2019-Dec-12
 
