@@ -7,6 +7,21 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.7.0
+##### 2019-Dec-19
+
+* Make icons linkable on the icon [preview page](https://ideditor.github.io/temaki/docs)
+* Update [`sign_and_bench`], [`tree_and_bench`], and [`transit_shelter`] icons to all use the same bench component
+* Add [`boat`] and [`boat_floating`]
+* Add [`bunker`]
+
+[`sign_and_bench`]: https://ideditor.github.io/temaki/docs/#icon-temaki-sign_and_bench
+[`tree_and_bench`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tree_and_bench
+[`transit_shelter`]: https://ideditor.github.io/temaki/docs/#icon-temaki-transit_shelter
+[`boat`]: https://ideditor.github.io/temaki/docs/#icon-temaki-boat
+[`boat_floating`]: https://ideditor.github.io/temaki/docs/#icon-temaki-boat_floating
+[`bunker`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bunker
+
 # 3.6.0
 ##### 2019-Dec-17
 
