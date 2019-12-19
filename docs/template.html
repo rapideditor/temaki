@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body{padding:0;margin:0;color:#666;background:#fafafa;font-family:sans-serif;font-size:1em;line-height:1.4}
+        a{text-decoration:none;}
         section{border-top:1px solid #eee;padding:2em 3em 0 3em}
         section ul{margin:0;padding:0}
         section li{
@@ -15,16 +16,21 @@
             margin:0;
             vertical-align:top;
             border:1px solid #ccc;
-            padding:5px;
             margin:3px;
             cursor:default;
+        }
+        section li a{
+            display: block;
+            padding:5px;
+        }
+        section li a:hover {
+            outline:1px solid #888;
         }
         .icon-box{
             margin:0;
             width:160px;
             height:70px;
             position:relative;
-            background:#fff;
             display:table-cell;
             vertical-align:middle;
             text-align:center;
@@ -49,10 +55,12 @@
             overflow:hidden;
             text-overflow:ellipsis;
             text-align:center;
+            color:#666;
         }
         footer{display:block;margin:0;padding:1em 3em 3em 3em}
         footer p{margin:0;font-size:.7em}
         footer a{color:#0f7595;margin-left:0}
+        footer a:hover{text-decoration:underline;}
     </style>
     </head>
 
@@ -68,12 +76,14 @@
         <ul>
 
 {{#shapes}}
-            <li title="{{name}}">
+            <li id="icon-{{name}}" title="{{name}}">
+                <a href="#icon-{{name}}">
                 <div class="icon-box">
                     <svg class="icon-lg"><use xlink:href="#{{name}}"></use></svg>
                     <svg class="icon-sm"><use xlink:href="#{{name}}"></use></svg>
                 </div>
                 <div class="icon-name">{{name}}</div>
+                </a>
             </li>
 {{/shapes}}
         </ul>
