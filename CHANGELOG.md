@@ -7,10 +7,24 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.8.0
+##### 2019-Dec-21
+
+* Add [`anvil`] and [`anvil_and_hammer`]
+* Add [`bunk_beds`]
+* Add [`cabin`]
+* Add [`car_parked`]
+
+[`anvil`]: https://ideditor.github.io/temaki/docs/#icon-temaki-anvil
+[`anvil_and_hammer`]: https://ideditor.github.io/temaki/docs/#icon-temaki-anvil_and_hammer
+[`bunk_beds`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bunk_beds
+[`cabin`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cabin
+[`car_parked`]: https://ideditor.github.io/temaki/docs/#icon-temaki-car_parked
+
 # 3.7.0
 ##### 2019-Dec-19
 
-* Make icons linkable on the icon [preview page](https://ideditor.github.io/temaki/docs)
+* Make icons linkable on the icon [preview page](https://ideditor.github.io/temaki/docs) ([#49])
 * Update [`sign_and_bench`], [`tree_and_bench`], and [`transit_shelter`] icons to all use the same bench component
 * Add [`boat`] and [`boat_floating`]
 * Add [`bunker`]
@@ -21,6 +35,8 @@
 [`boat`]: https://ideditor.github.io/temaki/docs/#icon-temaki-boat
 [`boat_floating`]: https://ideditor.github.io/temaki/docs/#icon-temaki-boat_floating
 [`bunker`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bunker
+
+[#49]: https://github.com/ideditor/temaki/issues/49
 
 # 3.6.0
 ##### 2019-Dec-17
