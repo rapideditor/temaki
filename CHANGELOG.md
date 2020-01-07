@@ -7,6 +7,23 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.9.0
+##### 2020-Jan-07
+
+* Add clothing icons
+  * [`dress`] ([#50])
+  * [`gown`]
+* Add well pump icons
+  * [`well_pump_manual`]
+  * [`well_pump_powered`]
+
+[`dress`]: https://ideditor.github.io/temaki/docs/#icon-temaki-dress
+[`gown`]: https://ideditor.github.io/temaki/docs/#icon-temaki-gown
+[`well_pump_manual`]: https://ideditor.github.io/temaki/docs/#icon-temaki-well_pump_manual
+[`well_pump_powered`]: https://ideditor.github.io/temaki/docs/#icon-temaki-well_pump_powered
+
+[#50]: https://github.com/ideditor/temaki/issues/50
+
 # 3.8.0
 ##### 2019-Dec-21
 
