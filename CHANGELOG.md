@@ -7,6 +7,23 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.10.0
+##### 2020-Jan-08
+
+* Add water tap icons
+  * [`water_tap`]
+  * [`water_tap_drinkable`]
+* Add island icons
+  * [`islet_tree`]
+  * [`island_trees_building`]
+* Add [`cleaver`]
+
+[`water_tap`]: https://ideditor.github.io/temaki/docs/#icon-temaki-water_tap
+[`water_tap_drinkable`]: https://ideditor.github.io/temaki/docs/#icon-temaki-water_tap_drinkable
+[`islet_tree`]: https://ideditor.github.io/temaki/docs/#icon-temaki-islet_tree
+[`island_trees_building`]: https://ideditor.github.io/temaki/docs/#icon-temaki-island_trees_building
+[`cleaver`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cleaver
+
 # 3.9.0
 ##### 2020-Jan-07
 
