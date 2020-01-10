@@ -7,6 +7,16 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.11.0
+##### 2020-Jan-10
+
+* Add [`houseboat`], [`rocket_firework`], [`row_houses`], and [`needle_and_spool`] icons
+
+[`houseboat`]: https://ideditor.github.io/temaki/docs/#icon-temaki-houseboat
+[`rocket_firework`]: https://ideditor.github.io/temaki/docs/#icon-temaki-rocket_firework
+[`row_houses`]: https://ideditor.github.io/temaki/docs/#icon-temaki-row_houses
+[`needle_and_spool`]: https://ideditor.github.io/temaki/docs/#icon-temaki-needle_and_spool
+
 # 3.10.0
 ##### 2020-Jan-08
 
