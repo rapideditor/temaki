@@ -7,6 +7,22 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.12.0
+##### 2020-Jan-14
+
+* Add aerialway icons
+  * [`aerialway_pole`]
+  * [`drag_lift`]
+  * [`j_bar_lift`]
+  * [`platter_lift`]
+  * [`t_bar_lift`]
+
+[`aerialway_pole`]: https://ideditor.github.io/temaki/docs/#icon-temaki-aerialway_pole
+[`drag_lift`]: https://ideditor.github.io/temaki/docs/#icon-temaki-drag_lift
+[`j_bar_lift`]: https://ideditor.github.io/temaki/docs/#icon-temaki-j_bar_lift
+[`platter_lift`]: https://ideditor.github.io/temaki/docs/#icon-temaki-platter_lift
+[`t_bar_lift`]: https://ideditor.github.io/temaki/docs/#icon-temaki-t_bar_lift
+
 # 3.11.0
 ##### 2020-Jan-10
 
