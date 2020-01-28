@@ -7,6 +7,20 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.13.0
+##### 2020-Jan-28
+
+* Add railway icons
+  * [`railway_track`]
+  * [`railway_track_narrow`]
+  * [`railway_track_mini`]
+  * [`rail_profile`]
+
+[`railway_track`]: https://ideditor.github.io/temaki/docs/#icon-temaki-railway_track
+[`railway_track_narrow`]: https://ideditor.github.io/temaki/docs/#icon-temaki-railway_track_narrow
+[`railway_track_mini`]: https://ideditor.github.io/temaki/docs/#icon-temaki-railway_track_mini
+[`rail_profile`]: https://ideditor.github.io/temaki/docs/#icon-temaki-rail_profile
+
 # 3.12.0
 ##### 2020-Jan-14
 
