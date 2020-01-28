@@ -7,6 +7,20 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.14.0
+##### 2020-Jan-28
+
+* Add railway icons
+  * [`railway_cable_track`]
+  * [`railway_track_askew`]
+  * [`railway_track_unfinished`]
+* Add [`chefs_knife`] icon
+
+[`railway_cable_track`]: https://ideditor.github.io/temaki/docs/#icon-temaki-railway_cable_track
+[`railway_track_askew`]: https://ideditor.github.io/temaki/docs/#icon-temaki-railway_track_askew
+[`railway_track_unfinished`]: https://ideditor.github.io/temaki/docs/#icon-temaki-railway_track_unfinished
+[`chefs_knife`]: https://ideditor.github.io/temaki/docs/#icon-temaki-chefs_knife
+
 # 3.13.0
 ##### 2020-Jan-28
 
