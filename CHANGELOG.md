@@ -7,6 +7,33 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.15.0
+##### 2020-Feb-04
+
+* Add path-related icons
+  * [`cycle_barrier`]
+  * [`ped_cyclist_crosswalk`] (#55, thanks [@hikemaniac](https://github.com/hikemaniac))
+  * [`striped_zone`]
+* Add geophysical icons
+  * [`adit_profile`]
+  * [`cliff_falling_rocks`]
+  * [`mineshaft_profile`]
+* Add advertisement icons
+  * [`bulletin_board`]
+  * [`poster_box`]
+* Add [`dagger`] and [`manufactured_home`] icons
+
+[`bulletin_board`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bulletin_board
+[`poster_box`]: https://ideditor.github.io/temaki/docs/#icon-temaki-poster_box
+[`adit_profile`]: https://ideditor.github.io/temaki/docs/#icon-temaki-adit_profile
+[`cliff_falling_rocks`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cliff_falling_rocks
+[`mineshaft_profile`]: https://ideditor.github.io/temaki/docs/#icon-temaki-mineshaft_profile
+[`cycle_barrier`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cycle_barrier
+[`ped_cyclist_crosswalk`]: https://ideditor.github.io/temaki/docs/#icon-temaki-ped_cyclist_crosswalk
+[`striped_zone`]: https://ideditor.github.io/temaki/docs/#icon-temaki-striped_zone
+[`dagger`]: https://ideditor.github.io/temaki/docs/#icon-temaki-dagger
+[`manufactured_home`]: https://ideditor.github.io/temaki/docs/#icon-temaki-manufactured_home
+
 # 3.14.0
 ##### 2020-Jan-28
 
