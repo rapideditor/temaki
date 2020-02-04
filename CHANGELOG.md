@@ -12,7 +12,7 @@
 
 * Add path-related icons
   * [`cycle_barrier`]
-  * [`ped_cyclist_crosswalk`] (#55, thanks [@hikemaniac](https://github.com/hikemaniac))
+  * [`ped_cyclist_crosswalk`] ([#55], thanks [@hikemaniac](https://github.com/hikemaniac))
   * [`striped_zone`]
 * Add geophysical icons
   * [`adit_profile`]
@@ -22,6 +22,8 @@
   * [`bulletin_board`]
   * [`poster_box`]
 * Add [`dagger`] and [`manufactured_home`] icons
+
+[#55]: https://github.com/ideditor/temaki/issues/55
 
 [`bulletin_board`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bulletin_board
 [`poster_box`]: https://ideditor.github.io/temaki/docs/#icon-temaki-poster_box
