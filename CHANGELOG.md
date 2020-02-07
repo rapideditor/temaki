@@ -7,6 +7,43 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.16.0
+##### 2020-Feb-07
+
+* Add geophysical icons
+  * [`mountain_range`]
+  * [`saddle`]
+  * [`valley`]
+* Add traffic calming icons
+  * [`chicane_arrow`]
+  * [`rumble_strip`]
+  * [`speed_bump`]
+  * [`speed_dip`]
+  * [`speed_dip_double`]
+  * [`speed_hump`]
+  * [`speed_table`]
+* Add barrier icons
+  * [`bollard`]
+  * [`bollard_row`]
+* Add [`brick_trowel`], [`bunker_silo`], [`fireplace`], and [`golf_green`] icons
+
+[`mountain_range`]: https://ideditor.github.io/temaki/docs/#icon-temaki-mountain_range
+[`saddle`]: https://ideditor.github.io/temaki/docs/#icon-temaki-saddle
+[`valley`]: https://ideditor.github.io/temaki/docs/#icon-temaki-valley
+[`chicane_arrow`]: https://ideditor.github.io/temaki/docs/#icon-temaki-chicane_arrow
+[`rumble_strip`]: https://ideditor.github.io/temaki/docs/#icon-temaki-rumble_strip
+[`speed_bump`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_bump
+[`speed_dip`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_dip
+[`speed_dip_double`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_dip_double
+[`speed_hump`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_hump
+[`speed_table`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_table
+[`bollard`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bollard
+[`bollard_row`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bollard_row
+[`brick_trowel`]: https://ideditor.github.io/temaki/docs/#icon-temaki-brick_trowel
+[`bunker_silo`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bunker_silo
+[`fireplace`]: https://ideditor.github.io/temaki/docs/#icon-temaki-fireplace
+[`golf_green`]: https://ideditor.github.io/temaki/docs/#icon-temaki-golf_green
+
 # 3.15.0
 ##### 2020-Feb-04
 
