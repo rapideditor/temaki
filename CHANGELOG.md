@@ -7,6 +7,32 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.17.0
+##### 2020-Feb-13
+
+* Update icons for size and style consistency: [`bridge`], [`mountain_range`], [`plaque`], [`rumble_strip`], [`slide`], [`suitcase_key`], [`tunnel`]
+* Add icons: [`bicycle_locker`], [`field_hockey`], , [`horseshoe`], [`mineshaft_cage`], [`spice_bottle`], [`spike_strip`], [`suitcase_xray`], [`windsock`]
+* Add [`hedge`] icon ([#52])
+
+[#52]: https://github.com/ideditor/temaki/issues/52
+
+[`bridge`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bridge
+[`mountain_range`]: https://ideditor.github.io/temaki/docs/#icon-temaki-mountain_range
+[`plaque`]: https://ideditor.github.io/temaki/docs/#icon-temaki-plaque
+[`rumble_strip`]: https://ideditor.github.io/temaki/docs/#icon-temaki-rumble_strip
+[`slide`]: https://ideditor.github.io/temaki/docs/#icon-temaki-slide
+[`suitcase_key`]: https://ideditor.github.io/temaki/docs/#icon-temaki-suitcase_key
+[`tunnel`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tunnel
+[`bicycle_locker`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bicycle_locker
+[`field_hockey`]: https://ideditor.github.io/temaki/docs/#icon-temaki-field_hockey
+[`horseshoe`]: https://ideditor.github.io/temaki/docs/#icon-temaki-horseshoe
+[`mineshaft_cage`]: https://ideditor.github.io/temaki/docs/#icon-temaki-mineshaft_cage
+[`spice_bottle`]: https://ideditor.github.io/temaki/docs/#icon-temaki-spice_bottle
+[`spike_strip`]: https://ideditor.github.io/temaki/docs/#icon-temaki-spike_strip
+[`suitcase_xray`]: https://ideditor.github.io/temaki/docs/#icon-temaki-suitcase_xray
+[`windsock`]: https://ideditor.github.io/temaki/docs/#icon-temaki-windsock
+[`hedge`]: https://ideditor.github.io/temaki/docs/#icon-temaki-hedge
+
 # 3.16.0
 ##### 2020-Feb-07
 
