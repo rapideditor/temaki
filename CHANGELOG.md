@@ -11,7 +11,7 @@
 ##### 2020-Feb-13
 
 * Update icons for size and style consistency: [`bridge`], [`mountain_range`], [`plaque`], [`rumble_strip`], [`slide`], [`suitcase_key`], [`tunnel`]
-* Add icons: [`bicycle_locker`], [`field_hockey`], , [`horseshoe`], [`mineshaft_cage`], [`spice_bottle`], [`spike_strip`], [`suitcase_xray`], [`windsock`]
+* Add icons: [`bicycle_locker`], [`field_hockey`], [`horseshoe`], [`mineshaft_cage`], [`spice_bottle`], [`spike_strip`], [`suitcase_xray`], [`windsock`]
 * Add [`hedge`] icon ([#52])
 
 [#52]: https://github.com/ideditor/temaki/issues/52
