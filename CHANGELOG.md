@@ -7,6 +7,36 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.18.0
+##### 2020-Feb-25
+
+* Update icons for size and legibility: [`poster_box`], [`bulletin_board`], [`vending_lockers`]
+* Add government icons: [`army_tent`], [`checkpoint`], [`military_checkpoint`], [`passport_checkpoint`], [`police_checkpoint`], [`police_officer`]
+* Add craft icons: [`polished_nail`], [`tattoo_machine`], [`tiling`]
+* Add scope icons: [`telescope`], [`spotting_scope`]
+* Add information icons: [`app_terminal`], [`info_board`]
+* Add miscellaneous icons: [`curtains`], [`parking_space`], [`stile_squeezer`]
+
+[`poster_box`]: https://ideditor.github.io/temaki/docs/#icon-temaki-poster_box
+[`bulletin_board`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bulletin_board
+[`vending_lockers`]: https://ideditor.github.io/temaki/docs/#icon-temaki-vending_lockers
+[`army_tent`]: https://ideditor.github.io/temaki/docs/#icon-temaki-army_tent
+[`checkpoint`]: https://ideditor.github.io/temaki/docs/#icon-temaki-checkpoint
+[`military_checkpoint`]: https://ideditor.github.io/temaki/docs/#icon-temaki-military_checkpoint
+[`passport_checkpoint`]: https://ideditor.github.io/temaki/docs/#icon-temaki-passport_checkpoint
+[`police_checkpoint`]: https://ideditor.github.io/temaki/docs/#icon-temaki-police_checkpoint
+[`police_officer`]: https://ideditor.github.io/temaki/docs/#icon-temaki-police_officer
+[`polished_nail`]: https://ideditor.github.io/temaki/docs/#icon-temaki-polished_nail
+[`tattoo_machine`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tattoo_machine
+[`tiling`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tiling
+[`telescope`]: https://ideditor.github.io/temaki/docs/#icon-temaki-telescope
+[`spotting_scope`]: https://ideditor.github.io/temaki/docs/#icon-temaki-spotting_scope
+[`app_terminal`]: https://ideditor.github.io/temaki/docs/#icon-temaki-app_terminal
+[`info_board`]: https://ideditor.github.io/temaki/docs/#icon-temaki-info_board
+[`curtains`]: https://ideditor.github.io/temaki/docs/#icon-temaki-curtains
+[`parking_space`]: https://ideditor.github.io/temaki/docs/#icon-temaki-parking_space
+[`stile_squeezer`]: https://ideditor.github.io/temaki/docs/#icon-temaki-stile_squeezer
+
 # 3.17.0
 ##### 2020-Feb-13
 
