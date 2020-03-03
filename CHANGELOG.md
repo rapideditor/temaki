@@ -7,6 +7,20 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.19.0
+##### 2020-Mar-03
+
+* Add survey benchmark icons: [`benchmark_disk`], [`os_benchmark`]
+* Add aeroway icons: [`airport`], [`jetplane_front`], [`plane_taxiing`], [`planes`], [`planes_bidirectional`]
+
+[`benchmark_disk`]: https://ideditor.github.io/temaki/docs/#icon-temaki-benchmark_disk
+[`os_benchmark`]: https://ideditor.github.io/temaki/docs/#icon-temaki-os_benchmark
+[`airport`]: https://ideditor.github.io/temaki/docs/#icon-temaki-airport
+[`jetplane_front`]: https://ideditor.github.io/temaki/docs/#icon-temaki-jetplane_front
+[`plane_taxiing`]: https://ideditor.github.io/temaki/docs/#icon-temaki-plane_taxiing
+[`planes`]: https://ideditor.github.io/temaki/docs/#icon-temaki-planes
+[`planes_bidirectional`]: https://ideditor.github.io/temaki/docs/#icon-temaki-planes_bidirectional
+
 # 3.18.0
 ##### 2020-Feb-25
 
