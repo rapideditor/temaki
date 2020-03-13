@@ -7,6 +7,32 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.20.0
+##### 2020-Mar-13
+
+* Rename `rv_park` icon to [`camper_trailer`] and clean it up somewhat
+* Make several icons larger for consistency: [`barn`], [`clothes_hanger`], [`domed_tower`]
+* Add track icons: [`racetrack_oval`], [`speedway_oval`], [`speedway_8`]
+* Add military icons: [`anchor_medal`], [`tire_course`], [`trench`]
+* Add vehicle infrastructure icons: [`camper_trailer_dump`], [`carport`], [`hangar`]
+* Add miscellaneous icons: [`pick_hammer`], [`powered_pump`]
+
+[`camper_trailer`]: https://ideditor.github.io/temaki/docs/#icon-temaki-camper_trailer
+[`barn`]: https://ideditor.github.io/temaki/docs/#icon-temaki-barn
+[`clothes_hanger`]: https://ideditor.github.io/temaki/docs/#icon-temaki-clothes_hanger
+[`domed_tower`]: https://ideditor.github.io/temaki/docs/#icon-temaki-domed_tower
+[`racetrack_oval`]: https://ideditor.github.io/temaki/docs/#icon-temaki-racetrack_oval
+[`speedway_oval`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speedway_oval
+[`speedway_8`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speedway_8
+[`anchor_medal`]: https://ideditor.github.io/temaki/docs/#icon-temaki-anchor_medal
+[`tire_course`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tire_course
+[`trench`]: https://ideditor.github.io/temaki/docs/#icon-temaki-trench
+[`camper_trailer_dump`]: https://ideditor.github.io/temaki/docs/#icon-temaki-camper_trailer_dump
+[`carport`]: https://ideditor.github.io/temaki/docs/#icon-temaki-carport
+[`hangar`]: https://ideditor.github.io/temaki/docs/#icon-temaki-hangar
+[`pick_hammer`]: https://ideditor.github.io/temaki/docs/#icon-temaki-pick_hammer
+[`powered_pump`]: https://ideditor.github.io/temaki/docs/#icon-temaki-powered_pump
+
 # 3.19.0
 ##### 2020-Mar-03
 
