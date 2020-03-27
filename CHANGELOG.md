@@ -7,6 +7,33 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.21.0
+##### 2020-Mar-27
+
+* Improve existing icons: [`cattle_grid`], [`disc_golf_basket`], [`embassy`], [`gate`], [`museum`]
+* Add accessible icons: [`accessible_space`], [`wheelchair_active`]
+* Add public building icons: [`capitol`], [`town_hall`]
+* Add goods icons: [`freight_car`], [`goods_lift`], [`meat`]
+* Add services icons: [`catering`], [`pet_grooming`], [`scaffold`]
+* Add [`quakerism`] icon
+
+[`cattle_grid`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cattle_grid
+[`disc_golf_basket`]: https://ideditor.github.io/temaki/docs/#icon-temaki-disc_golf_basket
+[`embassy`]: https://ideditor.github.io/temaki/docs/#icon-temaki-embassy
+[`gate`]: https://ideditor.github.io/temaki/docs/#icon-temaki-gate
+[`museum`]: https://ideditor.github.io/temaki/docs/#icon-temaki-museum
+[`accessible_space`]: https://ideditor.github.io/temaki/docs/#icon-temaki-accessible_space
+[`wheelchair_active`]: https://ideditor.github.io/temaki/docs/#icon-temaki-wheelchair_active
+[`capitol`]: https://ideditor.github.io/temaki/docs/#icon-temaki-capitol
+[`town_hall`]: https://ideditor.github.io/temaki/docs/#icon-temaki-town_hall
+[`catering`]: https://ideditor.github.io/temaki/docs/#icon-temaki-catering
+[`freight_car`]: https://ideditor.github.io/temaki/docs/#icon-temaki-freight_car
+[`goods_lift`]: https://ideditor.github.io/temaki/docs/#icon-temaki-goods_lift
+[`meat`]: https://ideditor.github.io/temaki/docs/#icon-temaki-meat
+[`pet_grooming`]: https://ideditor.github.io/temaki/docs/#icon-temaki-pet_grooming
+[`scaffold`]: https://ideditor.github.io/temaki/docs/#icon-temaki-scaffold
+[`quakerism`]: https://ideditor.github.io/temaki/docs/#icon-temaki-quakerism
+
 # 3.20.0
 ##### 2020-Mar-13
 
