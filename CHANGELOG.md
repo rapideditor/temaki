@@ -7,6 +7,25 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.22.0
+##### 2020-Apr-10
+
+* Rename `railway_track_unfinished` icon to [`railway_track_partial`] and improve it somewhat
+* Improve existing icons: [`rumble_strip`], [`speed_bump`], [`speed_dip`], [`speed_dip_double`], [`speed_hump`], [`speed_table`]
+* Add icons: [`garden_bed`], [`shrub`], [`shrub_low`], [`vertical_rotisserie`]
+
+[`rumble_strip`]: https://ideditor.github.io/temaki/docs/#icon-temaki-rumble_strip
+[`speed_bump`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_bump
+[`speed_dip`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_dip
+[`speed_dip_double`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_dip_double
+[`speed_hump`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_hump
+[`speed_table`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_table
+[`railway_track_partial`]: https://ideditor.github.io/temaki/docs/#icon-temaki-railway_track_partial
+[`garden_bed`]: https://ideditor.github.io/temaki/docs/#icon-temaki-garden_bed
+[`shrub`]: https://ideditor.github.io/temaki/docs/#icon-temaki-shrub
+[`shrub_low`]: https://ideditor.github.io/temaki/docs/#icon-temaki-shrub_low
+[`vertical_rotisserie`]: https://ideditor.github.io/temaki/docs/#icon-temaki-vertical_rotisserie
+
 # 3.21.0
 ##### 2020-Mar-27
 
