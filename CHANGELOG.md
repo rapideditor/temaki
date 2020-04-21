@@ -7,6 +7,38 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.23.0
+##### 2020-Apr-21
+
+* Add transit icons: [`bus`], [`bus_guided`], [`ferry`], [`gondola_lift`], [`hanging_rail`], [`heavy_rail`], [`rail_flag`], [`school_bus`], [`train`], [`train_diesel`], [`train_bullet`], [`train_kids`], [`train_steam`], [`train_wash`]
+* Update transit icons for consistency and legibility: [`light_rail`], [`monorail`], [`subway`], [`tram`], [`trolleybus`]
+* Update [`transit`] icon to depict a generic public transport vehicle instead of a bus next to a train
+* Add variants of most transit icons depicting a boarding passenger, e.g. [`board_bus`]
+* Add [`power_pole`] icon
+
+[`bus`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bus
+[`bus_guided`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bus_guided
+[`ferry`]: https://ideditor.github.io/temaki/docs/#icon-temaki-ferry
+[`gondola_lift`]: https://ideditor.github.io/temaki/docs/#icon-temaki-gondola_lift
+[`hanging_rail`]: https://ideditor.github.io/temaki/docs/#icon-temaki-hanging_rail
+[`heavy_rail`]: https://ideditor.github.io/temaki/docs/#icon-temaki-heavy_rail
+[`rail_flag`]: https://ideditor.github.io/temaki/docs/#icon-temaki-rail_flag
+[`school_bus`]: https://ideditor.github.io/temaki/docs/#icon-temaki-school_bus
+[`train`]: https://ideditor.github.io/temaki/docs/#icon-temaki-train
+[`train_diesel`]: https://ideditor.github.io/temaki/docs/#icon-temaki-train_diesel
+[`train_bullet`]: https://ideditor.github.io/temaki/docs/#icon-temaki-train_bullet
+[`train_kids`]: https://ideditor.github.io/temaki/docs/#icon-temaki-train_kids
+[`train_steam`]: https://ideditor.github.io/temaki/docs/#icon-temaki-train_steam
+[`train_wash`]: https://ideditor.github.io/temaki/docs/#icon-temaki-train_wash
+[`light_rail`]: https://ideditor.github.io/temaki/docs/#icon-temaki-light_rail
+[`monorail`]: https://ideditor.github.io/temaki/docs/#icon-temaki-monorail
+[`subway`]: https://ideditor.github.io/temaki/docs/#icon-temaki-subway
+[`tram`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tram
+[`trolleybus`]: https://ideditor.github.io/temaki/docs/#icon-temaki-trolleybus
+[`transit`]: https://ideditor.github.io/temaki/docs/#icon-temaki-transit
+[`board_bus`]: https://ideditor.github.io/temaki/docs/#icon-temaki-board_bus
+[`power_pole`]: https://ideditor.github.io/temaki/docs/#icon-temaki-power_pole
+
 # 3.22.0
 ##### 2020-Apr-10
 
