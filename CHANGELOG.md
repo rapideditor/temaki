@@ -7,6 +7,25 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 3.24.0
+##### 2020-Jun-05
+
+* Add [`mountain_rescue`] icon ([#58], thanks [@MarkusGaugg])
+* Add drink icons: [`drink_cup`], [`bubble_tea`], [`hot_drink_cup`]
+* Add machine icons: [`vacuum_station`], [`conveyor`]
+* Make [`horse_shelter`] icon more legible
+
+[#58]: https://github.com/ideditor/temaki/issues/58
+[@MarkusGaugg]: https://github.com/MarkusGaugg
+
+[`mountain_rescue`]: https://ideditor.github.io/temaki/docs/#icon-temaki-mountain_rescue
+[`drink_cup`]: https://ideditor.github.io/temaki/docs/#icon-temaki-drink_cup
+[`bubble_tea`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bubble_tea
+[`hot_drink_cup`]: https://ideditor.github.io/temaki/docs/#icon-temaki-hot_drink_cup
+[`vacuum_station`]: https://ideditor.github.io/temaki/docs/#icon-temaki-vacuum_station
+[`conveyor`]: https://ideditor.github.io/temaki/docs/#icon-temaki-conveyor
+[`horse_shelter`]: https://ideditor.github.io/temaki/docs/#icon-temaki-horse_shelter
+
 # 3.23.0
 ##### 2020-Apr-21
 
