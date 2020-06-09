@@ -7,15 +7,20 @@
   "description": "An expansion pack for https://github.com/mapbox/maki",
   "main": "",
   "scripts": {
-    "all": "npm-run-all -s clean build",
-    "build": "npm-run-all -p dist:**",
+    "all": "run-s clean check dist",
+    "build": "npm run all",
+    "check": "node scripts/check.js",
+    "clean": "shx rm -f dist/*",
+    "dist": "run-p dist:**",
     "dist:symbol": "svg-sprite --symbol --symbol-dest . --shape-transform '' --shape-id-generator \"temaki-%s\" -w 15 -h 15 --symbol-example true --symbol-example-template docs/template.html --symbol-example-dest docs/index.html --symbol-sprite dist/temaki-symbol.svg icons/*.svg",
-    "dist:view": "svg-sprite --view --view-dest . --shape-transform '' --shape-id-generator \"temaki-%s\" -w 15 -h 15 --view-bust false --view-sprite dist/temaki-view.svg icons/*.svg",
-    "clean": "shx rm -f dist/*"
+    "dist:view": "svg-sprite --view --view-dest . --shape-transform '' --shape-id-generator \"temaki-%s\" -w 15 -h 15 --view-bust false --view-sprite dist/temaki-view.svg icons/*.svg"
   },
   "devDependencies": {
-    "npm-run-all": "^4.0.0",
-    "shx": "^0.2.1",
-    "svg-sprite": "1.4.0"
+    "colors": "^1.4.0",
+    "glob": "^7.1.6",
+    "npm-run-all": "^4.1.5",
+    "shx": "^0.3.2",
+    "svg-sprite": "1.5.0",
+    "xmlbuilder2": "^2.1.2"
   }
 }
