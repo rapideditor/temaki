@@ -11,25 +11,39 @@ See https://ideditor.github.io/temaki/docs for details about each icon.
 
 ### What is it?
 
-The [Maki](https://github.com/mapbox/maki) icon pack is pretty great!  I use it in the [iD editor](https://github.com/openstreetmap/iD) and [name-suggestion-index](https://github.com/osmlab/name-suggestion-index) projects, but sometimes:
+The [Maki](https://github.com/mapbox/maki) icon pack is pretty great!  We use it in the [iD editor](https://github.com/openstreetmap/iD) and [name-suggestion-index](https://github.com/osmlab/name-suggestion-index) projects, but sometimes:
 
-* I need an icon that's out of scope for Maki
-* I don't want to wait for an icon to be added to Maki
-* I'm ok with not having 11px versions
+* We need an icon that's out of scope for Maki
+* We don't want to wait for an icon to be added to Maki
+* We're ok with not having 11px versions
 
-So in these situations, I'll just draw something "good enough" and put it here.  (Many of these icons also originally came from the [scottdejonge/map-icons repo](https://github.com/ideditor/temaki/issues/2).)
+So in these situations, we can just draw something "good enough" and put it here.  (Many of these icons also originally came from the [scottdejonge/map-icons repo](https://github.com/ideditor/temaki/issues/2).)
 
 The Temaki icons are a little bigger and messier than the Maki ones, but just as delicious. :yum:
 
 
 ### Design guidelines
 
-I try to mostly follow the excellent [Maki design guidelines](https://www.mapbox.com/maki-icons/guidelines/) but these icons are only available in 15px versions.
+We try to mostly follow the excellent [Maki design guidelines](https://www.mapbox.com/maki-icons/guidelines/) but these icons are only available in 15px versions.
+
+The purpose of the temaki icons is:
+- To look acceptable on 15px map pins
+- To look really great on 40px preset labels
+
+Some other guidelines:
+- Try to snap coordinates to 1px pixel boundaries for maximum sharpness across all displays.
+- 0.5px pixel boundaries will still look sharp on retina displays.
+- Icons with anything shiny should be lit from the left (e.g. water, perfume, balloon).
+- Try to be culturally neutral (e.g. avoid letters, numbers, left-to-right writing, currency symbols).
+- Prefer solid dark shapes over stroked/outlined shapes.
+- Prefer simplicity over complexity - fewer strokes, paths, control points.
+- Prefer rounded corners and fun shapes (exceptions for serious things like weapons, security cameras).
+- It's ok to break the rules.
 
 
 ### Contributing
 
-Icon requests are very welcome!  This project is only for icons that aren't already in [Maki](https://github.com/mapbox/maki).
+Icon requests are very welcome!
 
 
 ### License
