@@ -69,7 +69,11 @@ function checkIcons() {
         if (node.nodeName !== 'path') {
           warnings.push(colors.yellow('Warning - Suspicious node: ' + node.nodeName));
           warnings.push(colors.gray('  Each svg element should contain only one or more "path" elements.'));
+          return;
         }
+
+        // Remove unwanted path attributes
+        child.removeAtt(['fill', 'id']);
 
         // suspicious attributes
         let suspicious = node.attributes
