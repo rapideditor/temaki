@@ -7,6 +7,18 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 4.0.0
+##### 2020-Jun-10
+
+* :warning: Remove `width` and `height` attributes from all icons<br/>
+_The display size is now up to consumers. 15x15 px or larger is recommended._
+* Standardize all SVG geometries to `path` elements
+* Remove unexpected `fill` and `id` attributes of paths
+* Remove unexpected `g` and comment elements
+* Add `check` script that cleans icons and displays warnings
+* Add higher-detail design guidelines to the README
+* Enable dependabot to keep development dependencies up-to-date
+
 # 3.24.0
 ##### 2020-Jun-05
 
