@@ -76,6 +76,14 @@ function checkIcons() {
           });
           child.remove();
           return;
+
+        // convert polygons to paths
+        } else if (node.nodeName === 'polygon') {
+            child.up().ele('path', {
+              d: 'M ' + node.getAttribute('points') + 'z'
+            });
+            child.remove();
+            return;
         }
 
         // suspicious elements
