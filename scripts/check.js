@@ -6,6 +6,9 @@ const xmlbuilder2 = require('xmlbuilder2');
 
 checkIcons();
 
+function ellipseAttrsToPathD(rx, cx, ry, cy) {
+  return `M${cx - rx},${cy}a${rx},${ry} 0 1,0 ${rx * 2},0a${rx},${ry} 0 1,0 -${rx * 2},0z`;
+}
 
 function checkIcons() {
   const START = '✅   ' + colors.yellow('Checking icons...');
@@ -65,6 +68,16 @@ function checkIcons() {
 
       // Checks for deeper levels
       } else {
+        // convert ellipses to paths
+        if (node.nodeName === 'ellipse') {
+          const attr = (name) => parseFloat(node.getAttribute(name));
+          child.up().ele('path', {
+            d: ellipseAttrsToPathD(attr('rx'), attr('cx'), attr('ry'), attr('cy'))
+          });
+          child.remove();
+          return;
+        }
+
         // suspicious elements
         if (node.nodeName !== 'path') {
           warnings.push(colors.yellow('Warning - Suspicious node: ' + node.nodeName));
