@@ -7,12 +7,16 @@
   "description": "An expansion pack for https://github.com/mapbox/maki",
   "main": "",
   "scripts": {
-    "all": "run-s clean check dist",
+    "all": "run-s clean check metadata dist",
     "build": "npm run all",
     "check": "node scripts/check.js",
+    "metadata": "node scripts/metadata.js",
     "clean": "shx rm -f dist/*",
     "dist": "run-p dist:**",
-    "dist:symbol": "svg-sprite --symbol --symbol-dest . --shape-transform '' --shape-id-generator \"temaki-%s\" -w 15 -h 15 --symbol-example true --symbol-example-template docs/template.html --symbol-example-dest docs/index.html --symbol-sprite dist/temaki-symbol.svg icons/*.svg",
+    "dist:symbol": "run-s pre-symbol symbol post-symbol",
+    "pre-symbol": "node scripts/pre-symbol.js",
+    "post-symbol": "rm mustache-vars.json",
+    "symbol": "svg-sprite --symbol --symbol-dest . --shape-transform '' --variables 'mustache-vars.json' --shape-id-generator \"temaki-%s\" -w 15 -h 15 --symbol-example true --symbol-example-template docs/template.html --symbol-example-dest docs/index.html --symbol-sprite dist/temaki-symbol.svg icons/*.svg",
     "dist:view": "svg-sprite --view --view-dest . --shape-transform '' --shape-id-generator \"temaki-%s\" -w 15 -h 15 --view-bust false --view-sprite dist/temaki-view.svg icons/*.svg"
   },
   "devDependencies": {

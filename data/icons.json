@@ -1,0 +1,2553 @@
+{
+  "abseiling": {
+    "groups": [
+      "people",
+      "sports"
+    ]
+  },
+  "accessible_space": {
+    "groups": [
+      "accessibility",
+      "highways",
+      "people"
+    ]
+  },
+  "accounting": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "adit_profile": {
+    "groups": [
+      "infrastructure"
+    ]
+  },
+  "aerialway_pole": {
+    "groups": [
+      "aerialways"
+    ]
+  },
+  "airport": {
+    "groups": [
+      "aeroways",
+      "buildings",
+      "vehicles"
+    ]
+  },
+  "amusement_park": {
+    "groups": [
+      "animals"
+    ]
+  },
+  "anchor_medal": {
+    "groups": [
+      "military",
+      "water"
+    ]
+  },
+  "antenna": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "anvil_and_hammer": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "anvil": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "app_terminal": {
+    "groups": [
+      "information"
+    ]
+  },
+  "archery": {
+    "groups": [
+      "people",
+      "sports"
+    ]
+  },
+  "army_tent": {
+    "groups": [
+      "buildings",
+      "camping",
+      "military"
+    ]
+  },
+  "atm": {
+    "groups": [
+      "people"
+    ]
+  },
+  "balloon": {
+    "groups": []
+  },
+  "barn": {
+    "groups": [
+      "buildings"
+    ]
+  },
+  "beach": {
+    "groups": [
+      "landforms",
+      "water"
+    ]
+  },
+  "beauty_salon": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "bench": {
+    "groups": [
+      "seating"
+    ]
+  },
+  "benchmark_disk": {
+    "groups": [
+      "information"
+    ]
+  },
+  "bicycle_box": {
+    "groups": [
+      "cycling",
+      "vehicles"
+    ]
+  },
+  "bicycle_locker": {
+    "groups": [
+      "cycling",
+      "security",
+      "vehicles"
+    ]
+  },
+  "bicycle_rental": {
+    "groups": [
+      "cycling",
+      "security",
+      "vehicles"
+    ]
+  },
+  "bicycle_repair": {
+    "groups": [
+      "cycling",
+      "tools",
+      "vehicles"
+    ]
+  },
+  "bicycle_structure": {
+    "groups": [
+      "cycling",
+      "vehicles"
+    ]
+  },
+  "billboard": {
+    "groups": [
+      "information"
+    ]
+  },
+  "binoculars": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "bleachers": {
+    "groups": [
+      "seating",
+      "sports"
+    ]
+  },
+  "blind": {
+    "groups": [
+      "accessibility",
+      "people"
+    ]
+  },
+  "board_bus": {
+    "groups": [
+      "highways",
+      "people",
+      "vehicles"
+    ]
+  },
+  "board_ferry": {
+    "groups": [
+      "people",
+      "vehicles"
+    ]
+  },
+  "board_gondola_lift": {
+    "groups": [
+      "aerialways",
+      "people",
+      "vehicles"
+    ]
+  },
+  "board_hanging_rail": {
+    "groups": [
+      "people",
+      "railways",
+      "vehicles"
+    ]
+  },
+  "board_heavy_rail": {
+    "groups": [
+      "people",
+      "railways",
+      "vehicles"
+    ]
+  },
+  "board_light_rail": {
+    "groups": [
+      "people",
+      "railways",
+      "vehicles"
+    ]
+  },
+  "board_monorail": {
+    "groups": [
+      "people",
+      "vehicles"
+    ]
+  },
+  "board_school_bus": {
+    "groups": [
+      "highways",
+      "people",
+      "vehicles"
+    ]
+  },
+  "board_subway": {
+    "groups": [
+      "people",
+      "railways",
+      "vehicles"
+    ]
+  },
+  "board_train_bullet": {
+    "groups": [
+      "people",
+      "railways",
+      "vehicles"
+    ]
+  },
+  "board_train_diesel": {
+    "groups": [
+      "people",
+      "railways",
+      "vehicles"
+    ]
+  },
+  "board_train_kids": {
+    "groups": [
+      "people",
+      "railways",
+      "vehicles"
+    ]
+  },
+  "board_train_steam": {
+    "groups": [
+      "people",
+      "railways",
+      "vehicles"
+    ]
+  },
+  "board_train": {
+    "groups": [
+      "people",
+      "railways",
+      "vehicles"
+    ]
+  },
+  "board_tram": {
+    "groups": [
+      "people",
+      "railways",
+      "vehicles"
+    ]
+  },
+  "board_transit": {
+    "groups": [
+      "people",
+      "vehicles"
+    ]
+  },
+  "board_trolleybus": {
+    "groups": [
+      "highways",
+      "people",
+      "vehicles"
+    ]
+  },
+  "boat_floating": {
+    "groups": [
+      "vehicles",
+      "water"
+    ]
+  },
+  "boat_ramp": {
+    "groups": [
+      "vehicles",
+      "water"
+    ]
+  },
+  "boat_rental": {
+    "groups": [
+      "security",
+      "vehicles",
+      "water"
+    ]
+  },
+  "boat_repair": {
+    "groups": [
+      "tools",
+      "vehicles",
+      "water"
+    ]
+  },
+  "boat_tour": {
+    "groups": [
+      "vehicles",
+      "water"
+    ]
+  },
+  "boat": {
+    "groups": [
+      "vehicles",
+      "water"
+    ]
+  },
+  "boating": {
+    "groups": [
+      "vehicles",
+      "water"
+    ]
+  },
+  "bollard_row": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "bollard": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "book_store": {
+    "groups": [
+      "information"
+    ]
+  },
+  "bottles": {
+    "groups": [
+      "food"
+    ]
+  },
+  "boulder1": {
+    "groups": [
+      "landforms"
+    ]
+  },
+  "boulder2": {
+    "groups": [
+      "landforms"
+    ]
+  },
+  "boulder3": {
+    "groups": [
+      "landforms"
+    ]
+  },
+  "bowling_alt1": {
+    "groups": [
+      "sports"
+    ]
+  },
+  "bowling": {
+    "groups": [
+      "sports"
+    ]
+  },
+  "bread": {
+    "groups": [
+      "food"
+    ]
+  },
+  "brick_trowel": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "bridge": {
+    "groups": [
+      "infrastructure"
+    ]
+  },
+  "briefcase_bolt": {
+    "groups": [
+      "bags",
+      "power"
+    ]
+  },
+  "briefcase_cross": {
+    "groups": [
+      "bags",
+      "healthcare"
+    ]
+  },
+  "briefcase_info": {
+    "groups": [
+      "bags",
+      "information"
+    ]
+  },
+  "briefcase_shield": {
+    "groups": [
+      "bags",
+      "security"
+    ]
+  },
+  "briefcase": {
+    "groups": [
+      "bags"
+    ]
+  },
+  "bubble_tea": {
+    "groups": [
+      "food"
+    ]
+  },
+  "buffer_stop": {
+    "groups": [
+      "barriers",
+      "railways"
+    ]
+  },
+  "bulb": {
+    "groups": [
+      "lighting"
+    ]
+  },
+  "bulb2": {
+    "groups": [
+      "lighting"
+    ]
+  },
+  "bulb3": {
+    "groups": [
+      "lighting"
+    ]
+  },
+  "bulldozer": {
+    "groups": [
+      "vehicles"
+    ]
+  },
+  "bulletin_board": {
+    "groups": [
+      "information"
+    ]
+  },
+  "bunk_beds": {
+    "groups": [
+      "people"
+    ]
+  },
+  "bunker_silo": {
+    "groups": [
+      "infrastructure"
+    ]
+  },
+  "bunker": {
+    "groups": [
+      "buildings",
+      "military"
+    ]
+  },
+  "buoy": {
+    "groups": [
+      "water"
+    ]
+  },
+  "bus_guided": {
+    "groups": [
+      "highways",
+      "vehicles"
+    ]
+  },
+  "bus": {
+    "groups": [
+      "highways",
+      "vehicles"
+    ]
+  },
+  "cabin": {
+    "groups": [
+      "buildings"
+    ]
+  },
+  "cable_device": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "cable_manhole": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "cable_meter": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "cable_shutoff": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "cable": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "cairn": {
+    "groups": [
+      "information"
+    ]
+  },
+  "camper_trailer_dump": {
+    "groups": [
+      "camping",
+      "vehicles"
+    ]
+  },
+  "camper_trailer": {
+    "groups": [
+      "camping",
+      "vehicles"
+    ]
+  },
+  "campfire": {
+    "groups": [
+      "camping"
+    ]
+  },
+  "can": {
+    "groups": [
+      "food"
+    ]
+  },
+  "canoe": {
+    "groups": [
+      "vehicles",
+      "water"
+    ]
+  },
+  "capitol": {
+    "groups": [
+      "buildings"
+    ]
+  },
+  "car_dealer": {
+    "groups": [
+      "highways",
+      "vehicles"
+    ]
+  },
+  "car_parked": {
+    "groups": [
+      "highways",
+      "vehicles"
+    ]
+  },
+  "car_pool": {
+    "groups": [
+      "highways",
+      "vehicles"
+    ]
+  },
+  "car_structure": {
+    "groups": [
+      "highways",
+      "vehicles"
+    ]
+  },
+  "car_wash": {
+    "groups": [
+      "highways",
+      "vehicles"
+    ]
+  },
+  "carport": {
+    "groups": [
+      "highways",
+      "vehicles"
+    ]
+  },
+  "casino": {
+    "groups": [
+      "sports"
+    ]
+  },
+  "catering": {
+    "groups": [
+      "people"
+    ]
+  },
+  "cattle_grid": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "chairlift": {
+    "groups": [
+      "aerialways",
+      "people"
+    ]
+  },
+  "checkpoint": {
+    "groups": [
+      "barriers",
+      "people"
+    ]
+  },
+  "chefs_knife": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "chicane_arrow": {
+    "groups": [
+      "barriers",
+      "highways"
+    ]
+  },
+  "chimney": {
+    "groups": [
+      "buildings",
+      "power"
+    ]
+  },
+  "chocolate": {
+    "groups": [
+      "food"
+    ]
+  },
+  "cleaver": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "cliff_falling_rocks": {
+    "groups": [
+      "landforms"
+    ]
+  },
+  "climbing": {
+    "groups": [
+      "people",
+      "sports"
+    ]
+  },
+  "clock": {
+    "groups": [
+      "information"
+    ]
+  },
+  "clothes_hanger": {
+    "groups": [
+      "clothes"
+    ]
+  },
+  "coffee": {
+    "groups": [
+      "food"
+    ]
+  },
+  "compass": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "conveyor": {
+    "groups": [
+      "infrastructure"
+    ]
+  },
+  "courthouse": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "crane": {
+    "groups": [
+      "infrastructure"
+    ]
+  },
+  "cross_country_skiing": {
+    "groups": [
+      "sports"
+    ]
+  },
+  "curtains": {
+    "groups": []
+  },
+  "cycle_barrier": {
+    "groups": [
+      "barriers",
+      "cycling"
+    ]
+  },
+  "cyclist_crosswalk": {
+    "groups": [
+      "cycling",
+      "people",
+      "vehicles"
+    ]
+  },
+  "dagger": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "desk_lamp": {
+    "groups": [
+      "lighting"
+    ]
+  },
+  "diamond": {
+    "groups": [
+      "highways",
+      "shapes"
+    ]
+  },
+  "dice": {
+    "groups": [
+      "sports"
+    ]
+  },
+  "disc_golf_basket": {
+    "groups": [
+      "sports"
+    ]
+  },
+  "diving": {
+    "groups": [
+      "people",
+      "sports"
+    ]
+  },
+  "dog_shelter": {
+    "groups": [
+      "animals",
+      "buildings"
+    ]
+  },
+  "domed_tower": {
+    "groups": [
+      "buildings"
+    ]
+  },
+  "donut": {
+    "groups": [
+      "food"
+    ]
+  },
+  "drag_lift": {
+    "groups": [
+      "aerialways"
+    ]
+  },
+  "dress": {
+    "groups": [
+      "clothes"
+    ]
+  },
+  "drink_cup": {
+    "groups": [
+      "food"
+    ]
+  },
+  "ear": {
+    "groups": [
+      "people"
+    ]
+  },
+  "egg": {
+    "groups": [
+      "food"
+    ]
+  },
+  "electronic": {
+    "groups": [
+      "power"
+    ]
+  },
+  "elevator": {
+    "groups": [
+      "shapes"
+    ]
+  },
+  "embassy": {
+    "groups": [
+      "buildings"
+    ]
+  },
+  "fashion_accessories": {
+    "groups": [
+      "bags",
+      "clothes"
+    ]
+  },
+  "ferry": {
+    "groups": [
+      "vehicles"
+    ]
+  },
+  "field_hockey": {
+    "groups": [
+      "sports"
+    ]
+  },
+  "fire_hydrant": {
+    "groups": [
+      "water"
+    ]
+  },
+  "fireplace": {
+    "groups": [
+      "camping"
+    ]
+  },
+  "fish_cleaning": {
+    "groups": [
+      "animals",
+      "food",
+      "tools"
+    ]
+  },
+  "fish_ladder": {
+    "groups": [
+      "animals",
+      "water"
+    ]
+  },
+  "fishing_pier": {
+    "groups": [
+      "people",
+      "sports",
+      "water"
+    ]
+  },
+  "florist": {
+    "groups": [
+      "plants"
+    ]
+  },
+  "food": {
+    "groups": [
+      "food"
+    ]
+  },
+  "fountain": {
+    "groups": [
+      "water"
+    ]
+  },
+  "freight_car": {
+    "groups": [
+      "railways",
+      "vehicles"
+    ]
+  },
+  "furniture": {
+    "groups": []
+  },
+  "garden_bed": {
+    "groups": [
+      "plants"
+    ]
+  },
+  "gas_device": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "gas_manhole": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "gas_meter": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "gas_shutoff": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "gas": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "gate": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "golf_cart": {
+    "groups": [
+      "vehicles"
+    ]
+  },
+  "golf_green": {
+    "groups": [
+      "sports"
+    ]
+  },
+  "gondola_lift": {
+    "groups": [
+      "aerialways"
+    ]
+  },
+  "goods_lift": {
+    "groups": [
+      "aerialways"
+    ]
+  },
+  "gown": {
+    "groups": [
+      "clothes"
+    ]
+  },
+  "grapes": {
+    "groups": [
+      "food",
+      "plants"
+    ]
+  },
+  "grass": {
+    "groups": [
+      "plants"
+    ]
+  },
+  "guard_rail": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "gym": {
+    "groups": [
+      "sports"
+    ]
+  },
+  "hair_care": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "hand": {
+    "groups": [
+      "people"
+    ]
+  },
+  "handbag": {
+    "groups": [
+      "bags",
+      "clothes"
+    ]
+  },
+  "hang_gliding": {
+    "groups": [
+      "people",
+      "sports"
+    ]
+  },
+  "hangar": {
+    "groups": [
+      "buildings"
+    ]
+  },
+  "hanging_rail": {
+    "groups": [
+      "railways",
+      "vehicles"
+    ]
+  },
+  "hearing_aid": {
+    "groups": [
+      "accessibility",
+      "people"
+    ]
+  },
+  "heart": {
+    "groups": [
+      "healthcare",
+      "shapes"
+    ]
+  },
+  "heavy_rail": {
+    "groups": [
+      "railways",
+      "vehicles"
+    ]
+  },
+  "hedge": {
+    "groups": [
+      "barriers",
+      "plants"
+    ]
+  },
+  "height_restrictor": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "hinduism": {
+    "groups": [
+      "religion"
+    ]
+  },
+  "horse_shelter": {
+    "groups": [
+      "animals",
+      "buildings"
+    ]
+  },
+  "horseshoe": {
+    "groups": [
+      "animals",
+      "sports"
+    ]
+  },
+  "horseshoes": {
+    "groups": [
+      "animals",
+      "sports"
+    ]
+  },
+  "hot_drink_cup": {
+    "groups": [
+      "food"
+    ]
+  },
+  "houseboat": {
+    "groups": [
+      "buildings",
+      "vehicles",
+      "water"
+    ]
+  },
+  "ice_fishing": {
+    "groups": [
+      "animals",
+      "sports",
+      "water"
+    ]
+  },
+  "ice_skating": {
+    "groups": [
+      "people",
+      "sports",
+      "water"
+    ]
+  },
+  "info_board": {
+    "groups": [
+      "information"
+    ]
+  },
+  "inline_skating": {
+    "groups": [
+      "people",
+      "sports"
+    ]
+  },
+  "island_trees_building": {
+    "groups": [
+      "buildings",
+      "landforms",
+      "plants"
+    ]
+  },
+  "islet_tree": {
+    "groups": [
+      "landforms",
+      "plants"
+    ]
+  },
+  "j_bar_lift": {
+    "groups": [
+      "aerialways"
+    ]
+  },
+  "jet_skiing": {
+    "groups": [
+      "people",
+      "vehicles",
+      "water"
+    ]
+  },
+  "jetplane_front": {
+    "groups": [
+      "aeroways",
+      "vehicles"
+    ]
+  },
+  "jewelry_store": {
+    "groups": []
+  },
+  "junction": {
+    "groups": [
+      "highways"
+    ]
+  },
+  "junk_car": {
+    "groups": [
+      "highways",
+      "vehicles"
+    ]
+  },
+  "kayaking": {
+    "groups": [
+      "people",
+      "sports",
+      "vehicles"
+    ]
+  },
+  "kerb-flush": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "kerb-lowered": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "kerb-raised": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "kerb-rolled": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "kitchen_sink": {
+    "groups": [
+      "water"
+    ]
+  },
+  "laundry": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "lawn": {
+    "groups": [
+      "plants"
+    ]
+  },
+  "lawyer": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "letter_box": {
+    "groups": [
+      "mail"
+    ]
+  },
+  "library": {
+    "groups": [
+      "information",
+      "people"
+    ]
+  },
+  "lift_gate": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "light_rail": {
+    "groups": [
+      "railways",
+      "vehicles"
+    ]
+  },
+  "lipstick": {
+    "groups": [
+      "people"
+    ]
+  },
+  "lock": {
+    "groups": [
+      "security"
+    ]
+  },
+  "manhole": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "manufactured_home": {
+    "groups": [
+      "buildings"
+    ]
+  },
+  "mast_communication": {
+    "groups": [
+      "infrastructure",
+      "utilities"
+    ]
+  },
+  "mast": {
+    "groups": [
+      "infrastructure"
+    ]
+  },
+  "meat": {
+    "groups": [
+      "food"
+    ]
+  },
+  "milestone": {
+    "groups": [
+      "highways"
+    ]
+  },
+  "military_checkpoint": {
+    "groups": [
+      "barriers",
+      "military",
+      "people"
+    ]
+  },
+  "military": {
+    "groups": [
+      "military"
+    ]
+  },
+  "mineshaft_cage": {
+    "groups": [
+      "infrastructure",
+      "vehicles"
+    ]
+  },
+  "mineshaft_profile": {
+    "groups": [
+      "infrastructure"
+    ]
+  },
+  "money_hand": {
+    "groups": [
+      "people"
+    ]
+  },
+  "monorail": {
+    "groups": [
+      "railways",
+      "vehicles"
+    ]
+  },
+  "motorcycle_rental": {
+    "groups": [
+      "security",
+      "vehicles"
+    ]
+  },
+  "motorcycle_repair": {
+    "groups": [
+      "tools",
+      "vehicles"
+    ]
+  },
+  "motorcycle": {
+    "groups": [
+      "vehicles"
+    ]
+  },
+  "mountain_range": {
+    "groups": [
+      "landforms"
+    ]
+  },
+  "mountain_rescue": {
+    "groups": [
+      "healthcare",
+      "landforms"
+    ]
+  },
+  "movie_rental": {
+    "groups": [
+      "information"
+    ]
+  },
+  "museum": {
+    "groups": [
+      "buildings"
+    ]
+  },
+  "needle_and_spool": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "oil_well": {
+    "groups": [
+      "infrastructure"
+    ]
+  },
+  "os_benchmark": {
+    "groups": [
+      "information"
+    ]
+  },
+  "parking_space": {
+    "groups": [
+      "highways"
+    ]
+  },
+  "passport_checkpoint": {
+    "groups": [
+      "barriers",
+      "people"
+    ]
+  },
+  "ped_cyclist_crosswalk": {
+    "groups": [
+      "cycling",
+      "people",
+      "vehicles"
+    ]
+  },
+  "pedestrian_and_cyclist": {
+    "groups": [
+      "cycling",
+      "people"
+    ]
+  },
+  "pedestrian_crosswalk": {
+    "groups": [
+      "people"
+    ]
+  },
+  "pedestrian_walled": {
+    "groups": [
+      "barriers",
+      "people"
+    ]
+  },
+  "pedestrian": {
+    "groups": [
+      "people"
+    ]
+  },
+  "perfume": {
+    "groups": [
+      "clothes"
+    ]
+  },
+  "pet_grooming": {
+    "groups": [
+      "animals",
+      "tools"
+    ]
+  },
+  "pet_store": {
+    "groups": [
+      "animals"
+    ]
+  },
+  "pharmacy": {
+    "groups": [
+      "healthcare"
+    ]
+  },
+  "physiotherapist": {
+    "groups": [
+      "healthcare",
+      "people",
+      "sports"
+    ]
+  },
+  "pick_hammer": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "picnic_shelter": {
+    "groups": [
+      "buildings",
+      "camping",
+      "seating"
+    ]
+  },
+  "pier_fixed": {
+    "groups": [
+      "water"
+    ]
+  },
+  "pier_floating": {
+    "groups": [
+      "water"
+    ]
+  },
+  "pin": {
+    "groups": [
+      "shapes"
+    ]
+  },
+  "pipe": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "plane_taxiing": {
+    "groups": [
+      "aeroways",
+      "vehicles"
+    ]
+  },
+  "planes_bidirectional": {
+    "groups": [
+      "aeroways",
+      "vehicles"
+    ]
+  },
+  "planes": {
+    "groups": [
+      "aeroways",
+      "vehicles"
+    ]
+  },
+  "plaque": {
+    "groups": [
+      "information"
+    ]
+  },
+  "platter_lift": {
+    "groups": [
+      "aerialways"
+    ]
+  },
+  "play_structure": {
+    "groups": [
+      "sports"
+    ]
+  },
+  "plumber": {
+    "groups": [
+      "utilities",
+      "water"
+    ]
+  },
+  "police_checkpoint": {
+    "groups": [
+      "barriers",
+      "people"
+    ]
+  },
+  "police_officer": {
+    "groups": [
+      "people"
+    ]
+  },
+  "polished_nail": {
+    "groups": [
+      "people"
+    ]
+  },
+  "post_box": {
+    "groups": [
+      "mail"
+    ]
+  },
+  "poster_box": {
+    "groups": [
+      "information"
+    ]
+  },
+  "power_cb": {
+    "groups": [
+      "power",
+      "utilities"
+    ]
+  },
+  "power_cb2": {
+    "groups": [
+      "power",
+      "utilities"
+    ]
+  },
+  "power_circuit": {
+    "groups": [
+      "power",
+      "utilities"
+    ]
+  },
+  "power_ct": {
+    "groups": [
+      "power",
+      "utilities"
+    ]
+  },
+  "power_device": {
+    "groups": [
+      "power",
+      "utilities"
+    ]
+  },
+  "power_isolator": {
+    "groups": [
+      "power",
+      "utilities"
+    ]
+  },
+  "power_la": {
+    "groups": [
+      "power",
+      "utilities"
+    ]
+  },
+  "power_manhole": {
+    "groups": [
+      "power",
+      "utilities"
+    ]
+  },
+  "power_meter": {
+    "groups": [
+      "power",
+      "utilities"
+    ]
+  },
+  "power_pole": {
+    "groups": [
+      "power",
+      "utilities"
+    ]
+  },
+  "power_shutoff": {
+    "groups": [
+      "power",
+      "utilities"
+    ]
+  },
+  "power_switch": {
+    "groups": [
+      "power",
+      "utilities"
+    ]
+  },
+  "power_tower": {
+    "groups": [
+      "power",
+      "utilities"
+    ]
+  },
+  "power_transformer": {
+    "groups": [
+      "power",
+      "utilities"
+    ]
+  },
+  "power": {
+    "groups": [
+      "power",
+      "utilities"
+    ]
+  },
+  "powered_pump": {
+    "groups": [
+      "power",
+      "utilities",
+      "water"
+    ]
+  },
+  "propane_tank": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "psychic": {
+    "groups": [
+      "people",
+      "religion"
+    ]
+  },
+  "quakerism": {
+    "groups": [
+      "religion"
+    ]
+  },
+  "racetrack_oval": {
+    "groups": [
+      "highways",
+      "sports"
+    ]
+  },
+  "radiation": {
+    "groups": [
+      "power"
+    ]
+  },
+  "radio": {
+    "groups": []
+  },
+  "rafting": {
+    "groups": [
+      "people",
+      "sports",
+      "water"
+    ]
+  },
+  "rail_flag": {
+    "groups": [
+      "railways"
+    ]
+  },
+  "rail_profile": {
+    "groups": [
+      "railways"
+    ]
+  },
+  "railing": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "railway_cable_track": {
+    "groups": [
+      "railways"
+    ]
+  },
+  "railway_signals": {
+    "groups": [
+      "railways"
+    ]
+  },
+  "railway_track_askew": {
+    "groups": [
+      "railways"
+    ]
+  },
+  "railway_track_mini": {
+    "groups": [
+      "railways"
+    ]
+  },
+  "railway_track_narrow": {
+    "groups": [
+      "railways"
+    ]
+  },
+  "railway_track_partial": {
+    "groups": [
+      "railways"
+    ]
+  },
+  "railway_track": {
+    "groups": [
+      "railways"
+    ]
+  },
+  "real_estate_agency": {
+    "groups": [
+      "buildings"
+    ]
+  },
+  "rocket_firework": {
+    "groups": [
+      "military"
+    ]
+  },
+  "roller_coaster": {
+    "groups": [
+      "railways",
+      "vehicles"
+    ]
+  },
+  "rope_fence": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "row_houses": {
+    "groups": [
+      "buildings"
+    ]
+  },
+  "ruins": {
+    "groups": [
+      "buildings"
+    ]
+  },
+  "rumble_strip": {
+    "groups": [
+      "barriers",
+      "highways"
+    ]
+  },
+  "saddle": {
+    "groups": [
+      "landforms"
+    ]
+  },
+  "sailing": {
+    "groups": [
+      "sports",
+      "water"
+    ]
+  },
+  "sandwich": {
+    "groups": [
+      "food"
+    ]
+  },
+  "scaffold": {
+    "groups": [
+      "infrastructure"
+    ]
+  },
+  "school_bus": {
+    "groups": [
+      "highways",
+      "vehicles"
+    ]
+  },
+  "school": {
+    "groups": [
+      "information"
+    ]
+  },
+  "scuba_diving": {
+    "groups": [
+      "people",
+      "sports",
+      "water"
+    ]
+  },
+  "sculpture": {
+    "groups": [
+      "arts"
+    ]
+  },
+  "security_camera": {
+    "groups": [
+      "security"
+    ]
+  },
+  "shield": {
+    "groups": [
+      "security"
+    ]
+  },
+  "shinto": {
+    "groups": [
+      "religion"
+    ]
+  },
+  "shopping_mall": {
+    "groups": [
+      "bags",
+      "people"
+    ]
+  },
+  "shower": {
+    "groups": [
+      "water"
+    ]
+  },
+  "shrub_low": {
+    "groups": [
+      "plants"
+    ]
+  },
+  "shrub": {
+    "groups": [
+      "plants"
+    ]
+  },
+  "shuffleboard": {
+    "groups": [
+      "sports"
+    ]
+  },
+  "sign_and_bench": {
+    "groups": [
+      "seating"
+    ]
+  },
+  "sign_and_car": {
+    "groups": [
+      "highways",
+      "vehicles"
+    ]
+  },
+  "sign_and_pedestrian": {
+    "groups": [
+      "people"
+    ]
+  },
+  "sikhism": {
+    "groups": [
+      "religion"
+    ]
+  },
+  "silo": {
+    "groups": [
+      "buildings"
+    ]
+  },
+  "skateboarding": {
+    "groups": [
+      "people",
+      "sports"
+    ]
+  },
+  "ski_jumping": {
+    "groups": [
+      "people",
+      "sports"
+    ]
+  },
+  "skiing": {
+    "groups": [
+      "people",
+      "sports"
+    ]
+  },
+  "sledding": {
+    "groups": [
+      "people",
+      "sports"
+    ]
+  },
+  "sleep_shelter": {
+    "groups": [
+      "buildings",
+      "camping",
+      "people"
+    ]
+  },
+  "slide": {
+    "groups": [
+      "sports"
+    ]
+  },
+  "snow_shoeing": {
+    "groups": [
+      "people",
+      "sports"
+    ]
+  },
+  "snow": {
+    "groups": []
+  },
+  "snowboarding": {
+    "groups": [
+      "people",
+      "sports"
+    ]
+  },
+  "snowmobile": {
+    "groups": [
+      "people",
+      "sports",
+      "vehicles"
+    ]
+  },
+  "social_facility": {
+    "groups": [
+      "people"
+    ]
+  },
+  "spa": {
+    "groups": [
+      "people"
+    ]
+  },
+  "speaker": {
+    "groups": []
+  },
+  "speed_bump": {
+    "groups": [
+      "barriers",
+      "highways"
+    ]
+  },
+  "speed_dip_double": {
+    "groups": [
+      "barriers",
+      "highways"
+    ]
+  },
+  "speed_dip": {
+    "groups": [
+      "barriers",
+      "highways"
+    ]
+  },
+  "speed_hump": {
+    "groups": [
+      "barriers",
+      "highways"
+    ]
+  },
+  "speed_table": {
+    "groups": [
+      "barriers",
+      "highways"
+    ]
+  },
+  "speedway_8": {
+    "groups": [
+      "highways",
+      "sports"
+    ]
+  },
+  "speedway_oval": {
+    "groups": [
+      "highways",
+      "sports"
+    ]
+  },
+  "spice_bottle": {
+    "groups": [
+      "food"
+    ]
+  },
+  "spike_strip": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "spotting_scope": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "stamp": {
+    "groups": [
+      "mail"
+    ]
+  },
+  "statue": {
+    "groups": [
+      "arts",
+      "people"
+    ]
+  },
+  "stile_squeezer": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "stop": {
+    "groups": [
+      "highways",
+      "shapes"
+    ]
+  },
+  "storage_drum": {
+    "groups": [
+      "power",
+      "utilities"
+    ]
+  },
+  "storage_fermenter": {
+    "groups": [
+      "food"
+    ]
+  },
+  "storage_rental": {
+    "groups": [
+      "buildings",
+      "security"
+    ]
+  },
+  "storage_tank": {
+    "groups": [
+      "infrastructure"
+    ]
+  },
+  "storage": {
+    "groups": []
+  },
+  "street_lamp_arm": {
+    "groups": [
+      "highways",
+      "lighting"
+    ]
+  },
+  "striped_way": {
+    "groups": [
+      "highways"
+    ]
+  },
+  "striped_zone": {
+    "groups": [
+      "highways"
+    ]
+  },
+  "subway": {
+    "groups": [
+      "railways"
+    ]
+  },
+  "suitcase_key": {
+    "groups": [
+      "bags",
+      "security"
+    ]
+  },
+  "suitcase_xray": {
+    "groups": [
+      "aeroways",
+      "bags"
+    ]
+  },
+  "suitcase": {
+    "groups": [
+      "bags"
+    ]
+  },
+  "surfing": {
+    "groups": [
+      "people",
+      "sports",
+      "water"
+    ]
+  },
+  "swamp": {
+    "groups": [
+      "landforms",
+      "plants",
+      "water"
+    ]
+  },
+  "t_bar_lift": {
+    "groups": [
+      "aerialways"
+    ]
+  },
+  "tall_gate": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "tanning": {
+    "groups": [
+      "people"
+    ]
+  },
+  "tanning2": {
+    "groups": [
+      "clothes"
+    ]
+  },
+  "taoism": {
+    "groups": [
+      "religion"
+    ]
+  },
+  "tattoo_machine": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "taxi_stand": {
+    "groups": [
+      "vehicles"
+    ]
+  },
+  "telephone": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "telescope": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "temaki": {
+    "groups": [
+      "food"
+    ]
+  },
+  "tennis": {
+    "groups": [
+      "people",
+      "sports"
+    ]
+  },
+  "ticket": {
+    "groups": [
+      "information"
+    ]
+  },
+  "tiling": {
+    "groups": [
+      "arts"
+    ]
+  },
+  "tire_course": {
+    "groups": [
+      "military"
+    ]
+  },
+  "tire": {
+    "groups": [
+      "highways"
+    ]
+  },
+  "toolbox": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "tools": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "tower_communication": {
+    "groups": [
+      "infrastructure",
+      "utilities"
+    ]
+  },
+  "tower": {
+    "groups": [
+      "buildings"
+    ]
+  },
+  "town_hall": {
+    "groups": [
+      "buildings"
+    ]
+  },
+  "traffic_signals": {
+    "groups": [
+      "highways"
+    ]
+  },
+  "train_bullet": {
+    "groups": [
+      "railways",
+      "vehicles"
+    ]
+  },
+  "train_diesel": {
+    "groups": [
+      "railways",
+      "vehicles"
+    ]
+  },
+  "train_kids": {
+    "groups": [
+      "railways",
+      "vehicles"
+    ]
+  },
+  "train_steam": {
+    "groups": [
+      "railways",
+      "vehicles"
+    ]
+  },
+  "train_wash": {
+    "groups": [
+      "railways",
+      "vehicles"
+    ]
+  },
+  "train": {
+    "groups": [
+      "railways",
+      "vehicles"
+    ]
+  },
+  "tram": {
+    "groups": [
+      "railways",
+      "vehicles"
+    ]
+  },
+  "transit_shelter": {
+    "groups": [
+      "buildings",
+      "seating"
+    ]
+  },
+  "transit": {
+    "groups": [
+      "vehicles"
+    ]
+  },
+  "tree_and_bench": {
+    "groups": [
+      "plants",
+      "seating"
+    ]
+  },
+  "tree_row": {
+    "groups": [
+      "plants"
+    ]
+  },
+  "trench": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "trolleybus": {
+    "groups": [
+      "highways",
+      "vehicles"
+    ]
+  },
+  "truck": {
+    "groups": [
+      "highways",
+      "vehicles"
+    ]
+  },
+  "tunnel": {
+    "groups": [
+      "infrastructure"
+    ]
+  },
+  "turnstile": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "utility_pole": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "vacuum_station": {
+    "groups": [
+      "infrastructure"
+    ]
+  },
+  "vacuum": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "valley": {
+    "groups": [
+      "landforms"
+    ]
+  },
+  "vase": {
+    "groups": [
+      "arts"
+    ]
+  },
+  "vending_bread": {
+    "groups": [
+      "food",
+      "vending"
+    ]
+  },
+  "vending_cigarettes": {
+    "groups": [
+      "vending"
+    ]
+  },
+  "vending_cold_drink": {
+    "groups": [
+      "food",
+      "vending"
+    ]
+  },
+  "vending_cold_drink2": {
+    "groups": [
+      "food",
+      "vending"
+    ]
+  },
+  "vending_eggs": {
+    "groups": [
+      "food",
+      "vending"
+    ]
+  },
+  "vending_flat_coin": {
+    "groups": [
+      "vending"
+    ]
+  },
+  "vending_hot_drink": {
+    "groups": [
+      "food",
+      "vending"
+    ]
+  },
+  "vending_hot_drink2": {
+    "groups": [
+      "food",
+      "vending"
+    ]
+  },
+  "vending_ice_cream": {
+    "groups": [
+      "food",
+      "vending"
+    ]
+  },
+  "vending_ice_cream2": {
+    "groups": [
+      "food",
+      "vending"
+    ]
+  },
+  "vending_ice": {
+    "groups": [
+      "food",
+      "vending"
+    ]
+  },
+  "vending_lockers": {
+    "groups": [
+      "vending"
+    ]
+  },
+  "vending_love": {
+    "groups": [
+      "healthcare",
+      "vending"
+    ]
+  },
+  "vending_machine": {
+    "groups": [
+      "vending"
+    ]
+  },
+  "vending_medicine": {
+    "groups": [
+      "healthcare",
+      "vending"
+    ]
+  },
+  "vending_newspaper": {
+    "groups": [
+      "vending"
+    ]
+  },
+  "vending_pet_waste": {
+    "groups": [
+      "animals",
+      "vending"
+    ]
+  },
+  "vending_stamps": {
+    "groups": [
+      "mail",
+      "vending"
+    ]
+  },
+  "vending_tickets": {
+    "groups": [
+      "vending"
+    ]
+  },
+  "vending_venus": {
+    "groups": [
+      "healthcare",
+      "vending"
+    ]
+  },
+  "vertex": {
+    "groups": [
+      "shapes"
+    ]
+  },
+  "vertical_rotisserie": {
+    "groups": [
+      "food"
+    ]
+  },
+  "veterinary_care": {
+    "groups": [
+      "animals"
+    ]
+  },
+  "wall": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "waste_device": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "waste_manhole": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "waste_meter": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "waste_shutoff": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "waste": {
+    "groups": [
+      "utilities"
+    ]
+  },
+  "water_device": {
+    "groups": [
+      "utilities",
+      "water"
+    ]
+  },
+  "water_manhole": {
+    "groups": [
+      "utilities",
+      "water"
+    ]
+  },
+  "water_meter": {
+    "groups": [
+      "utilities",
+      "water"
+    ]
+  },
+  "water_shutoff": {
+    "groups": [
+      "utilities",
+      "water"
+    ]
+  },
+  "water_tap_drinkable": {
+    "groups": [
+      "camping",
+      "utilities",
+      "water"
+    ]
+  },
+  "water_tap": {
+    "groups": [
+      "camping",
+      "utilities",
+      "water"
+    ]
+  },
+  "water_tower": {
+    "groups": [
+      "infrastructure",
+      "utilities",
+      "water"
+    ]
+  },
+  "water": {
+    "groups": [
+      "utilities",
+      "water"
+    ]
+  },
+  "waterskiing": {
+    "groups": [
+      "people",
+      "water"
+    ]
+  },
+  "well_pump_manual": {
+    "groups": [
+      "camping",
+      "utilities",
+      "water"
+    ]
+  },
+  "well_pump_powered": {
+    "groups": [
+      "power",
+      "utilities",
+      "water"
+    ]
+  },
+  "whale_watching": {
+    "groups": [
+      "animals",
+      "water"
+    ]
+  },
+  "wheel": {
+    "groups": [
+      "tools"
+    ]
+  },
+  "wheelchair_active": {
+    "groups": [
+      "accessibility",
+      "people"
+    ]
+  },
+  "wheelchair": {
+    "groups": [
+      "accessibility",
+      "people"
+    ]
+  },
+  "wind_surfing": {
+    "groups": [
+      "water"
+    ]
+  },
+  "wind_turbine": {
+    "groups": [
+      "infrastructure",
+      "power"
+    ]
+  },
+  "windmill": {
+    "groups": [
+      "buildings"
+    ]
+  },
+  "window": {
+    "groups": [
+      "buildings"
+    ]
+  },
+  "windsock": {
+    "groups": [
+      "aeroways"
+    ]
+  },
+  "yield": {
+    "groups": [
+      "highways",
+      "shapes"
+    ]
+  },
+  "zoo": {
+    "groups": [
+      "animals"
+    ]
+  }
+}
