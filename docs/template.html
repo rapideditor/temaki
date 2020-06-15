@@ -6,17 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script id="icon-meta" type="application/json">{{icon_meta}}</script>
     <style>
+        html, body {
+            margin:0;
+            padding:0;
+        }
         body, body * {
             box-sizing: border-box;
         }
-        body{padding:0;margin:0;color:#666;background:#fafafa;font-family:sans-serif;font-size:1em;line-height:1.4}
-        a{text-decoration:none;}
-        section{border-top:1px solid #eee;padding:2em 3em 0 3em}
+        body{
+            color:#666;
+            background:#fafafa;
+            font-family:sans-serif;
+            font-size:1em;
+            line-height:1.4;
+        }
+        a{
+            color: inherit;
+            text-decoration:none;
+        }
+        .content {
+            max-width: 1400px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+        }
+        #header {
+            color: #fff;
+            background: #333;
+            border-bottom: 5px solid #9E36BB;
+        }
+        #header .line {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+        }
+        #header h3 {
+            white-space: nowrap;
+            margin: 0;
+            margin-right: 20px;
+        }
+        #header h3 svg {
+            height: 1.5em;
+            width: 1.5em;
+            vertical-align: sub;
+            margin-right: 8px;
+        }
+        #header use {
+            fill: #9E36BB;
+        }
+        #search {
+            width: 100%;
+            max-width: 600px;
+            font-size: 16px;
+            border-radius: 30px;
+            box-shadow: none;
+            border: 0;
+            padding: 8px 16px;
+            background: #eee;
+        }
+        #search:focus {
+            background: #fff;
+        }
+        #main {
+            padding-top: 20px;
+            display: flex;
+        }
         ul#groups{
-            margin:0;
             padding:0;
-            list-style: none;
+            margin: 0;
             margin-bottom: 20px;
+            list-style: none;
+            width: 10%;
+            min-width: 100px;
+            flex: 0 0 auto;
         }
         ul#groups li {
             display:inline-block;
@@ -27,51 +89,55 @@
             color: #fff;
             padding: 4px;
             border-radius: 2px;
-            background: #888;
+            background: #999;
         }
-        ul#groups li a.selected,
-        ul#groups li a:hover {
-            background: #444;
+        @media (hover) {
+            ul#groups li a:hover {
+                background: #333;
+            }
         }
-        ul.icons{
-            margin:0;
+        ul#groups li a:active {
+            background: #333;
+        }
+        ul#groups li a.selected {
+            background: #9E36BB;
+        }
+        ul#icons{
             padding:0;
+            margin: 0;
+            width: 100%;
             list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: start;
         }
-        .icons li{
-            display:inline;
+        #icons li{
             display:inline-block;
-            background-color:#fff;
             position:relative;
             margin:0;
             vertical-align:top;
-            border:1px solid #ccc;
             margin-right: 8px;
             margin-bottom: 8px;
             cursor:default;
+            overflow: hidden;
         }
-        .icons li.hidden {
+        #icons li.hidden {
             display:none;
         }
-        .icons li a{
+        #icons li a{
+            background-color:#fff;
+            border:1px solid #ccc;
             display: block;
             padding:5px;
         }
-        .icons li a:hover {
-            outline:1px solid #888;
+        @media (hover) {
+            #icons li a:hover {
+                border:1px solid #666;
+            }
         }
-        #search {
-            width: 100%;
-            max-width: 800px;
-            font-size: 18px;
-            border-radius: 30px;
-            box-shadow: none;
-            border: 1px solid #ccc;
-            margin-bottom: 20px;
-            padding: 10px 20px;
-        }
-        #search:focus {
-            border: 1px solid #888;
+        #icons li a:active {
+            border:1px solid #666;
         }
         .icon-box{
             margin:0;
@@ -104,10 +170,37 @@
             text-align:center;
             color:#666;
         }
-        footer{display:block;margin:0;padding:1em 3em 3em 3em}
-        footer p{margin:0;font-size:.7em}
-        footer a{color:#0f7595;margin-left:0}
-        footer a:hover{text-decoration:underline;}
+        footer{
+            margin: 20px 0;
+            text-align: center;
+            font-size:12px;
+        }
+        footer p{
+            margin:0;
+        }
+        footer a{
+            color:#9E36BB;
+        }
+        footer a:hover{
+            text-decoration:underline;
+        }
+
+        @media only screen and (max-width: 400px) {
+            #header .line {
+                flex-direction: column;
+                align-items: center;
+            }
+            #header h3 {
+                margin-bottom: 10px;
+            }
+            #main {
+                flex-direction: column;
+            }
+            ul#groups {
+                width: 100%;
+                max-width: auto;
+            }
+        }
     </style>
     </head>
     <body>
@@ -117,11 +210,15 @@
     </svg>
 
     <section>
-        <h3>Temaki Icons</h3>
-        <p>Previews at 40x40 and 15x15</p>
-        <input type="text" id="search" placeholder="Search icons"/>
-        <ul id="groups"></ul>
-        <ul class="icons">
+        <div id="header">
+            <div class="line content">
+                <h3><a href="https://github.com/ideditor/temaki"><svg><use xlink:href="#temaki-temaki"></use></svg>Temaki Icons</a></h3>
+                <input type="text" id="search" placeholder="Search icons"/>
+            </div>
+        </div>
+        <div id="main" class="content">
+            <ul id="groups"></ul>
+            <ul id="icons">
 {{#shapes}}<li id="icon-{{name}}" title="{{name}}">
                 <a href="#icon-{{name}}">
                 <div class="icon-box">
@@ -131,11 +228,12 @@
                 <div class="icon-name">{{name}}</div>
                 </a>
             </li>{{/shapes}}
-        </ul>
+            </ul>
+        </div>
+        <footer>
+            <p>Previews at 40x40 and 15x15. Generated by <a href="https://github.com/jkphl/svg-sprite" target="_blank">svg-sprite</a>.</p>
+        </footer>
     </section>
-    <footer>
-        <p>Generated by <a href="https://github.com/jkphl/svg-sprite" target="_blank">svg-sprite</a>.</p>
-    </footer>
     </body>
     <script type="text/javascript">
         function htmlDecode(input){
@@ -204,18 +302,19 @@
                 var hash = location.hash;
                 if (hash) hash = hash.slice(1);
                 if (hash.indexOf('group=') === 0) {
+                    document.getElementById('search').value = '';
                     var group = hash.slice(6);
 
                     document.querySelector('#groups .group-' + group).classList.add('selected');
 
-                    document.querySelectorAll('.icons li').forEach(function(el) {
+                    document.querySelectorAll('#icons li').forEach(function(el) {
                         el.classList.add('hidden');
                     });
-                    document.querySelectorAll('.icons .grp-' + group).forEach(function(el) {
+                    document.querySelectorAll('#icons .grp-' + group).forEach(function(el) {
                         el.classList.remove('hidden');
                     });
                 } else {
-                    document.querySelectorAll('.icons li.hidden').forEach(function(el) {
+                    document.querySelectorAll('#icons li.hidden').forEach(function(el) {
                         el.classList.remove('hidden');
                     });
                 }
