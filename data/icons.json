@@ -613,7 +613,8 @@
   "checkpoint": {
     "groups": [
       "barriers",
-      "people"
+      "people",
+      "security"
     ]
   },
   "chefs_knife": {
@@ -1230,7 +1231,8 @@
     "groups": [
       "barriers",
       "military",
-      "people"
+      "people",
+      "security"
     ]
   },
   "military": {
@@ -1321,7 +1323,8 @@
   "passport_checkpoint": {
     "groups": [
       "barriers",
-      "people"
+      "people",
+      "security"
     ]
   },
   "ped_cyclist_crosswalk": {
@@ -1455,12 +1458,14 @@
   "police_checkpoint": {
     "groups": [
       "barriers",
-      "people"
+      "people",
+      "security"
     ]
   },
   "police_officer": {
     "groups": [
-      "people"
+      "people",
+      "security"
     ]
   },
   "polished_nail": {
