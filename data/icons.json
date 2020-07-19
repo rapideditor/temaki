@@ -211,6 +211,7 @@
   "board_monorail": {
     "groups": [
       "people",
+      "railways",
       "vehicles"
     ]
   },
