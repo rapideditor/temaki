@@ -21,10 +21,10 @@ const groups = new Set([
   'food',
   'healthcare',
   'highways',
+  'home',
   'information',
   'infrastructure',
   'landforms',
-  'lighting',
   'mail',
   'military',
   'people',
@@ -35,7 +35,9 @@ const groups = new Set([
   'seating',
   'security',
   'shapes',
+  'snow',
   'sports',
+  'telecom',
   'tools',
   'utilities',
   'vehicles',
@@ -76,7 +78,7 @@ function checkIcons() {
       meta[iconName].groups = [];
     } else {
       meta[iconName].groups = meta[iconName].groups.sort();
-      //if (!meta[iconName].groups.length) console.log(colors.yellow(`Warning - "${iconName}" has no groups in data/icons.json`));
+      if (!meta[iconName].groups.length) console.log(colors.yellow(`Warning - "${iconName}" has no groups in data/icons.json`));
     }
     Object.keys(meta[iconName]).forEach(function(prop) {
       if (!properties.has(prop)) {

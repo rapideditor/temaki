@@ -47,6 +47,7 @@
   },
   "antenna": {
     "groups": [
+      "telecom",
       "utilities"
     ]
   },
@@ -84,7 +85,9 @@
     ]
   },
   "balloon": {
-    "groups": []
+    "groups": [
+      "shapes"
+    ]
   },
   "barn": {
     "groups": [
@@ -430,17 +433,17 @@
   },
   "bulb": {
     "groups": [
-      "lighting"
+      "home"
     ]
   },
   "bulb2": {
     "groups": [
-      "lighting"
+      "home"
     ]
   },
   "bulb3": {
     "groups": [
-      "lighting"
+      "home"
     ]
   },
   "bulldozer": {
@@ -493,26 +496,31 @@
   },
   "cable_device": {
     "groups": [
+      "telecom",
       "utilities"
     ]
   },
   "cable_manhole": {
     "groups": [
+      "telecom",
       "utilities"
     ]
   },
   "cable_meter": {
     "groups": [
+      "telecom",
       "utilities"
     ]
   },
   "cable_shutoff": {
     "groups": [
+      "telecom",
       "utilities"
     ]
   },
   "cable": {
     "groups": [
+      "telecom",
       "utilities"
     ]
   },
@@ -608,7 +616,8 @@
   "chairlift": {
     "groups": [
       "aerialways",
-      "people"
+      "people",
+      "snow"
     ]
   },
   "checkpoint": {
@@ -693,11 +702,14 @@
   },
   "cross_country_skiing": {
     "groups": [
+      "snow",
       "sports"
     ]
   },
   "curtains": {
-    "groups": []
+    "groups": [
+      "home"
+    ]
   },
   "cycle_barrier": {
     "groups": [
@@ -719,7 +731,7 @@
   },
   "desk_lamp": {
     "groups": [
-      "lighting"
+      "home"
     ]
   },
   "diamond": {
@@ -868,7 +880,9 @@
     ]
   },
   "furniture": {
-    "groups": []
+    "groups": [
+      "home"
+    ]
   },
   "garden_bed": {
     "groups": [
@@ -1051,6 +1065,7 @@
   "ice_fishing": {
     "groups": [
       "animals",
+      "snow",
       "sports",
       "water"
     ]
@@ -1058,6 +1073,7 @@
   "ice_skating": {
     "groups": [
       "people",
+      "snow",
       "sports",
       "water"
     ]
@@ -1105,7 +1121,9 @@
     ]
   },
   "jewelry_store": {
-    "groups": []
+    "groups": [
+      "shapes"
+    ]
   },
   "junction": {
     "groups": [
@@ -1149,11 +1167,13 @@
   },
   "kitchen_sink": {
     "groups": [
+      "home",
       "water"
     ]
   },
   "laundry": {
     "groups": [
+      "home",
       "tools"
     ]
   },
@@ -1212,6 +1232,7 @@
   "mast_communication": {
     "groups": [
       "infrastructure",
+      "telecom",
       "utilities"
     ]
   },
@@ -1284,7 +1305,8 @@
   },
   "mountain_range": {
     "groups": [
-      "landforms"
+      "landforms",
+      "snow"
     ]
   },
   "mountain_rescue": {
@@ -1611,7 +1633,9 @@
     ]
   },
   "radio": {
-    "groups": []
+    "groups": [
+      "home"
+    ]
   },
   "rafting": {
     "groups": [
@@ -1709,7 +1733,8 @@
   },
   "saddle": {
     "groups": [
-      "landforms"
+      "landforms",
+      "snow"
     ]
   },
   "sailing": {
@@ -1774,6 +1799,7 @@
   },
   "shower": {
     "groups": [
+      "home",
       "water"
     ]
   },
@@ -1827,18 +1853,21 @@
   "ski_jumping": {
     "groups": [
       "people",
+      "snow",
       "sports"
     ]
   },
   "skiing": {
     "groups": [
       "people",
+      "snow",
       "sports"
     ]
   },
   "sledding": {
     "groups": [
       "people",
+      "snow",
       "sports"
     ]
   },
@@ -1857,21 +1886,26 @@
   "snow_shoeing": {
     "groups": [
       "people",
+      "snow",
       "sports"
     ]
   },
   "snow": {
-    "groups": []
+    "groups": [
+      "snow"
+    ]
   },
   "snowboarding": {
     "groups": [
       "people",
+      "snow",
       "sports"
     ]
   },
   "snowmobile": {
     "groups": [
       "people",
+      "snow",
       "sports",
       "vehicles"
     ]
@@ -1887,7 +1921,9 @@
     ]
   },
   "speaker": {
-    "groups": []
+    "groups": [
+      "home"
+    ]
   },
   "speed_bump": {
     "groups": [
@@ -1991,12 +2027,13 @@
     ]
   },
   "storage": {
-    "groups": []
+    "groups": [
+      "home"
+    ]
   },
   "street_lamp_arm": {
     "groups": [
-      "highways",
-      "lighting"
+      "highways"
     ]
   },
   "striped_way": {
@@ -2082,6 +2119,7 @@
   },
   "telephone": {
     "groups": [
+      "telecom",
       "tools"
     ]
   },
@@ -2108,7 +2146,8 @@
   },
   "tiling": {
     "groups": [
-      "arts"
+      "arts",
+      "home"
     ]
   },
   "tire_course": {
@@ -2134,6 +2173,7 @@
   "tower_communication": {
     "groups": [
       "infrastructure",
+      "telecom",
       "utilities"
     ]
   },
@@ -2245,6 +2285,7 @@
   },
   "utility_pole": {
     "groups": [
+      "telecom",
       "utilities"
     ]
   },
@@ -2260,12 +2301,14 @@
   },
   "valley": {
     "groups": [
-      "landforms"
+      "landforms",
+      "snow"
     ]
   },
   "vase": {
     "groups": [
-      "arts"
+      "arts",
+      "home"
     ]
   },
   "vending_bread": {
@@ -2394,7 +2437,8 @@
   },
   "veterinary_care": {
     "groups": [
-      "animals"
+      "animals",
+      "healthcare"
     ]
   },
   "wall": {
@@ -2539,7 +2583,7 @@
   },
   "window": {
     "groups": [
-      "buildings"
+      "home"
     ]
   },
   "windsock": {
