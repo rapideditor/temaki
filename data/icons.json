@@ -1109,7 +1109,9 @@
   },
   "junction": {
     "groups": [
-      "highways"
+      "highways",
+      "railways",
+      "shapes"
     ]
   },
   "junk_car": {
@@ -2554,6 +2556,19 @@
   "zoo": {
     "groups": [
       "animals"
+    ]
+  },
+  "x_oblique": {
+    "groups": [
+      "highways",
+      "railways",
+      "shapes"
+    ]
+  },
+  "tram_side": {
+    "groups": [
+      "railways",
+      "vehicles"
     ]
   }
 }

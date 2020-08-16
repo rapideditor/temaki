@@ -37,10 +37,12 @@ function checkIcons() {
     let rootCount = 0;
     let warnings = [];
 
+    let childrenToRemove = new Set();
+
     xml.each((child, index, level) => {
       const node = child.node;
       if (node.nodeType !== 1) {   // ignore and remove things like DOCTYPE, CDATA, comments, text
-        child.remove();
+        childrenToRemove.add(child);
         return;
       }
 
@@ -74,16 +76,33 @@ function checkIcons() {
           child.up().ele('path', {
             d: ellipseAttrsToPathD(attr('rx'), attr('cx'), attr('ry'), attr('cy'))
           });
-          child.remove();
+          childrenToRemove.add(child);
           return;
 
         // convert polygons to paths
         } else if (node.nodeName === 'polygon') {
-            child.up().ele('path', {
-              d: 'M ' + node.getAttribute('points') + 'z'
-            });
-            child.remove();
-            return;
+          child.up().ele('path', {
+            d: 'M ' + node.getAttribute('points') + 'z'
+          });
+          childrenToRemove.add(child);
+          return;
+        // remove metadata nodes
+        } else if (node.nodeName === 'title' || node.nodeName === 'desc') {
+          childrenToRemove.add(child);
+          return;
+        }
+
+        if (level > 2) {
+          let parent = child.up();
+          if (parent.node.nodeName === 'g') {
+            // move the node out of the group
+            parent.up().ele(child.toString());
+            childrenToRemove.add(child);
+          }
+        } else if (level === 2 && node.nodeName === 'g') {
+          // groups will be emptied so remove them
+          childrenToRemove.add(child);
+          return;
         }
 
         // suspicious elements
@@ -94,7 +113,7 @@ function checkIcons() {
         }
 
         // Remove unwanted path attributes
-        child.removeAtt(['fill', 'id']);
+        child.removeAtt(['fill', 'fill-rule', 'id', 'xmlns']);
 
         // suspicious attributes
         let suspicious = node.attributes
@@ -109,6 +128,10 @@ function checkIcons() {
 
     }, false, true);  /* visit_self = false, recursive = true */
 
+    // remove nodes only after crawling everything to avoid early exit
+    Array.from(childrenToRemove).forEach((child) => {
+      child.remove();
+    });
 
     if (warnings.length) {
       warnings.forEach(w => console.warn(w));
