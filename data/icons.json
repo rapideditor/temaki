@@ -51,12 +51,12 @@
       "utilities"
     ]
   },
-  "anvil_and_hammer": {
+  "anvil": {
     "groups": [
       "tools"
     ]
   },
-  "anvil": {
+  "anvil_and_hammer": {
     "groups": [
       "tools"
     ]
@@ -232,6 +232,13 @@
       "vehicles"
     ]
   },
+  "board_train": {
+    "groups": [
+      "people",
+      "railways",
+      "vehicles"
+    ]
+  },
   "board_train_bullet": {
     "groups": [
       "people",
@@ -260,13 +267,6 @@
       "vehicles"
     ]
   },
-  "board_train": {
-    "groups": [
-      "people",
-      "railways",
-      "vehicles"
-    ]
-  },
   "board_tram": {
     "groups": [
       "people",
@@ -285,6 +285,12 @@
       "highways",
       "people",
       "vehicles"
+    ]
+  },
+  "boat": {
+    "groups": [
+      "vehicles",
+      "water"
     ]
   },
   "boat_floating": {
@@ -319,24 +325,18 @@
       "water"
     ]
   },
-  "boat": {
-    "groups": [
-      "vehicles",
-      "water"
-    ]
-  },
   "boating": {
     "groups": [
       "vehicles",
       "water"
     ]
   },
-  "bollard_row": {
+  "bollard": {
     "groups": [
       "barriers"
     ]
   },
-  "bollard": {
+  "bollard_row": {
     "groups": [
       "barriers"
     ]
@@ -366,12 +366,12 @@
       "landforms"
     ]
   },
-  "bowling_alt1": {
+  "bowling": {
     "groups": [
       "sports"
     ]
   },
-  "bowling": {
+  "bowling_alt1": {
     "groups": [
       "sports"
     ]
@@ -389,6 +389,11 @@
   "bridge": {
     "groups": [
       "infrastructure"
+    ]
+  },
+  "briefcase": {
+    "groups": [
+      "bags"
     ]
   },
   "briefcase_bolt": {
@@ -413,11 +418,6 @@
     "groups": [
       "bags",
       "security"
-    ]
-  },
-  "briefcase": {
-    "groups": [
-      "bags"
     ]
   },
   "bubble_tea": {
@@ -461,26 +461,20 @@
       "people"
     ]
   },
-  "bunker_silo": {
-    "groups": [
-      "infrastructure"
-    ]
-  },
   "bunker": {
     "groups": [
       "buildings",
       "military"
     ]
   },
+  "bunker_silo": {
+    "groups": [
+      "infrastructure"
+    ]
+  },
   "buoy": {
     "groups": [
       "water"
-    ]
-  },
-  "bus_guided": {
-    "groups": [
-      "highways",
-      "vehicles"
     ]
   },
   "bus": {
@@ -489,9 +483,21 @@
       "vehicles"
     ]
   },
+  "bus_guided": {
+    "groups": [
+      "highways",
+      "vehicles"
+    ]
+  },
   "cabin": {
     "groups": [
       "buildings"
+    ]
+  },
+  "cable": {
+    "groups": [
+      "telecom",
+      "utilities"
     ]
   },
   "cable_device": {
@@ -518,24 +524,18 @@
       "utilities"
     ]
   },
-  "cable": {
-    "groups": [
-      "telecom",
-      "utilities"
-    ]
-  },
   "cairn": {
     "groups": [
       "information"
     ]
   },
-  "camper_trailer_dump": {
+  "camper_trailer": {
     "groups": [
       "camping",
       "vehicles"
     ]
   },
-  "camper_trailer": {
+  "camper_trailer_dump": {
     "groups": [
       "camping",
       "vehicles"
@@ -706,6 +706,32 @@
       "sports"
     ]
   },
+  "crossing_rail_road": {
+    "groups": [
+      "crossings",
+      "highways",
+      "railways"
+    ]
+  },
+  "crossing_rail_striped": {
+    "groups": [
+      "crossings",
+      "railways"
+    ]
+  },
+  "crossing_tram_road": {
+    "groups": [
+      "crossings",
+      "highways",
+      "railways"
+    ]
+  },
+  "crossing_tram_striped": {
+    "groups": [
+      "crossings",
+      "railways"
+    ]
+  },
   "curtains": {
     "groups": [
       "home"
@@ -719,6 +745,7 @@
   },
   "cyclist_crosswalk": {
     "groups": [
+      "crossings",
       "cycling",
       "people",
       "vehicles"
@@ -889,6 +916,11 @@
       "plants"
     ]
   },
+  "gas": {
+    "groups": [
+      "utilities"
+    ]
+  },
   "gas_device": {
     "groups": [
       "utilities"
@@ -905,11 +937,6 @@
     ]
   },
   "gas_shutoff": {
-    "groups": [
-      "utilities"
-    ]
-  },
-  "gas": {
     "groups": [
       "utilities"
     ]
@@ -1229,16 +1256,16 @@
       "buildings"
     ]
   },
+  "mast": {
+    "groups": [
+      "infrastructure"
+    ]
+  },
   "mast_communication": {
     "groups": [
       "infrastructure",
       "telecom",
       "utilities"
-    ]
-  },
-  "mast": {
-    "groups": [
-      "infrastructure"
     ]
   },
   "meat": {
@@ -1251,17 +1278,17 @@
       "highways"
     ]
   },
+  "military": {
+    "groups": [
+      "military"
+    ]
+  },
   "military_checkpoint": {
     "groups": [
       "barriers",
       "military",
       "people",
       "security"
-    ]
-  },
-  "military": {
-    "groups": [
-      "military"
     ]
   },
   "mineshaft_cage": {
@@ -1286,6 +1313,11 @@
       "vehicles"
     ]
   },
+  "motorcycle": {
+    "groups": [
+      "vehicles"
+    ]
+  },
   "motorcycle_rental": {
     "groups": [
       "security",
@@ -1295,11 +1327,6 @@
   "motorcycle_repair": {
     "groups": [
       "tools",
-      "vehicles"
-    ]
-  },
-  "motorcycle": {
-    "groups": [
       "vehicles"
     ]
   },
@@ -1354,9 +1381,15 @@
   },
   "ped_cyclist_crosswalk": {
     "groups": [
+      "crossings",
       "cycling",
       "people",
       "vehicles"
+    ]
+  },
+  "pedestrian": {
+    "groups": [
+      "people"
     ]
   },
   "pedestrian_and_cyclist": {
@@ -1367,17 +1400,13 @@
   },
   "pedestrian_crosswalk": {
     "groups": [
+      "crossings",
       "people"
     ]
   },
   "pedestrian_walled": {
     "groups": [
       "barriers",
-      "people"
-    ]
-  },
-  "pedestrian": {
-    "groups": [
       "people"
     ]
   },
@@ -1447,13 +1476,13 @@
       "vehicles"
     ]
   },
-  "planes_bidirectional": {
+  "planes": {
     "groups": [
       "aeroways",
       "vehicles"
     ]
   },
-  "planes": {
+  "planes_bidirectional": {
     "groups": [
       "aeroways",
       "vehicles"
@@ -1506,6 +1535,12 @@
   "poster_box": {
     "groups": [
       "information"
+    ]
+  },
+  "power": {
+    "groups": [
+      "power",
+      "utilities"
     ]
   },
   "power_cb": {
@@ -1592,12 +1627,6 @@
       "utilities"
     ]
   },
-  "power": {
-    "groups": [
-      "power",
-      "utilities"
-    ]
-  },
   "powered_pump": {
     "groups": [
       "power",
@@ -1669,6 +1698,11 @@
       "railways"
     ]
   },
+  "railway_track": {
+    "groups": [
+      "railways"
+    ]
+  },
   "railway_track_askew": {
     "groups": [
       "railways"
@@ -1685,11 +1719,6 @@
     ]
   },
   "railway_track_partial": {
-    "groups": [
-      "railways"
-    ]
-  },
-  "railway_track": {
     "groups": [
       "railways"
     ]
@@ -1753,15 +1782,15 @@
       "infrastructure"
     ]
   },
+  "school": {
+    "groups": [
+      "information"
+    ]
+  },
   "school_bus": {
     "groups": [
       "highways",
       "vehicles"
-    ]
-  },
-  "school": {
-    "groups": [
-      "information"
     ]
   },
   "scuba_diving": {
@@ -1803,12 +1832,12 @@
       "water"
     ]
   },
-  "shrub_low": {
+  "shrub": {
     "groups": [
       "plants"
     ]
   },
-  "shrub": {
+  "shrub_low": {
     "groups": [
       "plants"
     ]
@@ -1883,16 +1912,16 @@
       "sports"
     ]
   },
+  "snow": {
+    "groups": [
+      "snow"
+    ]
+  },
   "snow_shoeing": {
     "groups": [
       "people",
       "snow",
       "sports"
-    ]
-  },
-  "snow": {
-    "groups": [
-      "snow"
     ]
   },
   "snowboarding": {
@@ -1931,13 +1960,13 @@
       "highways"
     ]
   },
-  "speed_dip_double": {
+  "speed_dip": {
     "groups": [
       "barriers",
       "highways"
     ]
   },
-  "speed_dip": {
+  "speed_dip_double": {
     "groups": [
       "barriers",
       "highways"
@@ -2004,6 +2033,11 @@
       "shapes"
     ]
   },
+  "storage": {
+    "groups": [
+      "home"
+    ]
+  },
   "storage_drum": {
     "groups": [
       "power",
@@ -2026,11 +2060,6 @@
       "infrastructure"
     ]
   },
-  "storage": {
-    "groups": [
-      "home"
-    ]
-  },
   "street_lamp_arm": {
     "groups": [
       "highways"
@@ -2051,6 +2080,11 @@
       "railways"
     ]
   },
+  "suitcase": {
+    "groups": [
+      "bags"
+    ]
+  },
   "suitcase_key": {
     "groups": [
       "bags",
@@ -2060,11 +2094,6 @@
   "suitcase_xray": {
     "groups": [
       "aeroways",
-      "bags"
-    ]
-  },
-  "suitcase": {
-    "groups": [
       "bags"
     ]
   },
@@ -2150,14 +2179,14 @@
       "home"
     ]
   },
-  "tire_course": {
-    "groups": [
-      "military"
-    ]
-  },
   "tire": {
     "groups": [
       "highways"
+    ]
+  },
+  "tire_course": {
+    "groups": [
+      "military"
     ]
   },
   "toolbox": {
@@ -2170,16 +2199,16 @@
       "tools"
     ]
   },
+  "tower": {
+    "groups": [
+      "buildings"
+    ]
+  },
   "tower_communication": {
     "groups": [
       "infrastructure",
       "telecom",
       "utilities"
-    ]
-  },
-  "tower": {
-    "groups": [
-      "buildings"
     ]
   },
   "town_hall": {
@@ -2190,6 +2219,12 @@
   "traffic_signals": {
     "groups": [
       "highways"
+    ]
+  },
+  "train": {
+    "groups": [
+      "railways",
+      "vehicles"
     ]
   },
   "train_bullet": {
@@ -2222,15 +2257,20 @@
       "vehicles"
     ]
   },
-  "train": {
+  "tram": {
     "groups": [
       "railways",
       "vehicles"
     ]
   },
-  "tram": {
+  "tram_side": {
     "groups": [
       "railways",
+      "vehicles"
+    ]
+  },
+  "transit": {
+    "groups": [
       "vehicles"
     ]
   },
@@ -2238,11 +2278,6 @@
     "groups": [
       "buildings",
       "seating"
-    ]
-  },
-  "transit": {
-    "groups": [
-      "vehicles"
     ]
   },
   "tree_and_bench": {
@@ -2289,14 +2324,14 @@
       "utilities"
     ]
   },
-  "vacuum_station": {
-    "groups": [
-      "infrastructure"
-    ]
-  },
   "vacuum": {
     "groups": [
       "tools"
+    ]
+  },
+  "vacuum_station": {
+    "groups": [
+      "infrastructure"
     ]
   },
   "valley": {
@@ -2357,6 +2392,12 @@
       "vending"
     ]
   },
+  "vending_ice": {
+    "groups": [
+      "food",
+      "vending"
+    ]
+  },
   "vending_ice_cream": {
     "groups": [
       "food",
@@ -2364,12 +2405,6 @@
     ]
   },
   "vending_ice_cream2": {
-    "groups": [
-      "food",
-      "vending"
-    ]
-  },
-  "vending_ice": {
     "groups": [
       "food",
       "vending"
@@ -2446,6 +2481,11 @@
       "barriers"
     ]
   },
+  "waste": {
+    "groups": [
+      "utilities"
+    ]
+  },
   "waste_device": {
     "groups": [
       "utilities"
@@ -2466,9 +2506,10 @@
       "utilities"
     ]
   },
-  "waste": {
+  "water": {
     "groups": [
-      "utilities"
+      "utilities",
+      "water"
     ]
   },
   "water_device": {
@@ -2495,14 +2536,14 @@
       "water"
     ]
   },
-  "water_tap_drinkable": {
+  "water_tap": {
     "groups": [
       "camping",
       "utilities",
       "water"
     ]
   },
-  "water_tap": {
+  "water_tap_drinkable": {
     "groups": [
       "camping",
       "utilities",
@@ -2512,12 +2553,6 @@
   "water_tower": {
     "groups": [
       "infrastructure",
-      "utilities",
-      "water"
-    ]
-  },
-  "water": {
-    "groups": [
       "utilities",
       "water"
     ]
@@ -2553,13 +2588,13 @@
       "tools"
     ]
   },
-  "wheelchair_active": {
+  "wheelchair": {
     "groups": [
       "accessibility",
       "people"
     ]
   },
-  "wheelchair": {
+  "wheelchair_active": {
     "groups": [
       "accessibility",
       "people"
@@ -2591,6 +2626,14 @@
       "aeroways"
     ]
   },
+  "x_oblique": {
+    "groups": [
+      "crossings",
+      "highways",
+      "railways",
+      "shapes"
+    ]
+  },
   "yield": {
     "groups": [
       "highways",
@@ -2600,19 +2643,6 @@
   "zoo": {
     "groups": [
       "animals"
-    ]
-  },
-  "x_oblique": {
-    "groups": [
-      "highways",
-      "railways",
-      "shapes"
-    ]
-  },
-  "tram_side": {
-    "groups": [
-      "railways",
-      "vehicles"
     ]
   }
 }

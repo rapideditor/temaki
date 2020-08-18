@@ -17,6 +17,7 @@ const groups = new Set([
   'buildings',
   'camping',
   'clothes',
+  'crossings',
   'cycling',
   'food',
   'healthcare',
@@ -100,7 +101,14 @@ function checkIcons() {
     if (!validKeys.has(key)) {
       delete meta[key];
     }
-  })
+  });
+
+  // sort the properties by key
+  Object.keys(meta).sort().forEach((key) => {
+    let val = meta[key];
+    delete meta[key];
+    meta[key] = val;
+  });
 
   fs.writeFileSync('./data/icons.json', JSON.stringify(meta, null, '  '));
 
