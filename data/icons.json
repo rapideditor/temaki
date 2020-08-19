@@ -690,6 +690,19 @@
       "infrastructure"
     ]
   },
+  "cooling_tower": {
+    "groups": [
+      "buildings",
+      "infrastructure"
+    ]
+  },
+  "cooling_tower_radiation": {
+    "groups": [
+      "buildings",
+      "infrastructure",
+      "power"
+    ]
+  },
   "courthouse": {
     "groups": [
       "tools"
