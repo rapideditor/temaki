@@ -77,10 +77,11 @@ function checkIcons() {
     }
     if (!meta[iconName].groups) {
       meta[iconName].groups = [];
+      console.log(colors.yellow(`New Icon - Please add groups for "${iconName}" in data/icons.json`));
     } else {
       meta[iconName].groups = meta[iconName].groups.sort();
+      if (!meta[iconName].groups.length) console.log(colors.yellow(`Warning - "${iconName}" has no groups in data/icons.json`));
     }
-    if (!meta[iconName].groups.length) console.log(colors.yellow(`Warning - "${iconName}" has no groups in data/icons.json`));
 
     Object.keys(meta[iconName]).forEach(function(prop) {
       if (!properties.has(prop)) {

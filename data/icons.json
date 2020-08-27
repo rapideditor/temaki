@@ -719,7 +719,20 @@
       "sports"
     ]
   },
+  "crossing_rail_rail": {
+    "groups": [
+      "crossings",
+      "railways"
+    ]
+  },
   "crossing_rail_road": {
+    "groups": [
+      "crossings",
+      "highways",
+      "railways"
+    ]
+  },
+  "crossing_rail_solid": {
     "groups": [
       "crossings",
       "highways",
@@ -733,6 +746,13 @@
     ]
   },
   "crossing_tram_road": {
+    "groups": [
+      "crossings",
+      "highways",
+      "railways"
+    ]
+  },
+  "crossing_tram_solid": {
     "groups": [
       "crossings",
       "highways",
