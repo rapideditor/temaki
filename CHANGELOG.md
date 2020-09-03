@@ -7,6 +7,30 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 4.1.0
+##### 2020-Sep-03
+
+* Update preview page with search and categories ([#61])
+* Perform additional linting on SVGs
+* Add tower icons: [`cooling_tower`], [`cooling_tower_radiation`]
+* Add crossing icons: [`crossing_rail_rail`], [`crossing_rail_road`], [`crossing_rail_solid`], [`crossing_rail_striped`], [`crossing_tram_road`], [`crossing_tram_solid`], [`crossing_tram_striped`], [`x_oblique`], [`tram_side`]
+* Add [`toll_gantry`] icon
+
+[#61]: https://github.com/ideditor/temaki/issues/61
+
+[`cooling_tower`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cooling_tower
+[`cooling_tower_radiation`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cooling_tower_radiation
+[`crossing_rail_rail`]: https://ideditor.github.io/temaki/docs/#icon-temaki-crossing_rail_rail
+[`crossing_rail_road`]: https://ideditor.github.io/temaki/docs/#icon-temaki-crossing_rail_road
+[`crossing_rail_solid`]: https://ideditor.github.io/temaki/docs/#icon-temaki-crossing_rail_solid
+[`crossing_rail_striped`]: https://ideditor.github.io/temaki/docs/#icon-temaki-crossing_rail_striped
+[`crossing_tram_road`]: https://ideditor.github.io/temaki/docs/#icon-temaki-crossing_tram_road
+[`crossing_tram_solid`]: https://ideditor.github.io/temaki/docs/#icon-temaki-crossing_tram_solid
+[`crossing_tram_striped`]: https://ideditor.github.io/temaki/docs/#icon-temaki-crossing_tram_striped
+[`x_oblique`]: https://ideditor.github.io/temaki/docs/#icon-temaki-x_oblique
+[`toll_gantry`]: https://ideditor.github.io/temaki/docs/#icon-temaki-toll_gantry
+[`tram_side`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tram_side
+
 # 4.0.0
 ##### 2020-Jun-10
 
