@@ -2222,6 +2222,12 @@
       "military"
     ]
   },
+  "toll_gantry": {
+    "groups": [
+      "barriers",
+      "highways"
+    ]
+  },
   "toolbox": {
     "groups": [
       "tools"
