@@ -1,10 +1,10 @@
 [![npm version](https://badge.fury.io/js/%40ideditor%2Ftemaki.svg)](https://badge.fury.io/js/%40ideditor%2Ftemaki)
 
-## <sub><img width="28" src="https://cdn.jsdelivr.net/gh/ideditor/temaki@master/icons/temaki.svg"/> </sub> Temaki
+## <sub><img width="28" src="https://cdn.jsdelivr.net/gh/ideditor/temaki@main/icons/temaki.svg"/> </sub> Temaki
 
 An icon expansion pack for [Maki](https://github.com/mapbox/maki)
 
-[![](https://cdn.jsdelivr.net/gh/ideditor/temaki@master/dist/temaki-view.svg)](https://ideditor.github.io/temaki/docs)
+[![](https://cdn.jsdelivr.net/gh/ideditor/temaki@main/dist/temaki-view.svg)](https://ideditor.github.io/temaki/docs)
 
 See https://ideditor.github.io/temaki/docs for details about each icon.
 
