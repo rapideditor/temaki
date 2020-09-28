@@ -10,6 +10,49 @@ function ellipseAttrsToPathD(rx, cx, ry, cy) {
   return `M${cx - rx},${cy}a${rx},${ry} 0 1,0 ${rx * 2},0a${rx},${ry} 0 1,0 -${rx * 2},0z`;
 }
 
+// https://github.com/elrumordelaluz/element-to-path/blob/master/src/index.js
+function rectAttrsToPathD(attrs) {
+  const w = parseFloat(attrs('width'));
+  const h = parseFloat(attrs('height'));
+  const x = attrs('x') ? parseFloat(attrs('x')) : 0;
+  const y = attrs('y') ? parseFloat(attrs('y')) : 0;
+  let rx = attrs('rx') || 'auto';
+  let ry = attrs('ry') || 'auto';
+  if (rx === 'auto' && ry === 'auto') {
+    rx = ry = 0;
+  } else if (rx !== 'auto' && ry === 'auto') {
+    rx = ry = calcValue(rx, w);
+  } else if (ry !== 'auto' && rx === 'auto') {
+    ry = rx = calcValue(ry, h);
+  } else {
+    rx = calcValue(rx, w);
+    ry = calcValue(ry, h);
+  }
+  if (rx > w / 2) {
+    rx = w / 2;
+  }
+  if (ry > h / 2) {
+    ry = h / 2;
+  }
+  const hasCurves = rx > 0 && ry > 0;
+  return [
+    `M${x + rx} ${y}`,
+    `H${x + w - rx}`,
+    (hasCurves ? `A${rx} ${ry} 0 0 1 ${x + w} ${y + ry}` : ''),
+    `V${y + h - ry}`,
+    (hasCurves ? `A${rx} ${ry} 0 0 1 ${x + w - rx} ${y + h}` : ''),
+    `H${x + rx}`,
+    (hasCurves ? `A${rx} ${ry} 0 0 1 ${x} ${y + h - ry}` : ''),
+    `V${y + ry}`,
+    (hasCurves ? `A${rx} ${ry} 0 0 1 ${x + rx} ${y}` : ''),
+    'z',
+  ].filter(Boolean).join('');
+
+  function calcValue(val, base) {
+    return /%$/.test(val) ? (val.replace('%', '') * 100) / base : parseFloat(val);
+  }
+}
+
 function checkIcons() {
   const START = '✅   ' + colors.yellow('Checking icons...');
   const END = '👍  ' + colors.green('done');
@@ -38,6 +81,7 @@ function checkIcons() {
     let warnings = [];
 
     let childrenToRemove = new Set();
+    let pathDataToAdd = new Set();
 
     xml.each((child, index, level) => {
       const node = child.node;
@@ -73,21 +117,28 @@ function checkIcons() {
         // convert ellipses to paths
         if (node.nodeName === 'ellipse') {
           const attr = (name) => parseFloat(node.getAttribute(name));
-          child.up().ele('path', {
-            d: ellipseAttrsToPathD(attr('rx'), attr('cx'), attr('ry'), attr('cy'))
-          });
+          pathDataToAdd.add(ellipseAttrsToPathD(attr('rx'), attr('cx'), attr('ry'), attr('cy')));
+          childrenToRemove.add(child);
+          return;
+
+        // convert rects to paths
+      } else if (node.nodeName === 'rect') {
+          const attr = (name) => node.getAttribute(name);
+          pathDataToAdd.add(rectAttrsToPathD(attr));
           childrenToRemove.add(child);
           return;
 
         // convert polygons to paths
         } else if (node.nodeName === 'polygon') {
-          child.up().ele('path', {
-            d: 'M ' + node.getAttribute('points') + 'z'
-          });
+          pathDataToAdd.add('M ' + node.getAttribute('points') + 'z');
           childrenToRemove.add(child);
           return;
         // remove metadata nodes
         } else if (node.nodeName === 'title' || node.nodeName === 'desc') {
+          childrenToRemove.add(child);
+          return;
+        } else if (node.nodeName === 'g') {
+          // groups will be emptied so remove them
           childrenToRemove.add(child);
           return;
         }
@@ -96,14 +147,10 @@ function checkIcons() {
           let parent = child.up();
           if (parent.node.nodeName === 'g') {
             // move the node out of the group
-            parent.up().ele(child.toString());
+            pathDataToAdd.add(child.toString());
             childrenToRemove.add(child);
           }
-        } else if (level === 2 && node.nodeName === 'g') {
-          // groups will be emptied so remove them
-          childrenToRemove.add(child);
-          return;
-        }
+        }        
 
         // suspicious elements
         if (node.nodeName !== 'path') {
@@ -132,6 +179,17 @@ function checkIcons() {
     Array.from(childrenToRemove).forEach((child) => {
       child.remove();
     });
+
+    Array.from(pathDataToAdd).forEach((pathData) => {
+      if (pathData[0] === '<') {
+        xml.root().ele(pathData);
+      } else {
+        xml.root().ele('path', {
+          d: pathData
+        });
+      }
+    });
+
 
     if (warnings.length) {
       warnings.forEach(w => console.warn(w));
