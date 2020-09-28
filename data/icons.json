@@ -670,6 +670,12 @@
       "information"
     ]
   },
+  "cloth": {
+    "groups": [
+      "clothes",
+      "home"
+    ]
+  },
   "clothes_hanger": {
     "groups": [
       "clothes"
@@ -794,6 +800,11 @@
       "home"
     ]
   },
+  "detergent_bottle": {
+    "groups": [
+      "home"
+    ]
+  },
   "diamond": {
     "groups": [
       "highways",
@@ -886,6 +897,12 @@
   "field_hockey": {
     "groups": [
       "sports"
+    ]
+  },
+  "fighter_jet": {
+    "groups": [
+      "aeroways",
+      "vehicles"
     ]
   },
   "fire_hydrant": {
@@ -1229,6 +1246,12 @@
     "groups": [
       "home",
       "water"
+    ]
+  },
+  "latrine": {
+    "groups": [
+      "buildings",
+      "camping"
     ]
   },
   "laundry": {
@@ -1799,6 +1822,12 @@
       "snow"
     ]
   },
+  "sailboat": {
+    "groups": [
+      "vehicles",
+      "water"
+    ]
+  },
   "sailing": {
     "groups": [
       "sports",
@@ -2201,6 +2230,12 @@
       "sports"
     ]
   },
+  "tents": {
+    "groups": [
+      "buildings",
+      "camping"
+    ]
+  },
   "ticket": {
     "groups": [
       "information"
@@ -2548,6 +2583,12 @@
   "water": {
     "groups": [
       "utilities",
+      "water"
+    ]
+  },
+  "water_bottle": {
+    "groups": [
+      "food",
       "water"
     ]
   },
