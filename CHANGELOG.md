@@ -7,6 +7,20 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 4.2.0
+##### 2020-Sep-28
+
+* Add public domain icons from The Noun Project used by iD
+  * [`cloth`], [`detergent_bottle`], [`fighter_jet`], [`latrine`], [`sailboat`], [`tents`], [`water_bottle`]
+
+[`cloth`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cloth
+[`detergent_bottle`]: https://ideditor.github.io/temaki/docs/#icon-temaki-detergent_bottle
+[`fighter_jet`]: https://ideditor.github.io/temaki/docs/#icon-temaki-fighter_jet
+[`latrine`]: https://ideditor.github.io/temaki/docs/#icon-temaki-latrine
+[`sailboat`]: https://ideditor.github.io/temaki/docs/#icon-temaki-sailboat
+[`tents`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tents
+[`water_bottle`]: https://ideditor.github.io/temaki/docs/#icon-temaki-water_bottle
+
 # 4.1.0
 ##### 2020-Sep-03
 
