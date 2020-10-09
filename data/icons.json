@@ -1145,6 +1145,11 @@
       "water"
     ]
   },
+  "hunting_blind": {
+    "groups": [
+      "buildings"
+    ]
+  },
   "ice_fishing": {
     "groups": [
       "animals",
