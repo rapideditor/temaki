@@ -1817,6 +1817,12 @@
       "vehicles"
     ]
   },
+  "room": {
+    "groups": [
+      "buildings",
+      "home"
+    ]
+  },
   "rope_fence": {
     "groups": [
       "barriers"
