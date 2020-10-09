@@ -1302,6 +1302,17 @@
       "security"
     ]
   },
+  "lounger": {
+    "groups": [
+      "seating"
+    ]
+  },
+  "lounging": {
+    "groups": [
+      "people",
+      "seating"
+    ]
+  },
   "manhole": {
     "groups": [
       "utilities"
