@@ -366,6 +366,12 @@
       "landforms"
     ]
   },
+  "bow_and_arrow": {
+    "groups": [
+      "sports",
+      "tools"
+    ]
+  },
   "bowling": {
     "groups": [
       "sports"
