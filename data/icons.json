@@ -2729,6 +2729,11 @@
       "home"
     ]
   },
+  "windpump": {
+    "groups": [
+      "infrastructure"
+    ]
+  },
   "windsock": {
     "groups": [
       "aeroways"
