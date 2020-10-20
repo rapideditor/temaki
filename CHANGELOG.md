@@ -4,8 +4,23 @@
 # A.B.C
 ##### YYYY-MMM-DD
 
+[`xxxx`]: https://ideditor.github.io/temaki/docs/#icon-temaki-xxxx
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
+
+# 4.3.0
+##### 2020-Oct-20
+
+* Add icons: [`boat_dry_dock`], [`bow_and_arrow`], [`horn_cleat`], [`hunting_blind`], [`lounger`], [`lounging`], [`room`], [`windpump`]
+
+[`boat_dry_dock`]: https://ideditor.github.io/temaki/docs/#icon-temaki-boat_dry_dock
+[`bow_and_arrow`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bow_and_arrow
+[`horn_cleat`]: https://ideditor.github.io/temaki/docs/#icon-temaki-horn_cleat
+[`hunting_blind`]: https://ideditor.github.io/temaki/docs/#icon-temaki-hunting_blind
+[`lounger`]: https://ideditor.github.io/temaki/docs/#icon-temaki-lounger
+[`lounging`]: https://ideditor.github.io/temaki/docs/#icon-temaki-lounging
+[`room`]: https://ideditor.github.io/temaki/docs/#icon-temaki-room
+[`windpump`]: https://ideditor.github.io/temaki/docs/#icon-temaki-windpump
 
 # 4.2.0
 ##### 2020-Sep-28

@@ -295,7 +295,8 @@
   },
   "boat_dry_dock": {
     "groups": [
-      "vehicles"
+      "vehicles",
+      "water"
     ]
   },
   "boat_floating": {
