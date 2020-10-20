@@ -293,6 +293,11 @@
       "water"
     ]
   },
+  "boat_dry_dock": {
+    "groups": [
+      "vehicles"
+    ]
+  },
   "boat_floating": {
     "groups": [
       "vehicles",
