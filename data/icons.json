@@ -1120,6 +1120,11 @@
       "religion"
     ]
   },
+  "horn_cleat": {
+    "groups": [
+      "water"
+    ]
+  },
   "horse_shelter": {
     "groups": [
       "animals",
