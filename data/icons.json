@@ -142,6 +142,13 @@
       "vehicles"
     ]
   },
+  "bicycle_shed": {
+    "groups": [
+      "buildings",
+      "cycling",
+      "vehicles"
+    ]
+  },
   "bicycle_structure": {
     "groups": [
       "cycling",
