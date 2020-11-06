@@ -1364,6 +1364,11 @@
       "utilities"
     ]
   },
+  "maze": {
+    "groups": [
+      "buildings"
+    ]
+  },
   "meat": {
     "groups": [
       "food"
