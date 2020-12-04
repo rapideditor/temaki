@@ -2124,6 +2124,12 @@
       "tools"
     ]
   },
+  "spring_rider": {
+    "groups": [
+      "animals",
+      "sports"
+    ]
+  },
   "stamp": {
     "groups": [
       "mail"
