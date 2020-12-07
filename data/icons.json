@@ -84,6 +84,12 @@
       "people"
     ]
   },
+  "balance_beam": {
+    "groups": [
+      "people",
+      "sports"
+    ]
+  },
   "balloon": {
     "groups": [
       "shapes"
