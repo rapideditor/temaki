@@ -1066,6 +1066,12 @@
       "tools"
     ]
   },
+  "hammer_shoe": {
+    "groups": [
+      "clothes",
+      "tools"
+    ]
+  },
   "hand": {
     "groups": [
       "people"
