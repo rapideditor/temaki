@@ -1140,6 +1140,12 @@
       "religion"
     ]
   },
+  "horizontal_bar": {
+    "groups": [
+      "people",
+      "sports"
+    ]
+  },
   "horn_cleat": {
     "groups": [
       "water"
