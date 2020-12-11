@@ -161,6 +161,11 @@
       "vehicles"
     ]
   },
+  "bikini": {
+    "groups": [
+      "clothes"
+    ]
+  },
   "billboard": {
     "groups": [
       "information"
