@@ -587,6 +587,11 @@
       "water"
     ]
   },
+  "cape_landform": {
+    "groups": [
+      "landforms"
+    ]
+  },
   "capitol": {
     "groups": [
       "buildings"
