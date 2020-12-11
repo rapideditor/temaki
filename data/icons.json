@@ -1481,6 +1481,11 @@
       "tools"
     ]
   },
+  "obelisk": {
+    "groups": [
+      "buildings"
+    ]
+  },
   "oil_well": {
     "groups": [
       "infrastructure"
