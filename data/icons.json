@@ -1203,6 +1203,11 @@
       "buildings"
     ]
   },
+  "hut": {
+    "groups": [
+      "buildings"
+    ]
+  },
   "ice_fishing": {
     "groups": [
       "animals",
