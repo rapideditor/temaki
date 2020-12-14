@@ -143,6 +143,9 @@ function checkIcons() {
           return;
         }
 
+        // Remove unwanted attributes
+        child.removeAtt(['fill', 'fill-rule', 'id', 'xmlns']);
+
         if (level > 2) {
           let parent = child.up();
           if (parent.node.nodeName === 'g') {
@@ -150,7 +153,7 @@ function checkIcons() {
             pathDataToAdd.add(child.toString());
             childrenToRemove.add(child);
           }
-        }        
+        }
 
         // suspicious elements
         if (node.nodeName !== 'path') {
@@ -158,9 +161,6 @@ function checkIcons() {
           warnings.push(colors.gray('  Each svg element should contain only one or more "path" elements.'));
           return;
         }
-
-        // Remove unwanted path attributes
-        child.removeAtt(['fill', 'fill-rule', 'id', 'xmlns']);
 
         // suspicious attributes
         let suspicious = node.attributes
