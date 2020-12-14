@@ -8,6 +8,24 @@
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 4.4.0
+##### 2020-Dec-14
+
+* Add icons: [`balance_beam`], [`bicycle_shed`], [`bikini`], [`cape_landform`], [`coral_reef`], [`hammer_shoe`], [`horizontal_bar`], [`hut`], [`maze`], [`obelisk`], [`sandbox`], [`spring_rider`]
+
+[`balance_beam`]: https://ideditor.github.io/temaki/docs/#icon-temaki-balance_beam
+[`bicycle_shed`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bicycle_shed
+[`bikini`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bikini
+[`cape_landform`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cape_landform
+[`coral_reef`]: https://ideditor.github.io/temaki/docs/#icon-temaki-coral_reef
+[`hammer_shoe`]: https://ideditor.github.io/temaki/docs/#icon-temaki-hammer_shoe
+[`horizontal_bar`]: https://ideditor.github.io/temaki/docs/#icon-temaki-horizontal_bar
+[`hut`]: https://ideditor.github.io/temaki/docs/#icon-temaki-hut
+[`maze`]: https://ideditor.github.io/temaki/docs/#icon-temaki-maze
+[`obelisk`]: https://ideditor.github.io/temaki/docs/#icon-temaki-obelisk
+[`sandbox`]: https://ideditor.github.io/temaki/docs/#icon-temaki-sandbox
+[`spring_rider`]: https://ideditor.github.io/temaki/docs/#icon-temaki-spring_rider
+
 # 4.3.0
 ##### 2020-Oct-20
 
