@@ -744,6 +744,13 @@
       "power"
     ]
   },
+  "coral_reef": {
+    "groups": [
+      "animals",
+      "landforms",
+      "plants"
+    ]
+  },
   "courthouse": {
     "groups": [
       "tools"
