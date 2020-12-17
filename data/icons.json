@@ -1888,6 +1888,11 @@
       "buildings"
     ]
   },
+  "rigging": {
+    "groups": [
+      "tools"
+    ]
+  },
   "rocket_firework": {
     "groups": [
       "military"
