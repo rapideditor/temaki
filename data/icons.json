@@ -1676,6 +1676,14 @@
   "portrait": {
     "groups": [
       "arts",
+      "clothes",
+      "people"
+    ]
+  },
+  "portrait_framed": {
+    "groups": [
+      "arts",
+      "clothes",
       "people"
     ]
   },
