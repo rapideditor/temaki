@@ -1918,6 +1918,11 @@
       "snow"
     ]
   },
+  "sail": {
+    "groups": [
+      "tools"
+    ]
+  },
   "sailboat": {
     "groups": [
       "vehicles",
