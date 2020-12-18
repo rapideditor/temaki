@@ -1634,6 +1634,11 @@
       "vehicles"
     ]
   },
+  "plant": {
+    "groups": [
+      "plants"
+    ]
+  },
   "plaque": {
     "groups": [
       "information"
