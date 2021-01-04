@@ -79,6 +79,12 @@
       "military"
     ]
   },
+  "asterisk": {
+    "groups": [
+      "healthcare",
+      "shapes"
+    ]
+  },
   "atm": {
     "groups": [
       "people"
@@ -424,6 +430,12 @@
   "briefcase": {
     "groups": [
       "bags"
+    ]
+  },
+  "briefcase_asterisk": {
+    "groups": [
+      "bags",
+      "healthcare"
     ]
   },
   "briefcase_bolt": {
@@ -1471,16 +1483,22 @@
       "vehicles"
     ]
   },
+  "mountain_asterisk": {
+    "groups": [
+      "healthcare",
+      "landforms"
+    ]
+  },
+  "mountain_cross": {
+    "groups": [
+      "healthcare",
+      "landforms"
+    ]
+  },
   "mountain_range": {
     "groups": [
       "landforms",
       "snow"
-    ]
-  },
-  "mountain_rescue": {
-    "groups": [
-      "healthcare",
-      "landforms"
     ]
   },
   "movie_rental": {
