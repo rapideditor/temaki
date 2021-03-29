@@ -27,7 +27,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 
 [`asterisk`]: https://ideditor.github.io/temaki/docs/#icon-temaki-asterisk
 [`briefcase_asterisk`]: https://ideditor.github.io/temaki/docs/#icon-temaki-briefcase_asterisk
-[`mountain-asterisk`]: https://ideditor.github.io/temaki/docs/#icon-temaki-mountain_asterisk
+[`mountain_asterisk`]: https://ideditor.github.io/temaki/docs/#icon-temaki-mountain_asterisk
 [`seesaw`]: https://ideditor.github.io/temaki/docs/#icon-temaki-seesaw
 [`plant`]: https://ideditor.github.io/temaki/docs/#icon-temaki-plant
 [`rigging`]: https://ideditor.github.io/temaki/docs/#icon-temaki-rigging
@@ -37,6 +37,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 [#65]: https://github.com/ideditor/temaki/issues/65
 [#64]: https://github.com/ideditor/temaki/issues/64
 [#63]: https://github.com/ideditor/temaki/issues/63
+[#62]: https://github.com/ideditor/temaki/issues/62
 
 
 # 4.4.0
