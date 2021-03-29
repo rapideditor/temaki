@@ -1,4 +1,11 @@
-:warning: = Breaking change
+# What's New
+
+**temaki** is an open source project. You can submit bug reports, help out,
+or learn more by visiting our project page on GitHub:  :octocat: https://github.com/ideditor/temaki
+
+Please star our project on GitHub to show your support! :star:
+
+_Breaking changes, which may affect downstream projects, are marked with a_ :warning:
 
 <!--
 # A.B.C
@@ -7,6 +14,30 @@
 [`xxxx`]: https://ideditor.github.io/temaki/docs/#icon-temaki-xxxx
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
+
+# 5.0.0
+##### 2021-Mar-29
+
+* Normalize / round coordinates of all icons [#64]
+* Small cleanups to icons: cooling towers [#65], polished nail [#63]
+* Revise medical cross icons [#62]
+  * Add icons: [`asterisk`], [`briefcase_asterisk`], [`mountain_asterisk`]
+  * :warning: Rename icon: `mountain_rescue` -> `mountain_cross`
+* Add icons: [`seesaw`], [`plant`], [`rigging`], [`portrait_framed`], [`portrait`], [`sail`]
+
+[`asterisk`]: https://ideditor.github.io/temaki/docs/#icon-temaki-asterisk
+[`briefcase_asterisk`]: https://ideditor.github.io/temaki/docs/#icon-temaki-briefcase_asterisk
+[`mountain-asterisk`]: https://ideditor.github.io/temaki/docs/#icon-temaki-mountain_asterisk
+[`seesaw`]: https://ideditor.github.io/temaki/docs/#icon-temaki-seesaw
+[`plant`]: https://ideditor.github.io/temaki/docs/#icon-temaki-plant
+[`rigging`]: https://ideditor.github.io/temaki/docs/#icon-temaki-rigging
+[`portrait`]: https://ideditor.github.io/temaki/docs/#icon-temaki-portrait
+[`portrait_framed`]: https://ideditor.github.io/temaki/docs/#icon-temaki-portrait_framed
+[`sail`]: https://ideditor.github.io/temaki/docs/#icon-temaki-sail
+[#65]: https://github.com/ideditor/temaki/issues/65
+[#64]: https://github.com/ideditor/temaki/issues/64
+[#63]: https://github.com/ideditor/temaki/issues/63
+
 
 # 4.4.0
 ##### 2020-Dec-14
