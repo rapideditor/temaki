@@ -1,6 +1,7 @@
 const colors = require('colors');
 const fs = require('fs');
 const glob = require('glob');
+const { pathParse, serializePath } = require('svg-path-parse')
 const xmlbuilder2 = require('xmlbuilder2');
 
 
@@ -120,14 +121,12 @@ function checkIcons() {
           pathDataToAdd.add(ellipseAttrsToPathD(attr('rx'), attr('cx'), attr('ry'), attr('cy')));
           childrenToRemove.add(child);
           return;
-
         // convert rects to paths
-      } else if (node.nodeName === 'rect') {
+        } else if (node.nodeName === 'rect') {
           const attr = (name) => node.getAttribute(name);
           pathDataToAdd.add(rectAttrsToPathD(attr));
           childrenToRemove.add(child);
           return;
-
         // convert polygons to paths
         } else if (node.nodeName === 'polygon') {
           pathDataToAdd.add('M ' + node.getAttribute('points') + 'z');
@@ -170,6 +169,14 @@ function checkIcons() {
         if (suspicious.length) {
           warnings.push(colors.yellow('Warning - Suspicious attributes on ' + node.nodeName + ': ' + suspicious));
           warnings.push(colors.gray('  Avoid identifiers, style, and presentation attributes.'));
+        }
+
+        // normalize path data
+        const d = node.getAttribute('d');
+        let pathdata = d && pathParse(d);
+        if (pathdata) {
+          pathdata = pathdata.normalize({round: 2});
+          node.setAttribute('d', serializePath(pathdata));
         }
       }
 
