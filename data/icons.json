@@ -1568,6 +1568,12 @@
       "people"
     ]
   },
+  "pedestrian_signals": {
+    "groups": [
+      "crossings",
+      "people"
+    ]
+  },
   "pedestrian_walled": {
     "groups": [
       "barriers",
