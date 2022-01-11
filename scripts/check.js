@@ -1,4 +1,4 @@
-const colors = require('colors');
+const chalk = require('chalk');
 const fs = require('fs');
 const glob = require('glob');
 const { pathParse, serializePath } = require('svg-path-parse')
@@ -55,8 +55,8 @@ function rectAttrsToPathD(attrs) {
 }
 
 function checkIcons() {
-  const START = '✅   ' + colors.yellow('Checking icons...');
-  const END = '👍  ' + colors.green('done');
+  const START = '✅   ' + chalk.yellow('Checking icons...');
+  const END = '👍  ' + chalk.green('done');
 
   console.log('');
   console.log(START);
@@ -68,8 +68,8 @@ function checkIcons() {
     try {
       xml = xmlbuilder2.create(contents);
     } catch (err) {
-      console.error(colors.red(`Error - ${err.message} reading:`));
-      console.error('  ' + colors.yellow(file));
+      console.error(chalk.red(`Error - ${err.message} reading:`));
+      console.error('  ' + chalk.yellow(file));
       console.error('');
       process.exit(1);
     }
@@ -94,16 +94,16 @@ function checkIcons() {
       // Checks for the root
       if (level === 1) {
         if (node.nodeName !== 'svg') {
-          console.error(colors.red('Error - Invalid node at document root: ') + colors.yellow(node.nodeName));
-          console.error(colors.gray('  Each file should contain only a single root "svg" element.'));
+          console.error(chalk.red('Error - Invalid node at document root: ') + chalk.yellow(node.nodeName));
+          console.error(chalk.gray('  Each file should contain only a single root "svg" element.'));
           console.error('  in ' + file);
           console.error('');
           process.exit(1);
         }
 
         if (rootCount++ > 0) {
-          console.error(colors.red('Error - Multiple nodes at document root'));
-          console.error(colors.gray('  Each file should contain only a single root "svg" element.'));
+          console.error(chalk.red('Error - Multiple nodes at document root'));
+          console.error(chalk.gray('  Each file should contain only a single root "svg" element.'));
           console.error('  in ' + file);
           console.error('');
           process.exit(1);
@@ -156,8 +156,8 @@ function checkIcons() {
 
         // suspicious elements
         if (node.nodeName !== 'path') {
-          warnings.push(colors.yellow('Warning - Suspicious node: ' + node.nodeName));
-          warnings.push(colors.gray('  Each svg element should contain only one or more "path" elements.'));
+          warnings.push(chalk.yellow('Warning - Suspicious node: ' + node.nodeName));
+          warnings.push(chalk.gray('  Each svg element should contain only one or more "path" elements.'));
           return;
         }
 
@@ -167,8 +167,8 @@ function checkIcons() {
           .filter(name => name !== 'd');
 
         if (suspicious.length) {
-          warnings.push(colors.yellow('Warning - Suspicious attributes on ' + node.nodeName + ': ' + suspicious));
-          warnings.push(colors.gray('  Avoid identifiers, style, and presentation attributes.'));
+          warnings.push(chalk.yellow('Warning - Suspicious attributes on ' + node.nodeName + ': ' + suspicious));
+          warnings.push(chalk.gray('  Avoid identifiers, style, and presentation attributes.'));
         }
 
         // normalize path data
