@@ -1,8 +1,8 @@
-const chalk = require('chalk');
-const fs = require('fs');
-const glob = require('glob');
-const { pathParse, serializePath } = require('svg-path-parse')
-const xmlbuilder2 = require('xmlbuilder2');
+import chalk from 'chalk';
+import fs from 'node:fs';
+import glob from 'glob';
+import svgPathParse from 'svg-path-parse';
+import xmlbuilder2 from 'xmlbuilder2';
 
 
 checkIcons();
@@ -173,10 +173,10 @@ function checkIcons() {
 
         // normalize path data
         const d = node.getAttribute('d');
-        let pathdata = d && pathParse(d);
+        let pathdata = d && svgPathParse.pathParse(d);
         if (pathdata) {
           pathdata = pathdata.normalize({round: 2});
-          node.setAttribute('d', serializePath(pathdata));
+          node.setAttribute('d', svgPathParse.serializePath(pathdata));
         }
       }
 

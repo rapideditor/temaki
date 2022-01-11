@@ -1,4 +1,5 @@
-const fs = require('fs');
+import fs from 'node:fs';
+
 const iconMeta = JSON.stringify(JSON.parse(fs.readFileSync('./data/icons.json')));
 
 // Put the metadata in a format that svg-sprite can insert into the preview page template

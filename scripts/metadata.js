@@ -1,11 +1,12 @@
-const chalk = require('chalk');
-const fs = require('fs');
-const glob = require('glob');
+import chalk from 'chalk';
+import fs from 'node:fs';
+import glob from 'glob';
 
 
 const properties = new Set([
   'groups'
 ]);
+
 const groups = new Set([
   'accessibility',
   'aeroways',
