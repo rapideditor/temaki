@@ -140,6 +140,9 @@
       "vehicles"
     ]
   },
+  "bicycle_parked": {
+    "groups": []
+  },
   "bicycle_rental": {
     "groups": [
       "cycling",
@@ -1415,6 +1418,9 @@
       "telecom",
       "utilities"
     ]
+  },
+  "mast_lighting": {
+    "groups": []
   },
   "maze": {
     "groups": [
