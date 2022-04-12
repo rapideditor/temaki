@@ -15,6 +15,17 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+# 5.1.0
+##### 2022-Apr-12
+
+* Add [`mast_lighting`] icon [#73]
+* Add [`bicycle_parked`] icon [#72]
+
+[`bicycle_parked`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bicycle_parked
+[`mast_lighting`]: https://ideditor.github.io/temaki/docs/#icon-temaki-mast_lighting
+[#73]: https://github.com/ideditor/temaki/issues/73
+[#72]: https://github.com/ideditor/temaki/issues/72
+
 # 5.0.0
 ##### 2021-Mar-29
 

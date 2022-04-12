@@ -141,7 +141,10 @@
     ]
   },
   "bicycle_parked": {
-    "groups": []
+    "groups": [
+      "cycling",
+      "vehicles"
+    ]
   },
   "bicycle_rental": {
     "groups": [
@@ -1420,7 +1423,10 @@
     ]
   },
   "mast_lighting": {
-    "groups": []
+    "groups": [
+      "infrastructure",
+      "utilities"
+    ]
   },
   "maze": {
     "groups": [
