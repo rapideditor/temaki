@@ -15,6 +15,19 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 [#x]: https://github.com/ideditor/temaki/issues/x
 -->
 
+
+# 5.2.0
+##### 2022-Nov-01
+
+* Add [`atm2`] icon [#78]
+* Add [`tree_stump`] icon [#76]
+
+[`atm2`]: https://ideditor.github.io/temaki/docs/#icon-temaki-atm2
+[`tree_stump`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tree_stump
+[#78]: https://github.com/ideditor/temaki/issues/78
+[#76]: https://github.com/ideditor/temaki/issues/76
+
+
 # 5.1.0
 ##### 2022-Apr-12
 
