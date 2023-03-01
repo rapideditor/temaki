@@ -1,6 +1,6 @@
 import chalk from 'chalk';
 import fs from 'node:fs';
-import glob from 'glob';
+import { globSync } from 'glob';
 
 
 const properties = new Set([
@@ -68,7 +68,7 @@ function checkIcons() {
   const existingKeys = Object.keys(meta);
   const validKeys = new Set();
 
-  glob.sync(`./icons/**/*.svg`).forEach(file => {
+  globSync(`./icons/**/*.svg`).forEach(file => {
     const contents = fs.readFileSync(file, 'utf8');
 
     const iconName = file.slice(file.lastIndexOf('/') + 1, -4);

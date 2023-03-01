@@ -1,6 +1,6 @@
 import chalk from 'chalk';
 import fs from 'node:fs';
-import glob from 'glob';
+import { globSync } from 'glob';
 import svgPathParse from 'svg-path-parse';
 import xmlbuilder2 from 'xmlbuilder2';
 
@@ -62,7 +62,7 @@ function checkIcons() {
   console.log(START);
   console.time(END);
 
-  glob.sync(`./icons/**/*.svg`).forEach(file => {
+  globSync(`./icons/**/*.svg`).forEach(file => {
     const contents = fs.readFileSync(file, 'utf8');
     let xml;
     try {

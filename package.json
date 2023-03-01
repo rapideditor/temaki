@@ -24,12 +24,12 @@
     "dist:view": "svg-sprite --view --view-dest . --shape-transform '' --shape-id-generator \"temaki-%s\" -w 15 -h 15 --view-bust false --view-sprite dist/temaki-view.svg icons/*.svg"
   },
   "devDependencies": {
-    "chalk": "^5.1.2",
-    "glob": "^8.0.3",
+    "chalk": "^5.2.0",
+    "glob": "^9.1.2",
     "npm-run-all": "^4.1.5",
     "shx": "^0.3.4",
     "svg-path-parse": "^1.1.3",
-    "svg-sprite": "^2.0.1",
+    "svg-sprite": "^2.0.2",
     "xmlbuilder2": "^3.0.2"
   },
   "engines": {
