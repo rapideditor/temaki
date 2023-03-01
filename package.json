@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "chalk": "^5.1.2",
-    "glob": "^8.0.3",
+    "glob": "^9.1.0",
     "npm-run-all": "^4.1.5",
     "shx": "^0.3.4",
     "svg-path-parse": "^1.1.3",
