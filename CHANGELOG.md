@@ -15,6 +15,14 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 [#x]: https://github.com/rapideditor/temaki/issues/x
 -->
 
+# 5.3.0
+##### 2023-Mar-10
+
+* Add [`quay`] icon [#83]
+
+[`quay`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-quay
+[#83]: https://github.com/rapideditor/temaki/issues/83
+
 
 # 5.2.0
 ##### 2022-Nov-01
