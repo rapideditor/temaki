@@ -10,6 +10,6 @@
 - [ ] git add . && git commit -m 'vA.B.C'
 - [ ] git tag vA.B.C
 - [ ] git push origin main vA.B.C
-- [ ] Open https://github.com/ideditor/temaki/tags
+- [ ] Open https://github.com/rapideditor/temaki/tags
 - [ ] Click `•••` –> `Create Release` and link to `CHANGELOG.md` in `Describe this release`
 - [ ] npm publish

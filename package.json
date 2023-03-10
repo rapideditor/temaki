@@ -1,8 +1,8 @@
 {
-  "name": "@ideditor/temaki",
+  "name": "@rapideditor/temaki",
   "version": "5.2.0",
   "license": "CC0-1.0",
-  "repository": "ideditor/temaki",
+  "repository": "rapideditor/temaki",
   "contributors": [
     "Bryan Housel <bhousel@gmail.com> (https://github.com/bhousel)",
     "Quincy Morgan <quincy.morgan@icloud.com> (https://github.com/quincylvania)"

@@ -1,7 +1,7 @@
 # What's New
 
 **temaki** is an open source project. You can submit bug reports, help out,
-or learn more by visiting our project page on GitHub:  :octocat: https://github.com/ideditor/temaki
+or learn more by visiting our project page on GitHub:  :octocat: https://github.com/rapideditor/temaki
 
 Please star our project on GitHub to show your support! :star:
 
@@ -11,8 +11,8 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 # A.B.C
 ##### YYYY-MMM-DD
 
-[`xxxx`]: https://ideditor.github.io/temaki/docs/#icon-temaki-xxxx
-[#x]: https://github.com/ideditor/temaki/issues/x
+[`xxxx`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-xxxx
+[#x]: https://github.com/rapideditor/temaki/issues/x
 -->
 
 
@@ -22,10 +22,10 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 * Add [`atm2`] icon [#78]
 * Add [`tree_stump`] icon [#76]
 
-[`atm2`]: https://ideditor.github.io/temaki/docs/#icon-temaki-atm2
-[`tree_stump`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tree_stump
-[#78]: https://github.com/ideditor/temaki/issues/78
-[#76]: https://github.com/ideditor/temaki/issues/76
+[`atm2`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-atm2
+[`tree_stump`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-tree_stump
+[#78]: https://github.com/rapideditor/temaki/issues/78
+[#76]: https://github.com/rapideditor/temaki/issues/76
 
 
 # 5.1.0
@@ -34,10 +34,10 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 * Add [`mast_lighting`] icon [#73]
 * Add [`bicycle_parked`] icon [#72]
 
-[`bicycle_parked`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bicycle_parked
-[`mast_lighting`]: https://ideditor.github.io/temaki/docs/#icon-temaki-mast_lighting
-[#73]: https://github.com/ideditor/temaki/issues/73
-[#72]: https://github.com/ideditor/temaki/issues/72
+[`bicycle_parked`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bicycle_parked
+[`mast_lighting`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-mast_lighting
+[#73]: https://github.com/rapideditor/temaki/issues/73
+[#72]: https://github.com/rapideditor/temaki/issues/72
 
 # 5.0.0
 ##### 2021-Mar-29
@@ -49,19 +49,19 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
   * :warning: Rename icon: `mountain_rescue` -> `mountain_cross`
 * Add icons: [`seesaw`], [`plant`], [`rigging`], [`portrait_framed`], [`portrait`], [`sail`]
 
-[`asterisk`]: https://ideditor.github.io/temaki/docs/#icon-temaki-asterisk
-[`briefcase_asterisk`]: https://ideditor.github.io/temaki/docs/#icon-temaki-briefcase_asterisk
-[`mountain_asterisk`]: https://ideditor.github.io/temaki/docs/#icon-temaki-mountain_asterisk
-[`seesaw`]: https://ideditor.github.io/temaki/docs/#icon-temaki-seesaw
-[`plant`]: https://ideditor.github.io/temaki/docs/#icon-temaki-plant
-[`rigging`]: https://ideditor.github.io/temaki/docs/#icon-temaki-rigging
-[`portrait`]: https://ideditor.github.io/temaki/docs/#icon-temaki-portrait
-[`portrait_framed`]: https://ideditor.github.io/temaki/docs/#icon-temaki-portrait_framed
-[`sail`]: https://ideditor.github.io/temaki/docs/#icon-temaki-sail
-[#65]: https://github.com/ideditor/temaki/issues/65
-[#64]: https://github.com/ideditor/temaki/issues/64
-[#63]: https://github.com/ideditor/temaki/issues/63
-[#62]: https://github.com/ideditor/temaki/issues/62
+[`asterisk`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-asterisk
+[`briefcase_asterisk`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-briefcase_asterisk
+[`mountain_asterisk`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-mountain_asterisk
+[`seesaw`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-seesaw
+[`plant`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-plant
+[`rigging`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-rigging
+[`portrait`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-portrait
+[`portrait_framed`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-portrait_framed
+[`sail`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-sail
+[#65]: https://github.com/rapideditor/temaki/issues/65
+[#64]: https://github.com/rapideditor/temaki/issues/64
+[#63]: https://github.com/rapideditor/temaki/issues/63
+[#62]: https://github.com/rapideditor/temaki/issues/62
 
 
 # 4.4.0
@@ -69,32 +69,32 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 
 * Add icons: [`balance_beam`], [`bicycle_shed`], [`bikini`], [`cape_landform`], [`coral_reef`], [`hammer_shoe`], [`horizontal_bar`], [`hut`], [`maze`], [`obelisk`], [`sandbox`], [`spring_rider`]
 
-[`balance_beam`]: https://ideditor.github.io/temaki/docs/#icon-temaki-balance_beam
-[`bicycle_shed`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bicycle_shed
-[`bikini`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bikini
-[`cape_landform`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cape_landform
-[`coral_reef`]: https://ideditor.github.io/temaki/docs/#icon-temaki-coral_reef
-[`hammer_shoe`]: https://ideditor.github.io/temaki/docs/#icon-temaki-hammer_shoe
-[`horizontal_bar`]: https://ideditor.github.io/temaki/docs/#icon-temaki-horizontal_bar
-[`hut`]: https://ideditor.github.io/temaki/docs/#icon-temaki-hut
-[`maze`]: https://ideditor.github.io/temaki/docs/#icon-temaki-maze
-[`obelisk`]: https://ideditor.github.io/temaki/docs/#icon-temaki-obelisk
-[`sandbox`]: https://ideditor.github.io/temaki/docs/#icon-temaki-sandbox
-[`spring_rider`]: https://ideditor.github.io/temaki/docs/#icon-temaki-spring_rider
+[`balance_beam`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-balance_beam
+[`bicycle_shed`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bicycle_shed
+[`bikini`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bikini
+[`cape_landform`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-cape_landform
+[`coral_reef`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-coral_reef
+[`hammer_shoe`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-hammer_shoe
+[`horizontal_bar`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-horizontal_bar
+[`hut`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-hut
+[`maze`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-maze
+[`obelisk`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-obelisk
+[`sandbox`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-sandbox
+[`spring_rider`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-spring_rider
 
 # 4.3.0
 ##### 2020-Oct-20
 
 * Add icons: [`boat_dry_dock`], [`bow_and_arrow`], [`horn_cleat`], [`hunting_blind`], [`lounger`], [`lounging`], [`room`], [`windpump`]
 
-[`boat_dry_dock`]: https://ideditor.github.io/temaki/docs/#icon-temaki-boat_dry_dock
-[`bow_and_arrow`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bow_and_arrow
-[`horn_cleat`]: https://ideditor.github.io/temaki/docs/#icon-temaki-horn_cleat
-[`hunting_blind`]: https://ideditor.github.io/temaki/docs/#icon-temaki-hunting_blind
-[`lounger`]: https://ideditor.github.io/temaki/docs/#icon-temaki-lounger
-[`lounging`]: https://ideditor.github.io/temaki/docs/#icon-temaki-lounging
-[`room`]: https://ideditor.github.io/temaki/docs/#icon-temaki-room
-[`windpump`]: https://ideditor.github.io/temaki/docs/#icon-temaki-windpump
+[`boat_dry_dock`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-boat_dry_dock
+[`bow_and_arrow`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bow_and_arrow
+[`horn_cleat`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-horn_cleat
+[`hunting_blind`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-hunting_blind
+[`lounger`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-lounger
+[`lounging`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-lounging
+[`room`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-room
+[`windpump`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-windpump
 
 # 4.2.0
 ##### 2020-Sep-28
@@ -102,13 +102,13 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 * Add public domain icons from The Noun Project used by iD
   * [`cloth`], [`detergent_bottle`], [`fighter_jet`], [`latrine`], [`sailboat`], [`tents`], [`water_bottle`]
 
-[`cloth`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cloth
-[`detergent_bottle`]: https://ideditor.github.io/temaki/docs/#icon-temaki-detergent_bottle
-[`fighter_jet`]: https://ideditor.github.io/temaki/docs/#icon-temaki-fighter_jet
-[`latrine`]: https://ideditor.github.io/temaki/docs/#icon-temaki-latrine
-[`sailboat`]: https://ideditor.github.io/temaki/docs/#icon-temaki-sailboat
-[`tents`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tents
-[`water_bottle`]: https://ideditor.github.io/temaki/docs/#icon-temaki-water_bottle
+[`cloth`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-cloth
+[`detergent_bottle`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-detergent_bottle
+[`fighter_jet`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-fighter_jet
+[`latrine`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-latrine
+[`sailboat`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-sailboat
+[`tents`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-tents
+[`water_bottle`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-water_bottle
 
 # 4.1.0
 ##### 2020-Sep-03
@@ -119,20 +119,20 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 * Add crossing icons: [`crossing_rail_rail`], [`crossing_rail_road`], [`crossing_rail_solid`], [`crossing_rail_striped`], [`crossing_tram_road`], [`crossing_tram_solid`], [`crossing_tram_striped`], [`x_oblique`], [`tram_side`]
 * Add [`toll_gantry`] icon
 
-[#61]: https://github.com/ideditor/temaki/issues/61
+[#61]: https://github.com/rapideditor/temaki/issues/61
 
-[`cooling_tower`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cooling_tower
-[`cooling_tower_radiation`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cooling_tower_radiation
-[`crossing_rail_rail`]: https://ideditor.github.io/temaki/docs/#icon-temaki-crossing_rail_rail
-[`crossing_rail_road`]: https://ideditor.github.io/temaki/docs/#icon-temaki-crossing_rail_road
-[`crossing_rail_solid`]: https://ideditor.github.io/temaki/docs/#icon-temaki-crossing_rail_solid
-[`crossing_rail_striped`]: https://ideditor.github.io/temaki/docs/#icon-temaki-crossing_rail_striped
-[`crossing_tram_road`]: https://ideditor.github.io/temaki/docs/#icon-temaki-crossing_tram_road
-[`crossing_tram_solid`]: https://ideditor.github.io/temaki/docs/#icon-temaki-crossing_tram_solid
-[`crossing_tram_striped`]: https://ideditor.github.io/temaki/docs/#icon-temaki-crossing_tram_striped
-[`x_oblique`]: https://ideditor.github.io/temaki/docs/#icon-temaki-x_oblique
-[`toll_gantry`]: https://ideditor.github.io/temaki/docs/#icon-temaki-toll_gantry
-[`tram_side`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tram_side
+[`cooling_tower`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-cooling_tower
+[`cooling_tower_radiation`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-cooling_tower_radiation
+[`crossing_rail_rail`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_rail_rail
+[`crossing_rail_road`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_rail_road
+[`crossing_rail_solid`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_rail_solid
+[`crossing_rail_striped`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_rail_striped
+[`crossing_tram_road`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_tram_road
+[`crossing_tram_solid`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_tram_solid
+[`crossing_tram_striped`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_tram_striped
+[`x_oblique`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-x_oblique
+[`toll_gantry`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-toll_gantry
+[`tram_side`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-tram_side
 
 # 4.0.0
 ##### 2020-Jun-10
@@ -154,16 +154,16 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 * Add machine icons: [`vacuum_station`], [`conveyor`]
 * Make [`horse_shelter`] icon more legible
 
-[#58]: https://github.com/ideditor/temaki/issues/58
+[#58]: https://github.com/rapideditor/temaki/issues/58
 [@MarkusGaugg]: https://github.com/MarkusGaugg
 
-[`mountain_rescue`]: https://ideditor.github.io/temaki/docs/#icon-temaki-mountain_rescue
-[`drink_cup`]: https://ideditor.github.io/temaki/docs/#icon-temaki-drink_cup
-[`bubble_tea`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bubble_tea
-[`hot_drink_cup`]: https://ideditor.github.io/temaki/docs/#icon-temaki-hot_drink_cup
-[`vacuum_station`]: https://ideditor.github.io/temaki/docs/#icon-temaki-vacuum_station
-[`conveyor`]: https://ideditor.github.io/temaki/docs/#icon-temaki-conveyor
-[`horse_shelter`]: https://ideditor.github.io/temaki/docs/#icon-temaki-horse_shelter
+[`mountain_rescue`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-mountain_rescue
+[`drink_cup`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-drink_cup
+[`bubble_tea`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bubble_tea
+[`hot_drink_cup`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-hot_drink_cup
+[`vacuum_station`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-vacuum_station
+[`conveyor`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-conveyor
+[`horse_shelter`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-horse_shelter
 
 # 3.23.0
 ##### 2020-Apr-21
@@ -174,28 +174,28 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 * Add variants of most transit icons depicting a boarding passenger, e.g. [`board_bus`]
 * Add [`power_pole`] icon
 
-[`bus`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bus
-[`bus_guided`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bus_guided
-[`ferry`]: https://ideditor.github.io/temaki/docs/#icon-temaki-ferry
-[`gondola_lift`]: https://ideditor.github.io/temaki/docs/#icon-temaki-gondola_lift
-[`hanging_rail`]: https://ideditor.github.io/temaki/docs/#icon-temaki-hanging_rail
-[`heavy_rail`]: https://ideditor.github.io/temaki/docs/#icon-temaki-heavy_rail
-[`rail_flag`]: https://ideditor.github.io/temaki/docs/#icon-temaki-rail_flag
-[`school_bus`]: https://ideditor.github.io/temaki/docs/#icon-temaki-school_bus
-[`train`]: https://ideditor.github.io/temaki/docs/#icon-temaki-train
-[`train_diesel`]: https://ideditor.github.io/temaki/docs/#icon-temaki-train_diesel
-[`train_bullet`]: https://ideditor.github.io/temaki/docs/#icon-temaki-train_bullet
-[`train_kids`]: https://ideditor.github.io/temaki/docs/#icon-temaki-train_kids
-[`train_steam`]: https://ideditor.github.io/temaki/docs/#icon-temaki-train_steam
-[`train_wash`]: https://ideditor.github.io/temaki/docs/#icon-temaki-train_wash
-[`light_rail`]: https://ideditor.github.io/temaki/docs/#icon-temaki-light_rail
-[`monorail`]: https://ideditor.github.io/temaki/docs/#icon-temaki-monorail
-[`subway`]: https://ideditor.github.io/temaki/docs/#icon-temaki-subway
-[`tram`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tram
-[`trolleybus`]: https://ideditor.github.io/temaki/docs/#icon-temaki-trolleybus
-[`transit`]: https://ideditor.github.io/temaki/docs/#icon-temaki-transit
-[`board_bus`]: https://ideditor.github.io/temaki/docs/#icon-temaki-board_bus
-[`power_pole`]: https://ideditor.github.io/temaki/docs/#icon-temaki-power_pole
+[`bus`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bus
+[`bus_guided`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bus_guided
+[`ferry`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-ferry
+[`gondola_lift`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-gondola_lift
+[`hanging_rail`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-hanging_rail
+[`heavy_rail`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-heavy_rail
+[`rail_flag`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-rail_flag
+[`school_bus`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-school_bus
+[`train`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-train
+[`train_diesel`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-train_diesel
+[`train_bullet`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-train_bullet
+[`train_kids`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-train_kids
+[`train_steam`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-train_steam
+[`train_wash`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-train_wash
+[`light_rail`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-light_rail
+[`monorail`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-monorail
+[`subway`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-subway
+[`tram`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-tram
+[`trolleybus`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-trolleybus
+[`transit`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-transit
+[`board_bus`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-board_bus
+[`power_pole`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-power_pole
 
 # 3.22.0
 ##### 2020-Apr-10
@@ -204,17 +204,17 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 * Improve existing icons: [`rumble_strip`], [`speed_bump`], [`speed_dip`], [`speed_dip_double`], [`speed_hump`], [`speed_table`]
 * Add icons: [`garden_bed`], [`shrub`], [`shrub_low`], [`vertical_rotisserie`]
 
-[`rumble_strip`]: https://ideditor.github.io/temaki/docs/#icon-temaki-rumble_strip
-[`speed_bump`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_bump
-[`speed_dip`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_dip
-[`speed_dip_double`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_dip_double
-[`speed_hump`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_hump
-[`speed_table`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_table
-[`railway_track_partial`]: https://ideditor.github.io/temaki/docs/#icon-temaki-railway_track_partial
-[`garden_bed`]: https://ideditor.github.io/temaki/docs/#icon-temaki-garden_bed
-[`shrub`]: https://ideditor.github.io/temaki/docs/#icon-temaki-shrub
-[`shrub_low`]: https://ideditor.github.io/temaki/docs/#icon-temaki-shrub_low
-[`vertical_rotisserie`]: https://ideditor.github.io/temaki/docs/#icon-temaki-vertical_rotisserie
+[`rumble_strip`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-rumble_strip
+[`speed_bump`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-speed_bump
+[`speed_dip`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-speed_dip
+[`speed_dip_double`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-speed_dip_double
+[`speed_hump`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-speed_hump
+[`speed_table`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-speed_table
+[`railway_track_partial`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-railway_track_partial
+[`garden_bed`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-garden_bed
+[`shrub`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-shrub
+[`shrub_low`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-shrub_low
+[`vertical_rotisserie`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-vertical_rotisserie
 
 # 3.21.0
 ##### 2020-Mar-27
@@ -226,22 +226,22 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 * Add services icons: [`catering`], [`pet_grooming`], [`scaffold`]
 * Add [`quakerism`] icon
 
-[`cattle_grid`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cattle_grid
-[`disc_golf_basket`]: https://ideditor.github.io/temaki/docs/#icon-temaki-disc_golf_basket
-[`embassy`]: https://ideditor.github.io/temaki/docs/#icon-temaki-embassy
-[`gate`]: https://ideditor.github.io/temaki/docs/#icon-temaki-gate
-[`museum`]: https://ideditor.github.io/temaki/docs/#icon-temaki-museum
-[`accessible_space`]: https://ideditor.github.io/temaki/docs/#icon-temaki-accessible_space
-[`wheelchair_active`]: https://ideditor.github.io/temaki/docs/#icon-temaki-wheelchair_active
-[`capitol`]: https://ideditor.github.io/temaki/docs/#icon-temaki-capitol
-[`town_hall`]: https://ideditor.github.io/temaki/docs/#icon-temaki-town_hall
-[`catering`]: https://ideditor.github.io/temaki/docs/#icon-temaki-catering
-[`freight_car`]: https://ideditor.github.io/temaki/docs/#icon-temaki-freight_car
-[`goods_lift`]: https://ideditor.github.io/temaki/docs/#icon-temaki-goods_lift
-[`meat`]: https://ideditor.github.io/temaki/docs/#icon-temaki-meat
-[`pet_grooming`]: https://ideditor.github.io/temaki/docs/#icon-temaki-pet_grooming
-[`scaffold`]: https://ideditor.github.io/temaki/docs/#icon-temaki-scaffold
-[`quakerism`]: https://ideditor.github.io/temaki/docs/#icon-temaki-quakerism
+[`cattle_grid`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-cattle_grid
+[`disc_golf_basket`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-disc_golf_basket
+[`embassy`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-embassy
+[`gate`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-gate
+[`museum`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-museum
+[`accessible_space`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-accessible_space
+[`wheelchair_active`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-wheelchair_active
+[`capitol`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-capitol
+[`town_hall`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-town_hall
+[`catering`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-catering
+[`freight_car`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-freight_car
+[`goods_lift`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-goods_lift
+[`meat`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-meat
+[`pet_grooming`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-pet_grooming
+[`scaffold`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-scaffold
+[`quakerism`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-quakerism
 
 # 3.20.0
 ##### 2020-Mar-13
@@ -253,21 +253,21 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 * Add vehicle infrastructure icons: [`camper_trailer_dump`], [`carport`], [`hangar`]
 * Add miscellaneous icons: [`pick_hammer`], [`powered_pump`]
 
-[`camper_trailer`]: https://ideditor.github.io/temaki/docs/#icon-temaki-camper_trailer
-[`barn`]: https://ideditor.github.io/temaki/docs/#icon-temaki-barn
-[`clothes_hanger`]: https://ideditor.github.io/temaki/docs/#icon-temaki-clothes_hanger
-[`domed_tower`]: https://ideditor.github.io/temaki/docs/#icon-temaki-domed_tower
-[`racetrack_oval`]: https://ideditor.github.io/temaki/docs/#icon-temaki-racetrack_oval
-[`speedway_oval`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speedway_oval
-[`speedway_8`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speedway_8
-[`anchor_medal`]: https://ideditor.github.io/temaki/docs/#icon-temaki-anchor_medal
-[`tire_course`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tire_course
-[`trench`]: https://ideditor.github.io/temaki/docs/#icon-temaki-trench
-[`camper_trailer_dump`]: https://ideditor.github.io/temaki/docs/#icon-temaki-camper_trailer_dump
-[`carport`]: https://ideditor.github.io/temaki/docs/#icon-temaki-carport
-[`hangar`]: https://ideditor.github.io/temaki/docs/#icon-temaki-hangar
-[`pick_hammer`]: https://ideditor.github.io/temaki/docs/#icon-temaki-pick_hammer
-[`powered_pump`]: https://ideditor.github.io/temaki/docs/#icon-temaki-powered_pump
+[`camper_trailer`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-camper_trailer
+[`barn`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-barn
+[`clothes_hanger`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-clothes_hanger
+[`domed_tower`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-domed_tower
+[`racetrack_oval`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-racetrack_oval
+[`speedway_oval`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-speedway_oval
+[`speedway_8`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-speedway_8
+[`anchor_medal`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-anchor_medal
+[`tire_course`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-tire_course
+[`trench`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-trench
+[`camper_trailer_dump`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-camper_trailer_dump
+[`carport`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-carport
+[`hangar`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-hangar
+[`pick_hammer`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-pick_hammer
+[`powered_pump`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-powered_pump
 
 # 3.19.0
 ##### 2020-Mar-03
@@ -275,13 +275,13 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 * Add survey benchmark icons: [`benchmark_disk`], [`os_benchmark`]
 * Add aeroway icons: [`airport`], [`jetplane_front`], [`plane_taxiing`], [`planes`], [`planes_bidirectional`]
 
-[`benchmark_disk`]: https://ideditor.github.io/temaki/docs/#icon-temaki-benchmark_disk
-[`os_benchmark`]: https://ideditor.github.io/temaki/docs/#icon-temaki-os_benchmark
-[`airport`]: https://ideditor.github.io/temaki/docs/#icon-temaki-airport
-[`jetplane_front`]: https://ideditor.github.io/temaki/docs/#icon-temaki-jetplane_front
-[`plane_taxiing`]: https://ideditor.github.io/temaki/docs/#icon-temaki-plane_taxiing
-[`planes`]: https://ideditor.github.io/temaki/docs/#icon-temaki-planes
-[`planes_bidirectional`]: https://ideditor.github.io/temaki/docs/#icon-temaki-planes_bidirectional
+[`benchmark_disk`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-benchmark_disk
+[`os_benchmark`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-os_benchmark
+[`airport`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-airport
+[`jetplane_front`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-jetplane_front
+[`plane_taxiing`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-plane_taxiing
+[`planes`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-planes
+[`planes_bidirectional`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-planes_bidirectional
 
 # 3.18.0
 ##### 2020-Feb-25
@@ -293,25 +293,25 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 * Add information icons: [`app_terminal`], [`info_board`]
 * Add miscellaneous icons: [`curtains`], [`parking_space`], [`stile_squeezer`]
 
-[`poster_box`]: https://ideditor.github.io/temaki/docs/#icon-temaki-poster_box
-[`bulletin_board`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bulletin_board
-[`vending_lockers`]: https://ideditor.github.io/temaki/docs/#icon-temaki-vending_lockers
-[`army_tent`]: https://ideditor.github.io/temaki/docs/#icon-temaki-army_tent
-[`checkpoint`]: https://ideditor.github.io/temaki/docs/#icon-temaki-checkpoint
-[`military_checkpoint`]: https://ideditor.github.io/temaki/docs/#icon-temaki-military_checkpoint
-[`passport_checkpoint`]: https://ideditor.github.io/temaki/docs/#icon-temaki-passport_checkpoint
-[`police_checkpoint`]: https://ideditor.github.io/temaki/docs/#icon-temaki-police_checkpoint
-[`police_officer`]: https://ideditor.github.io/temaki/docs/#icon-temaki-police_officer
-[`polished_nail`]: https://ideditor.github.io/temaki/docs/#icon-temaki-polished_nail
-[`tattoo_machine`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tattoo_machine
-[`tiling`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tiling
-[`telescope`]: https://ideditor.github.io/temaki/docs/#icon-temaki-telescope
-[`spotting_scope`]: https://ideditor.github.io/temaki/docs/#icon-temaki-spotting_scope
-[`app_terminal`]: https://ideditor.github.io/temaki/docs/#icon-temaki-app_terminal
-[`info_board`]: https://ideditor.github.io/temaki/docs/#icon-temaki-info_board
-[`curtains`]: https://ideditor.github.io/temaki/docs/#icon-temaki-curtains
-[`parking_space`]: https://ideditor.github.io/temaki/docs/#icon-temaki-parking_space
-[`stile_squeezer`]: https://ideditor.github.io/temaki/docs/#icon-temaki-stile_squeezer
+[`poster_box`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-poster_box
+[`bulletin_board`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bulletin_board
+[`vending_lockers`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-vending_lockers
+[`army_tent`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-army_tent
+[`checkpoint`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-checkpoint
+[`military_checkpoint`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-military_checkpoint
+[`passport_checkpoint`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-passport_checkpoint
+[`police_checkpoint`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-police_checkpoint
+[`police_officer`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-police_officer
+[`polished_nail`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-polished_nail
+[`tattoo_machine`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-tattoo_machine
+[`tiling`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-tiling
+[`telescope`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-telescope
+[`spotting_scope`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-spotting_scope
+[`app_terminal`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-app_terminal
+[`info_board`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-info_board
+[`curtains`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-curtains
+[`parking_space`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-parking_space
+[`stile_squeezer`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-stile_squeezer
 
 # 3.17.0
 ##### 2020-Feb-13
@@ -320,24 +320,24 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 * Add icons: [`bicycle_locker`], [`field_hockey`], [`horseshoe`], [`mineshaft_cage`], [`spice_bottle`], [`spike_strip`], [`suitcase_xray`], [`windsock`]
 * Add [`hedge`] icon ([#52])
 
-[#52]: https://github.com/ideditor/temaki/issues/52
+[#52]: https://github.com/rapideditor/temaki/issues/52
 
-[`bridge`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bridge
-[`mountain_range`]: https://ideditor.github.io/temaki/docs/#icon-temaki-mountain_range
-[`plaque`]: https://ideditor.github.io/temaki/docs/#icon-temaki-plaque
-[`rumble_strip`]: https://ideditor.github.io/temaki/docs/#icon-temaki-rumble_strip
-[`slide`]: https://ideditor.github.io/temaki/docs/#icon-temaki-slide
-[`suitcase_key`]: https://ideditor.github.io/temaki/docs/#icon-temaki-suitcase_key
-[`tunnel`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tunnel
-[`bicycle_locker`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bicycle_locker
-[`field_hockey`]: https://ideditor.github.io/temaki/docs/#icon-temaki-field_hockey
-[`horseshoe`]: https://ideditor.github.io/temaki/docs/#icon-temaki-horseshoe
-[`mineshaft_cage`]: https://ideditor.github.io/temaki/docs/#icon-temaki-mineshaft_cage
-[`spice_bottle`]: https://ideditor.github.io/temaki/docs/#icon-temaki-spice_bottle
-[`spike_strip`]: https://ideditor.github.io/temaki/docs/#icon-temaki-spike_strip
-[`suitcase_xray`]: https://ideditor.github.io/temaki/docs/#icon-temaki-suitcase_xray
-[`windsock`]: https://ideditor.github.io/temaki/docs/#icon-temaki-windsock
-[`hedge`]: https://ideditor.github.io/temaki/docs/#icon-temaki-hedge
+[`bridge`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bridge
+[`mountain_range`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-mountain_range
+[`plaque`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-plaque
+[`rumble_strip`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-rumble_strip
+[`slide`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-slide
+[`suitcase_key`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-suitcase_key
+[`tunnel`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-tunnel
+[`bicycle_locker`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bicycle_locker
+[`field_hockey`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-field_hockey
+[`horseshoe`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-horseshoe
+[`mineshaft_cage`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-mineshaft_cage
+[`spice_bottle`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-spice_bottle
+[`spike_strip`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-spike_strip
+[`suitcase_xray`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-suitcase_xray
+[`windsock`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-windsock
+[`hedge`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-hedge
 
 # 3.16.0
 ##### 2020-Feb-07
@@ -359,22 +359,22 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
   * [`bollard_row`]
 * Add [`brick_trowel`], [`bunker_silo`], [`fireplace`], and [`golf_green`] icons
 
-[`mountain_range`]: https://ideditor.github.io/temaki/docs/#icon-temaki-mountain_range
-[`saddle`]: https://ideditor.github.io/temaki/docs/#icon-temaki-saddle
-[`valley`]: https://ideditor.github.io/temaki/docs/#icon-temaki-valley
-[`chicane_arrow`]: https://ideditor.github.io/temaki/docs/#icon-temaki-chicane_arrow
-[`rumble_strip`]: https://ideditor.github.io/temaki/docs/#icon-temaki-rumble_strip
-[`speed_bump`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_bump
-[`speed_dip`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_dip
-[`speed_dip_double`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_dip_double
-[`speed_hump`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_hump
-[`speed_table`]: https://ideditor.github.io/temaki/docs/#icon-temaki-speed_table
-[`bollard`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bollard
-[`bollard_row`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bollard_row
-[`brick_trowel`]: https://ideditor.github.io/temaki/docs/#icon-temaki-brick_trowel
-[`bunker_silo`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bunker_silo
-[`fireplace`]: https://ideditor.github.io/temaki/docs/#icon-temaki-fireplace
-[`golf_green`]: https://ideditor.github.io/temaki/docs/#icon-temaki-golf_green
+[`mountain_range`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-mountain_range
+[`saddle`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-saddle
+[`valley`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-valley
+[`chicane_arrow`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-chicane_arrow
+[`rumble_strip`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-rumble_strip
+[`speed_bump`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-speed_bump
+[`speed_dip`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-speed_dip
+[`speed_dip_double`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-speed_dip_double
+[`speed_hump`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-speed_hump
+[`speed_table`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-speed_table
+[`bollard`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bollard
+[`bollard_row`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bollard_row
+[`brick_trowel`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-brick_trowel
+[`bunker_silo`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bunker_silo
+[`fireplace`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-fireplace
+[`golf_green`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-golf_green
 
 # 3.15.0
 ##### 2020-Feb-04
@@ -392,18 +392,18 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
   * [`poster_box`]
 * Add [`dagger`] and [`manufactured_home`] icons
 
-[#55]: https://github.com/ideditor/temaki/issues/55
+[#55]: https://github.com/rapideditor/temaki/issues/55
 
-[`bulletin_board`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bulletin_board
-[`poster_box`]: https://ideditor.github.io/temaki/docs/#icon-temaki-poster_box
-[`adit_profile`]: https://ideditor.github.io/temaki/docs/#icon-temaki-adit_profile
-[`cliff_falling_rocks`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cliff_falling_rocks
-[`mineshaft_profile`]: https://ideditor.github.io/temaki/docs/#icon-temaki-mineshaft_profile
-[`cycle_barrier`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cycle_barrier
-[`ped_cyclist_crosswalk`]: https://ideditor.github.io/temaki/docs/#icon-temaki-ped_cyclist_crosswalk
-[`striped_zone`]: https://ideditor.github.io/temaki/docs/#icon-temaki-striped_zone
-[`dagger`]: https://ideditor.github.io/temaki/docs/#icon-temaki-dagger
-[`manufactured_home`]: https://ideditor.github.io/temaki/docs/#icon-temaki-manufactured_home
+[`bulletin_board`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bulletin_board
+[`poster_box`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-poster_box
+[`adit_profile`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-adit_profile
+[`cliff_falling_rocks`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-cliff_falling_rocks
+[`mineshaft_profile`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-mineshaft_profile
+[`cycle_barrier`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-cycle_barrier
+[`ped_cyclist_crosswalk`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-ped_cyclist_crosswalk
+[`striped_zone`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-striped_zone
+[`dagger`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-dagger
+[`manufactured_home`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-manufactured_home
 
 # 3.14.0
 ##### 2020-Jan-28
@@ -414,10 +414,10 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
   * [`railway_track_unfinished`]
 * Add [`chefs_knife`] icon
 
-[`railway_cable_track`]: https://ideditor.github.io/temaki/docs/#icon-temaki-railway_cable_track
-[`railway_track_askew`]: https://ideditor.github.io/temaki/docs/#icon-temaki-railway_track_askew
-[`railway_track_unfinished`]: https://ideditor.github.io/temaki/docs/#icon-temaki-railway_track_unfinished
-[`chefs_knife`]: https://ideditor.github.io/temaki/docs/#icon-temaki-chefs_knife
+[`railway_cable_track`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-railway_cable_track
+[`railway_track_askew`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-railway_track_askew
+[`railway_track_unfinished`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-railway_track_unfinished
+[`chefs_knife`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-chefs_knife
 
 # 3.13.0
 ##### 2020-Jan-28
@@ -428,10 +428,10 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
   * [`railway_track_mini`]
   * [`rail_profile`]
 
-[`railway_track`]: https://ideditor.github.io/temaki/docs/#icon-temaki-railway_track
-[`railway_track_narrow`]: https://ideditor.github.io/temaki/docs/#icon-temaki-railway_track_narrow
-[`railway_track_mini`]: https://ideditor.github.io/temaki/docs/#icon-temaki-railway_track_mini
-[`rail_profile`]: https://ideditor.github.io/temaki/docs/#icon-temaki-rail_profile
+[`railway_track`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-railway_track
+[`railway_track_narrow`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-railway_track_narrow
+[`railway_track_mini`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-railway_track_mini
+[`rail_profile`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-rail_profile
 
 # 3.12.0
 ##### 2020-Jan-14
@@ -443,21 +443,21 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
   * [`platter_lift`]
   * [`t_bar_lift`]
 
-[`aerialway_pole`]: https://ideditor.github.io/temaki/docs/#icon-temaki-aerialway_pole
-[`drag_lift`]: https://ideditor.github.io/temaki/docs/#icon-temaki-drag_lift
-[`j_bar_lift`]: https://ideditor.github.io/temaki/docs/#icon-temaki-j_bar_lift
-[`platter_lift`]: https://ideditor.github.io/temaki/docs/#icon-temaki-platter_lift
-[`t_bar_lift`]: https://ideditor.github.io/temaki/docs/#icon-temaki-t_bar_lift
+[`aerialway_pole`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-aerialway_pole
+[`drag_lift`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-drag_lift
+[`j_bar_lift`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-j_bar_lift
+[`platter_lift`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-platter_lift
+[`t_bar_lift`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-t_bar_lift
 
 # 3.11.0
 ##### 2020-Jan-10
 
 * Add [`houseboat`], [`rocket_firework`], [`row_houses`], and [`needle_and_spool`] icons
 
-[`houseboat`]: https://ideditor.github.io/temaki/docs/#icon-temaki-houseboat
-[`rocket_firework`]: https://ideditor.github.io/temaki/docs/#icon-temaki-rocket_firework
-[`row_houses`]: https://ideditor.github.io/temaki/docs/#icon-temaki-row_houses
-[`needle_and_spool`]: https://ideditor.github.io/temaki/docs/#icon-temaki-needle_and_spool
+[`houseboat`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-houseboat
+[`rocket_firework`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-rocket_firework
+[`row_houses`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-row_houses
+[`needle_and_spool`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-needle_and_spool
 
 # 3.10.0
 ##### 2020-Jan-08
@@ -470,11 +470,11 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
   * [`island_trees_building`]
 * Add [`cleaver`]
 
-[`water_tap`]: https://ideditor.github.io/temaki/docs/#icon-temaki-water_tap
-[`water_tap_drinkable`]: https://ideditor.github.io/temaki/docs/#icon-temaki-water_tap_drinkable
-[`islet_tree`]: https://ideditor.github.io/temaki/docs/#icon-temaki-islet_tree
-[`island_trees_building`]: https://ideditor.github.io/temaki/docs/#icon-temaki-island_trees_building
-[`cleaver`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cleaver
+[`water_tap`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-water_tap
+[`water_tap_drinkable`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-water_tap_drinkable
+[`islet_tree`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-islet_tree
+[`island_trees_building`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-island_trees_building
+[`cleaver`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-cleaver
 
 # 3.9.0
 ##### 2020-Jan-07
@@ -486,12 +486,12 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
   * [`well_pump_manual`]
   * [`well_pump_powered`]
 
-[`dress`]: https://ideditor.github.io/temaki/docs/#icon-temaki-dress
-[`gown`]: https://ideditor.github.io/temaki/docs/#icon-temaki-gown
-[`well_pump_manual`]: https://ideditor.github.io/temaki/docs/#icon-temaki-well_pump_manual
-[`well_pump_powered`]: https://ideditor.github.io/temaki/docs/#icon-temaki-well_pump_powered
+[`dress`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-dress
+[`gown`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-gown
+[`well_pump_manual`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-well_pump_manual
+[`well_pump_powered`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-well_pump_powered
 
-[#50]: https://github.com/ideditor/temaki/issues/50
+[#50]: https://github.com/rapideditor/temaki/issues/50
 
 # 3.8.0
 ##### 2019-Dec-21
@@ -501,28 +501,28 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 * Add [`cabin`]
 * Add [`car_parked`]
 
-[`anvil`]: https://ideditor.github.io/temaki/docs/#icon-temaki-anvil
-[`anvil_and_hammer`]: https://ideditor.github.io/temaki/docs/#icon-temaki-anvil_and_hammer
-[`bunk_beds`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bunk_beds
-[`cabin`]: https://ideditor.github.io/temaki/docs/#icon-temaki-cabin
-[`car_parked`]: https://ideditor.github.io/temaki/docs/#icon-temaki-car_parked
+[`anvil`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-anvil
+[`anvil_and_hammer`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-anvil_and_hammer
+[`bunk_beds`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bunk_beds
+[`cabin`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-cabin
+[`car_parked`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-car_parked
 
 # 3.7.0
 ##### 2019-Dec-19
 
-* Make icons linkable on the icon [preview page](https://ideditor.github.io/temaki/docs) ([#49])
+* Make icons linkable on the icon [preview page](https://rapideditor.github.io/temaki/docs) ([#49])
 * Update [`sign_and_bench`], [`tree_and_bench`], and [`transit_shelter`] icons to all use the same bench component
 * Add [`boat`] and [`boat_floating`]
 * Add [`bunker`]
 
-[`sign_and_bench`]: https://ideditor.github.io/temaki/docs/#icon-temaki-sign_and_bench
-[`tree_and_bench`]: https://ideditor.github.io/temaki/docs/#icon-temaki-tree_and_bench
-[`transit_shelter`]: https://ideditor.github.io/temaki/docs/#icon-temaki-transit_shelter
-[`boat`]: https://ideditor.github.io/temaki/docs/#icon-temaki-boat
-[`boat_floating`]: https://ideditor.github.io/temaki/docs/#icon-temaki-boat_floating
-[`bunker`]: https://ideditor.github.io/temaki/docs/#icon-temaki-bunker
+[`sign_and_bench`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-sign_and_bench
+[`tree_and_bench`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-tree_and_bench
+[`transit_shelter`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-transit_shelter
+[`boat`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-boat
+[`boat_floating`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-boat_floating
+[`bunker`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bunker
 
-[#49]: https://github.com/ideditor/temaki/issues/49
+[#49]: https://github.com/rapideditor/temaki/issues/49
 
 # 3.6.0
 ##### 2019-Dec-17
@@ -554,7 +554,7 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
   * `tree_and_bench`
   * `tree_row`
 
-[#43]: https://github.com/ideditor/temaki/issues/43
+[#43]: https://github.com/rapideditor/temaki/issues/43
 
 # 3.3.0
 ##### 2019-Dec-06
@@ -591,7 +591,7 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 # 3.0.0
 ##### 2019-Dec-02
 
-* Switch temaki to a scoped package under ideditor org: `@ideditor/temaki`
+* Switch temaki to a scoped package under rapideditor org: `@rapideditor/temaki`
   * :warning: Note: projects that depend on temaki may need to update their code
 
 
@@ -632,7 +632,7 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
   * `sculpture`
   * `vase`
 
-[#47]: https://github.com/ideditor/temaki/issues/47
+[#47]: https://github.com/rapideditor/temaki/issues/47
 
 
 # 2.2.0
@@ -643,10 +643,10 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 * Add `rope_fence` and `cattle_grid` ([#46])
 * Add `barn`, `bicycle_box`, `bicycle_rental`, `boat_rental`, `campfire`, `dog_shelter`, `picnic_shelter`, `sleep_shelter`, `storage_rental`, and `transit_shelter`
 
-[#42]: https://github.com/ideditor/temaki/issues/42
-[#46]: https://github.com/ideditor/temaki/issues/46
-[#44]: https://github.com/ideditor/temaki/issues/44
-[#45]: https://github.com/ideditor/temaki/issues/45
+[#42]: https://github.com/rapideditor/temaki/issues/42
+[#46]: https://github.com/rapideditor/temaki/issues/46
+[#44]: https://github.com/rapideditor/temaki/issues/44
+[#45]: https://github.com/rapideditor/temaki/issues/45
 
 # 2.1.0
 ##### 2019-Nov-04
@@ -704,9 +704,9 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
   * `coffee` ([#34])
   * `grapes`
 
-[#34]: https://github.com/ideditor/temaki/issues/34
-[#35]: https://github.com/ideditor/temaki/issues/35
-[#36]: https://github.com/ideditor/temaki/issues/36
+[#34]: https://github.com/rapideditor/temaki/issues/34
+[#35]: https://github.com/rapideditor/temaki/issues/35
+[#36]: https://github.com/rapideditor/temaki/issues/36
 
 
 
@@ -744,20 +744,20 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 * Add `gas.svg` ([#11])
 * Add `lift_gate.svg` ([#33])
 
-[#9]: https://github.com/ideditor/temaki/issues/9
-[#10]: https://github.com/ideditor/temaki/issues/10
-[#11]: https://github.com/ideditor/temaki/issues/11
-[#12]: https://github.com/ideditor/temaki/issues/12
-[#14]: https://github.com/ideditor/temaki/issues/14
-[#15]: https://github.com/ideditor/temaki/issues/15
-[#16]: https://github.com/ideditor/temaki/issues/16
-[#17]: https://github.com/ideditor/temaki/issues/17
-[#18]: https://github.com/ideditor/temaki/issues/18
-[#20]: https://github.com/ideditor/temaki/issues/20
-[#21]: https://github.com/ideditor/temaki/issues/21
-[#23]: https://github.com/ideditor/temaki/issues/23
-[#30]: https://github.com/ideditor/temaki/issues/30
-[#33]: https://github.com/ideditor/temaki/issues/33
+[#9]: https://github.com/rapideditor/temaki/issues/9
+[#10]: https://github.com/rapideditor/temaki/issues/10
+[#11]: https://github.com/rapideditor/temaki/issues/11
+[#12]: https://github.com/rapideditor/temaki/issues/12
+[#14]: https://github.com/rapideditor/temaki/issues/14
+[#15]: https://github.com/rapideditor/temaki/issues/15
+[#16]: https://github.com/rapideditor/temaki/issues/16
+[#17]: https://github.com/rapideditor/temaki/issues/17
+[#18]: https://github.com/rapideditor/temaki/issues/18
+[#20]: https://github.com/rapideditor/temaki/issues/20
+[#21]: https://github.com/rapideditor/temaki/issues/21
+[#23]: https://github.com/rapideditor/temaki/issues/23
+[#30]: https://github.com/rapideditor/temaki/issues/30
+[#33]: https://github.com/rapideditor/temaki/issues/33
 
 
 # 1.8.0
@@ -766,9 +766,9 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 * Add `power_tower.svg` and `utility_pole.svg` ([#24], [#32])
 * Add `letter_box.svg` ([#31])
 
-[#24]: https://github.com/ideditor/temaki/issues/24
-[#31]: https://github.com/ideditor/temaki/issues/31
-[#32]: https://github.com/ideditor/temaki/issues/32
+[#24]: https://github.com/rapideditor/temaki/issues/24
+[#31]: https://github.com/rapideditor/temaki/issues/31
+[#32]: https://github.com/rapideditor/temaki/issues/32
 
 
 # 1.7.0
@@ -779,14 +779,14 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 * Add `sandwich.svg` ([#26], [#27])
 * Add `cairn.svg` ([#19], [#25])
 
-[#13]: https://github.com/ideditor/temaki/issues/13
-[#19]: https://github.com/ideditor/temaki/issues/19
-[#22]: https://github.com/ideditor/temaki/issues/22
-[#25]: https://github.com/ideditor/temaki/issues/25
-[#26]: https://github.com/ideditor/temaki/issues/26
-[#27]: https://github.com/ideditor/temaki/issues/27
-[#28]: https://github.com/ideditor/temaki/issues/28
-[#29]: https://github.com/ideditor/temaki/issues/29
+[#13]: https://github.com/rapideditor/temaki/issues/13
+[#19]: https://github.com/rapideditor/temaki/issues/19
+[#22]: https://github.com/rapideditor/temaki/issues/22
+[#25]: https://github.com/rapideditor/temaki/issues/25
+[#26]: https://github.com/rapideditor/temaki/issues/26
+[#27]: https://github.com/rapideditor/temaki/issues/27
+[#28]: https://github.com/rapideditor/temaki/issues/28
+[#29]: https://github.com/rapideditor/temaki/issues/29
 
 
 # 1.6.0
@@ -811,8 +811,8 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 * Add `golf_cart.svg` ([#3])
 * Increase the size of the other new icons so they better fill the available space
 
-[#4]: https://github.com/ideditor/temaki/issues/4
-[#3]: https://github.com/ideditor/temaki/issues/3
+[#4]: https://github.com/rapideditor/temaki/issues/4
+[#3]: https://github.com/rapideditor/temaki/issues/3
 
 
 # 1.3.0
@@ -822,8 +822,8 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 * Add `donut.svg`
 * Add `swamp.svg` ([#5], thanks [@westnordost])
 
-[#6]: https://github.com/ideditor/temaki/issues/6
-[#5]: https://github.com/ideditor/temaki/issues/5
+[#6]: https://github.com/rapideditor/temaki/issues/6
+[#5]: https://github.com/rapideditor/temaki/issues/5
 [@westnordost]: https://github.com/westnordost
 
 # 1.2.0
@@ -831,7 +831,7 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 
 * Add 80 icons from [scottdejonge/map-icons](https://github.com/scottdejonge/map-icons) ([#2], thanks [@scottdejonge])
 
-[#2]: https://github.com/ideditor/temaki/issues/2
+[#2]: https://github.com/rapideditor/temaki/issues/2
 [@scottdejonge]: https://github.com/scottdejonge
 
 
@@ -840,7 +840,7 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 
 * Add `guard_rail.svg`, `railing.svg`, `wall.svg` ([#1], thanks [@RudyTheDev])
 
-[#1]: https://github.com/ideditor/temaki/issues/1
+[#1]: https://github.com/rapideditor/temaki/issues/1
 [@RudyTheDev]: https://github.com/RudyTheDev
 
 

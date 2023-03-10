@@ -1,23 +1,23 @@
-[![npm version](https://badge.fury.io/js/%40ideditor%2Ftemaki.svg)](https://badge.fury.io/js/%40ideditor%2Ftemaki)
+[![npm version](https://badge.fury.io/js/%40rapideditor%2Ftemaki.svg)](https://badge.fury.io/js/%40rapideditor%2Ftemaki)
 
-## <sub><img width="28" src="https://cdn.jsdelivr.net/gh/ideditor/temaki@main/icons/temaki.svg"/> </sub> Temaki
+## <sub><img width="28" src="https://cdn.jsdelivr.net/gh/rapideditor/temaki@main/icons/temaki.svg"/> </sub> Temaki
 
 An icon expansion pack for [Maki](https://github.com/mapbox/maki)
 
-[![](https://cdn.jsdelivr.net/gh/ideditor/temaki@main/dist/temaki-view.svg)](https://ideditor.github.io/temaki/docs)
+[![](https://cdn.jsdelivr.net/gh/rapideditor/temaki@main/dist/temaki-view.svg)](https://rapideditor.github.io/temaki/docs)
 
-See https://ideditor.github.io/temaki/docs for details about each icon.
+See https://rapideditor.github.io/temaki/docs for details about each icon.
 
 
 ### What is it?
 
-The [Maki](https://github.com/mapbox/maki) icon pack is pretty great!  We use it in the [iD editor](https://github.com/openstreetmap/iD) and [name-suggestion-index](https://github.com/osmlab/name-suggestion-index) projects, but sometimes:
+The [Maki](https://github.com/mapbox/maki) icon pack is pretty great!  We use it in the [Rapid editor](https://github.com/facebook/rapid) and [name-suggestion-index](https://github.com/osmlab/name-suggestion-index) projects, but sometimes:
 
 * We need an icon that's out of scope for Maki
 * We don't want to wait for an icon to be added to Maki
 * We're ok with not having 11px versions
 
-So in these situations, we can just draw something "good enough" and put it here.  (Many of these icons also originally came from the [scottdejonge/map-icons repo](https://github.com/ideditor/temaki/issues/2).)
+So in these situations, we can just draw something "good enough" and put it here.  (Many of these icons also originally came from the [scottdejonge/map-icons repo](https://github.com/rapideditor/temaki/issues/2).)
 
 The Temaki icons are a little bigger and messier than the Maki ones, but just as delicious. :yum:
 
