@@ -91,7 +91,9 @@
     ]
   },
   "atm2": {
-    "groups": []
+    "groups": [
+      "vending"
+    ]
   },
   "balance_beam": {
     "groups": [
