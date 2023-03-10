@@ -1848,6 +1848,11 @@
       "religion"
     ]
   },
+  "quay": {
+    "groups": [
+      "water"
+    ]
+  },
   "racetrack_oval": {
     "groups": [
       "highways",
