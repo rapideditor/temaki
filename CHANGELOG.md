@@ -3,24 +3,28 @@
 **temaki** is an open source project. You can submit bug reports, help out,
 or learn more by visiting our project page on GitHub:  :octocat: https://github.com/rapideditor/temaki
 
-Please star our project on GitHub to show your support! :star:
+Please star our project on GitHub to show your support! ⭐️
 
-_Breaking changes, which may affect downstream projects, are marked with a_ :warning:
+_Breaking changes, which may affect downstream projects, are marked with a_ ⚠️
 
 <!--
 # A.B.C
 ##### YYYY-MMM-DD
 
 [`xxxx`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-xxxx
-[#x]: https://github.com/rapideditor/temaki/issues/x
+[#xx]: https://github.com/rapideditor/temaki/issues/xx
 -->
 
 # 5.3.0
-##### 2023-Mar-10
+##### 2023-Mar-12
 
 * Add [`quay`] icon [#83]
+* Give the people in the [`bunk_beds`] icon a little more space
+* Switch temaki to a scoped package under the rapideditor org: `@rapideditor/temaki`
+  * ⚠️ Note: projects that depend on temaki may need to update their code
 
 [`quay`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-quay
+[`bunk_beds`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bunk_beds
 [#83]: https://github.com/rapideditor/temaki/issues/83
 
 
@@ -54,7 +58,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 * Small cleanups to icons: cooling towers [#65], polished nail [#63]
 * Revise medical cross icons [#62]
   * Add icons: [`asterisk`], [`briefcase_asterisk`], [`mountain_asterisk`]
-  * :warning: Rename icon: `mountain_rescue` -> `mountain_cross`
+  * ⚠️ Rename icon: `mountain_rescue` -> `mountain_cross`
 * Add icons: [`seesaw`], [`plant`], [`rigging`], [`portrait_framed`], [`portrait`], [`sail`]
 
 [`asterisk`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-asterisk
@@ -145,7 +149,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 # 4.0.0
 ##### 2020-Jun-10
 
-* :warning: Remove `width` and `height` attributes from all icons<br/>
+* ⚠️ Remove `width` and `height` attributes from all icons<br/>
 _The display size is now up to consumers. 15x15 px or larger is recommended._
 * Standardize all SVG geometries to `path` elements
 * Remove unexpected `fill` and `id` attributes of paths
@@ -573,7 +577,7 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
   * `briefcase_bolt` (power/energy)
   * `briefcase_cross` (hospital/healthcare)
   * `briefcase_info`
-* :warning: `travel_agency` has been removed and replaced by `briefcase_info`
+* ⚠️ `travel_agency` has been removed and replaced by `briefcase_info`
 
 # 3.2.0
 ##### 2019-Dec-04
@@ -599,8 +603,8 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
 # 3.0.0
 ##### 2019-Dec-02
 
-* Switch temaki to a scoped package under rapideditor org: `@rapideditor/temaki`
-  * :warning: Note: projects that depend on temaki may need to update their code
+* Switch temaki to a scoped package under the ideditor org: `@ideditor/temaki`
+  * ⚠️ Note: projects that depend on temaki may need to update their code
 
 
 # 2.3.0
@@ -689,7 +693,7 @@ _The display size is now up to consumers. 15x15 px or larger is recommended._
   * Also added standalone icons for the things in the vending machines: `ticket`, `stamp`, `egg`, `bread`, `heart` `can`
 
 * New icons for utility mapping:
-  * :warning: Note: previous `gas.svg` has been renamed to `propane_tank.svg`
+  * ⚠️ Note: previous `gas.svg` has been renamed to `propane_tank.svg`
   * Added base icons for `gas`, `water`, `power`, `cable`, `waste`
   * Added variations on all of those for shutoffs, meters, manholes, other devices
   * Several new icons for power utility mapping:
