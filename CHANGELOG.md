@@ -15,6 +15,15 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xx]: https://github.com/rapideditor/temaki/issues/xx
 -->
 
+# 5.4.0
+##### 2023-May-19
+
+* Add [`milk_jug`] icon [#84]
+
+[`milk_jug`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-milk_jug
+[#84]: https://github.com/rapideditor/temaki/issues/84
+
+
 # 5.3.0
 ##### 2023-Mar-12
 
