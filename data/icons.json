@@ -178,6 +178,12 @@
       "vehicles"
     ]
   },
+  "bicycle_wash": {
+    "groups": [
+      "cycling",
+      "vehicles"
+    ]
+  },
   "bikini": {
     "groups": [
       "clothes"
