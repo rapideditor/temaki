@@ -21,7 +21,7 @@
     "pre-symbol": "node scripts/pre-symbol.js",
     "post-symbol": "rm mustache-vars.json",
     "symbol": "svg-sprite --symbol --symbol-dest . --shape-transform '' --variables 'mustache-vars.json' --shape-id-generator \"temaki-%s\" -w 15 -h 15 --symbol-example true --symbol-example-template docs/template.html --symbol-example-dest docs/index.html --symbol-sprite dist/temaki-symbol.svg icons/*.svg",
-    "dist:view": "svg-sprite --view --view-dest . --shape-transform '' --shape-id-generator \"temaki-%s\" -w 15 -h 15 --view-bust false --view-sprite dist/temaki-view.svg icons/*.svg"
+    "dist:view": "svg-sprite --view --view-dest . --shape-transform '' --shape-id-generator \"temaki-%s\" -w 15 -h 15 -p 2 --view-bust false --view-sprite dist/temaki-view.svg icons/*.svg"
   },
   "devDependencies": {
     "chalk": "^5.3.0",
