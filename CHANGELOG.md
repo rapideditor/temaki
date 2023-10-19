@@ -21,7 +21,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 * Add [`bicycle_wash`] icon [#88]
 * Add [`tree_broadleaved`], [`tree_needleleaved`], [`tree_cactus`], [`tree_palm`] icons [#87]
 * Put [`detergent_bottle`] into a 15px viewbox, round corners, pixel align
-* Make [`bollard`],[`bollard_row`] look more round
+* Make [`bollard`], [`bollard_row`] look more round
 
 [`bicycle_wash`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bicycle_wash
 [`bollard_row`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bollard_row
