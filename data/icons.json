@@ -2554,6 +2554,21 @@
       "seating"
     ]
   },
+  "tree_broadleaved": {
+    "groups": [
+      "plants"
+    ]
+  },
+  "tree_cactus": {
+    "groups": [
+      "plants"
+    ]
+  },
+  "tree_needleleaved": {
+    "groups": [
+      "plants"
+    ]
+  },
   "tree_row": {
     "groups": [
       "plants"
