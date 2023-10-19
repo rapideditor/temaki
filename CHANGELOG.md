@@ -15,6 +15,26 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xx]: https://github.com/rapideditor/temaki/issues/xx
 -->
 
+# 5.5.0
+##### 2023-Oct-19
+
+* Add [`bicycle_wash`] icon [#88]
+* Add [`tree_broadleaved`], [`tree_needleleaved`], [`tree_cactus`], [`tree_palm`] icons [#87]
+* Put [`detergent_bottle`] into a 15px viewbox, round corners, pixel align
+* Make [`bollard`],[`bollard_row`] look more round
+
+[`bicycle_wash`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bicycle_wash
+[`bollard_row`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bollard_row
+[`bollard`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-bollard
+[`detergent_bottle`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-detergent_bottle
+[`tree_broadleaved`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-tree_broadleaved
+[`tree_cactus`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-tree_cactus
+[`tree_needleleaved`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-tree_needleleaved
+[`tree_palm`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-tree_palm
+[#87]: https://github.com/rapideditor/temaki/issues/87
+[#88]: https://github.com/rapideditor/temaki/issues/88
+
+
 # 5.4.0
 ##### 2023-May-19
 
