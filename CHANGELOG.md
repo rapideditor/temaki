@@ -15,6 +15,14 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xx]: https://github.com/rapideditor/temaki/issues/xx
 -->
 
+# 5.6.0
+##### 2023-Oct-25
+
+* Add [`tree_leafless`] icon [#87]
+
+[`tree_leafless`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-tree_leafless
+
+
 # 5.5.0
 ##### 2023-Oct-19
 
