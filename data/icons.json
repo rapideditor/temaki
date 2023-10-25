@@ -2564,6 +2564,11 @@
       "plants"
     ]
   },
+  "tree_leafless": {
+    "groups": [
+      "plants"
+    ]
+  },
   "tree_needleleaved": {
     "groups": [
       "plants"
