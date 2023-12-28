@@ -164,7 +164,7 @@ function checkIcons() {
         // suspicious attributes
         let suspicious = node.attributes
           .map(attr => attr.name)
-          .filter(name => name !== 'd');
+          .filter(name => name !== 'd' && name !== 'fill-opacity');
 
         if (suspicious.length) {
           warnings.push(chalk.yellow('Warning - Suspicious attributes on ' + node.nodeName + ': ' + suspicious));

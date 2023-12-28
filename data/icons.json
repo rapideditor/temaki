@@ -796,6 +796,78 @@
       "sports"
     ]
   },
+  "crossing_markings-dashes": {
+    "groups": [
+      "crossings",
+      "highways"
+    ]
+  },
+  "crossing_markings-dots": {
+    "groups": [
+      "crossings",
+      "highways"
+    ]
+  },
+  "crossing_markings-ladder": {
+    "groups": [
+      "crossings",
+      "highways"
+    ]
+  },
+  "crossing_markings-ladder_paired": {
+    "groups": [
+      "crossings",
+      "highways"
+    ]
+  },
+  "crossing_markings-ladder_skewed": {
+    "groups": [
+      "crossings",
+      "highways"
+    ]
+  },
+  "crossing_markings-lines": {
+    "groups": [
+      "crossings",
+      "highways"
+    ]
+  },
+  "crossing_markings-lines_paired": {
+    "groups": [
+      "crossings",
+      "highways"
+    ]
+  },
+  "crossing_markings-surface": {
+    "groups": [
+      "crossings",
+      "highways"
+    ]
+  },
+  "crossing_markings-zebra": {
+    "groups": [
+      "crossings",
+      "highways"
+    ]
+  },
+  "crossing_markings-zebra_bicolour": {
+    "groups": [
+      "crossings",
+      "highways"
+    ]
+  },
+  "crossing_markings-zebra_double": {
+    "groups": [
+      "crossings",
+      "highways"
+    ]
+  },
+  "crossing_markings-zebra_paired": {
+    "groups": [
+      "crossings",
+      "highways"
+    ]
+  },
   "crossing_rail_rail": {
     "groups": [
       "crossings",

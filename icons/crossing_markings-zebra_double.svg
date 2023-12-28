@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 15 15">
+  <path d="M3 1L7 1L7 2.5L3 2.5z"/>
+  <path d="M3 3.5L7 3.5L7 5.5L3 5.5z"/>
+  <path d="M3 6.5L7 6.5L7 8.5L3 8.5z"/>
+  <path d="M3 9.5L7 9.5L7 11.5L3 11.5z"/>
+  <path d="M3 12.5L7 12.5L7 14L3 14z"/>
+  <path d="M8 1L12 1L12 2.5L8 2.5z"/>
+  <path d="M8 3.5L12 3.5L12 5.5L8 5.5z"/>
+  <path d="M8 6.5L12 6.5L12 8.5L8 8.5z"/>
+  <path d="M8 9.5L12 9.5L12 11.5L8 11.5z"/>
+  <path d="M8 12.5L12 12.5L12 14L8 14z"/>
+</svg>
