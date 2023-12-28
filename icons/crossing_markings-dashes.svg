@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 15 15">
-  <path d="M3 0.5L5 0.5L5 4L3 4z"/>
-  <path d="M3 5.5L5 5.5L5 9L3 9z"/>
-  <path d="M3 10.5L5 10.5L5 14L3 14z"/>
-  <path d="M10 0.5L12 0.5L12 4L10 4z"/>
-  <path d="M10 5.5L12 5.5L12 9L10 9z"/>
-  <path d="M10 10.5L12 10.5L12 14L10 14z"/>
+  <path d="M3 0.5L4.5 0.5L4.5 3L3 3z"/>
+  <path d="M3 8.5L4.5 8.5L4.5 11L3 11z"/>
+  <path d="M3 12.5L4.5 12.5L4.5 15L3 15z"/>
+  <path d="M3 4.5L4.5 4.5L4.5 7L3 7z"/>
+  <path d="M10.5 0.5L12 0.5L12 3L10.5 3z"/>
+  <path d="M10.5 8.5L12 8.5L12 11L10.5 11z"/>
+  <path d="M10.5 12.5L12 12.5L12 15L10.5 15z"/>
+  <path d="M10.5 4.5L12 4.5L12 7L10.5 7z"/>
 </svg>
