@@ -15,6 +15,39 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xx]: https://github.com/rapideditor/temaki/issues/xx
 -->
 
+# 5.7.0
+##### 2023-Dec-28
+
+* Adjust tree icons for improved clarity at 15px [#87]
+* Add icons for crossing types supported by iD [Rapid#1259]
+  * [`crossing_markings-dashes`]
+  * [`crossing_markings-dots`]
+  * [`crossing_markings-ladder`]
+  * [`crossing_markings-ladder_paired`]
+  * [`crossing_markings-ladder_skewed`]
+  * [`crossing_markings-lines`]
+  * [`crossing_markings-lines_paired`]
+  * [`crossing_markings-surface`]
+  * [`crossing_markings-zebra`]
+  * [`crossing_markings-zebra_bicolour`]
+  * [`crossing_markings-zebra_double`]
+  * [`crossing_markings-zebra_paired`]
+
+[`crossing_markings-dashes`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_markings-dashes
+[`crossing_markings-dots`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_markings-dots
+[`crossing_markings-ladder`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_markings-ladder
+[`crossing_markings-ladder_paired`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_markings-ladder_paired
+[`crossing_markings-ladder_skewed`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_markings-ladder_skewed
+[`crossing_markings-lines`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_markings-lines
+[`crossing_markings-lines_paired`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_markings-lines_paired
+[`crossing_markings-surface`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_markings-surface
+[`crossing_markings-zebra`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_markings-zebra
+[`crossing_markings-zebra_bicolour`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_markings-zebra_bicolour
+[`crossing_markings-zebra_double`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_markings-zebra_double
+[`crossing_markings-zebra_paired`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-crossing_markings-zebra_paired
+[Rapid#1259]: https://github.com/facebook/Rapid/issues/1259
+
+
 # 5.6.0
 ##### 2023-Oct-25
 
