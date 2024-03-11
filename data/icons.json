@@ -1053,6 +1053,12 @@
       "water"
     ]
   },
+  "fire_hydrant_underground": {
+    "groups": [
+      "utilities",
+      "water"
+    ]
+  },
   "fireplace": {
     "groups": [
       "camping"
@@ -1408,6 +1414,11 @@
     ]
   },
   "kerb-rolled": {
+    "groups": [
+      "barriers"
+    ]
+  },
+  "kerb-unspecified": {
     "groups": [
       "barriers"
     ]
