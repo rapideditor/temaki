@@ -21,7 +21,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 * Add [`kerb-unspecified`] icon [#90]
 * Add [`fire_hydrant_underground`] icon [#91]
 
-[`kerb-unspecifiedd`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-kerb-unspecified
+[`kerb-unspecified`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-kerb-unspecified
 [`fire_hydrant_underground`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-fire_hydrant_underground
 [#90]: https://github.com/rapideditor/temaki/issues/90
 [#91]: https://github.com/rapideditor/temaki/issues/91
