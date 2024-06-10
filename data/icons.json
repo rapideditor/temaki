@@ -1094,6 +1094,11 @@
       "food"
     ]
   },
+  "footwear_decontamination": {
+    "groups": [
+      "clothes"
+    ]
+  },
   "fountain": {
     "groups": [
       "water"
