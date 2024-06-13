@@ -15,6 +15,18 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xx]: https://github.com/rapideditor/temaki/issues/xx
 -->
 
+
+# 5.9.0
+##### 2024-Jun-13
+
+* Add [`footwear_decontamination`] icon [#93]
+* Drop unused `style` attribute from `tents.svg` [#92]
+
+[`footwear_decontamination`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-footwear_decontamination
+[#93]: https://github.com/rapideditor/temaki/issues/93
+[#92]: https://github.com/rapideditor/temaki/issues/92
+
+
 # 5.8.0
 ##### 2024-Mar-11
 
