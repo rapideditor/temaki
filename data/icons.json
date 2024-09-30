@@ -1627,6 +1627,11 @@
       "buildings"
     ]
   },
+  "natural_arch": {
+    "groups": [
+      "landforms"
+    ]
+  },
   "needle_and_spool": {
     "groups": [
       "tools"
