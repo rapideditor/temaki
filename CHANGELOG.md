@@ -15,6 +15,14 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xx]: https://github.com/rapideditor/temaki/issues/xx
 -->
 
+# 5.10.0
+##### 2024-Sep-30
+
+* Add [`natural_arch`] icon [#94]
+
+[`natural_arch`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-natural_arch
+[#94]: https://github.com/rapideditor/temaki/issues/94
+
 
 # 5.9.0
 ##### 2024-Jun-13
