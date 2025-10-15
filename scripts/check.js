@@ -1,6 +1,5 @@
-import chalk from 'chalk';
-import fs from 'node:fs';
-import { globSync } from 'glob';
+import fs from 'bun:fs';
+import { styleText } from 'bun:util';
 import svgPathParse from 'svg-path-parse';
 import xmlbuilder2 from 'xmlbuilder2';
 
@@ -55,21 +54,21 @@ function rectAttrsToPathD(attrs) {
 }
 
 function checkIcons() {
-  const START = '✅   ' + chalk.yellow('Checking icons...');
-  const END = '👍  ' + chalk.green('done');
+  const START = '✅   ' + styleText('yellow', 'Checking icons...');
+  const END = '👍  ' + styleText('green', 'done');
 
   console.log('');
   console.log(START);
   console.time(END);
 
-  globSync(`./icons/**/*.svg`).forEach(file => {
+  for (const file of fs.globSync('./icons/**/*.svg')) {
     const contents = fs.readFileSync(file, 'utf8');
     let xml;
     try {
       xml = xmlbuilder2.create(contents);
     } catch (err) {
-      console.error(chalk.red(`Error - ${err.message} reading:`));
-      console.error('  ' + chalk.yellow(file));
+      console.error(styleText('red', `Error - ${err.message} reading:`));
+      console.error('  ' + styleText('yellow', file));
       console.error('');
       process.exit(1);
     }
@@ -81,8 +80,8 @@ function checkIcons() {
     let rootCount = 0;
     let warnings = [];
 
-    let childrenToRemove = new Set();
-    let pathDataToAdd = new Set();
+    const childrenToRemove = new Set();
+    const pathDataToAdd = new Set();
 
     xml.each((child, index, level) => {
       const node = child.node;
@@ -94,16 +93,16 @@ function checkIcons() {
       // Checks for the root
       if (level === 1) {
         if (node.nodeName !== 'svg') {
-          console.error(chalk.red('Error - Invalid node at document root: ') + chalk.yellow(node.nodeName));
-          console.error(chalk.gray('  Each file should contain only a single root "svg" element.'));
+          console.error(styleText('red', 'Error - Invalid node at document root: ') + styleText('yellow', node.nodeName));
+          console.error(styleText('gray', '  Each file should contain only a single root "svg" element.'));
           console.error('  in ' + file);
           console.error('');
           process.exit(1);
         }
 
         if (rootCount++ > 0) {
-          console.error(chalk.red('Error - Multiple nodes at document root'));
-          console.error(chalk.gray('  Each file should contain only a single root "svg" element.'));
+          console.error(styleText('red', 'Error - Multiple nodes at document root'));
+          console.error(styleText('gray', '  Each file should contain only a single root "svg" element.'));
           console.error('  in ' + file);
           console.error('');
           process.exit(1);
@@ -156,8 +155,8 @@ function checkIcons() {
 
         // suspicious elements
         if (node.nodeName !== 'path') {
-          warnings.push(chalk.yellow('Warning - Suspicious node: ' + node.nodeName));
-          warnings.push(chalk.gray('  Each svg element should contain only one or more "path" elements.'));
+          warnings.push(styleText('yellow', 'Warning - Suspicious node: ' + node.nodeName));
+          warnings.push(styleText('gray', '  Each svg element should contain only one or more "path" elements.'));
           return;
         }
 
@@ -167,8 +166,8 @@ function checkIcons() {
           .filter(name => name !== 'd' && name !== 'fill-opacity');
 
         if (suspicious.length) {
-          warnings.push(chalk.yellow('Warning - Suspicious attributes on ' + node.nodeName + ': ' + suspicious));
-          warnings.push(chalk.gray('  Avoid identifiers, style, and presentation attributes.'));
+          warnings.push(styleText('yellow', 'Warning - Suspicious attributes on ' + node.nodeName + ': ' + suspicious));
+          warnings.push(styleText('gray', '  Avoid identifiers, style, and presentation attributes.'));
         }
 
         // normalize path data
@@ -183,19 +182,19 @@ function checkIcons() {
     }, false, true);  /* visit_self = false, recursive = true */
 
     // remove nodes only after crawling everything to avoid early exit
-    Array.from(childrenToRemove).forEach((child) => {
+    for (const child of childrenToRemove) {
       child.remove();
-    });
+    }
 
-    Array.from(pathDataToAdd).forEach((pathData) => {
-      if (pathData[0] === '<') {
-        xml.root().ele(pathData);
+    for (const pathdata of pathDataToAdd) {
+      if (pathdata[0] === '<') {
+        xml.root().ele(pathdata);
       } else {
         xml.root().ele('path', {
-          d: pathData
+          d: pathdata
         });
       }
-    });
+    }
 
 
     if (warnings.length) {
@@ -205,8 +204,7 @@ function checkIcons() {
     }
 
     fs.writeFileSync(file, xml.end({ prettyPrint: true }));
-
-  });
+  }
 
   console.timeEnd(END);
 }

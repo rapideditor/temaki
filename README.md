@@ -45,6 +45,8 @@ Some other guidelines:
 
 Icon requests are very welcome!
 
+See the [CONTRIBUTING.md](CONTRIBUTING.md) file for more info.
+
 
 ### License
 To the extent possible under law, the author(s) have dedicated all copyright and related and neighboring rights to this software to the public domain worldwide. This software is distributed without any warranty.
