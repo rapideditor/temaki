@@ -1,4 +1,4 @@
-import fs from 'node:fs';
+import fs from 'bun:fs';
 
 const iconMeta = JSON.stringify(JSON.parse(fs.readFileSync('./data/icons.json')));
 
