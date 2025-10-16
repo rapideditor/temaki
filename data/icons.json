@@ -1303,6 +1303,11 @@
       "food"
     ]
   },
+  "hotpot": {
+    "groups": [
+      "food"
+    ]
+  },
   "houseboat": {
     "groups": [
       "buildings",
@@ -1650,6 +1655,12 @@
   "os_benchmark": {
     "groups": [
       "information"
+    ]
+  },
+  "paifang": {
+    "groups": [
+      "buildings",
+      "religion"
     ]
   },
   "parking_space": {
@@ -2160,6 +2171,7 @@
   },
   "shinto": {
     "groups": [
+      "buildings",
       "religion"
     ]
   },

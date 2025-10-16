@@ -15,6 +15,20 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xx]: https://github.com/rapideditor/temaki/issues/xx
 -->
 
+# 5.11.0
+##### 2025-??
+
+* Add [`hotpot`] icon [#95]
+* Add [`paifang`] icon [#96]
+* This project uses `bun` now, for simpler developer tooling [#97]
+
+[`hotpot`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-hotpot
+[`paifang`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-paifang
+[#95]: https://github.com/rapideditor/temaki/issues/95
+[#96]: https://github.com/rapideditor/temaki/issues/96
+[#97]: https://github.com/rapideditor/temaki/issues/97
+
+
 # 5.10.0
 ##### 2024-Sep-30
 
