@@ -20,7 +20,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 
 * Add [`hotpot`] icon [#95]
 * Add [`paifang`] icon [#96]
-* This project uses `bun` now, for simpler developer tooling [#97]
+* This project uses [`bun`](https://bun.com/) now, for simpler developer tooling [#97]
 
 [`hotpot`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-hotpot
 [`paifang`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-paifang
