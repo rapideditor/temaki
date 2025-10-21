@@ -8,8 +8,20 @@
     "Quincy Morgan <quincy.morgan@icloud.com> (https://github.com/quincylvania)"
   ],
   "description": "An expansion pack for https://github.com/mapbox/maki",
-  "main": "",
   "type": "module",
+  "keywords": [
+    "icons",
+    "OSM",
+    "OpenStreetMap",
+    "map",
+    "mapping",
+    "svg"
+  ],
+  "files": [
+    "dist/",
+    "data/",
+    "icons/"
+  ],
   "scripts": {
     "all": "run-s clean check metadata dist",
     "build": "npm run all",
@@ -20,7 +32,8 @@
     "dist:view": "svg-sprite --view --view-dest . --shape-transform '' --shape-id-generator \"temaki-%s\" -w 15 -h 15 -p 2 --view-bust false --view-sprite dist/temaki-view.svg icons/*.svg",
     "metadata": "bun ./scripts/metadata.js",
     "post-symbol": "rm mustache-vars.json",
-    "pre-symbol": "bun ./scripts/pre-symbol.js",
+    "pre-symbol": "bun ./scripts/pre-symbol.ts",
+    "start": "bun ./scripts/server.ts",
     "symbol": "svg-sprite --symbol --symbol-dest . --shape-transform '' --variables 'mustache-vars.json' --shape-id-generator \"temaki-%s\" -w 15 -h 15 --symbol-example true --symbol-example-template docs/template.html --symbol-example-dest docs/index.html --symbol-sprite dist/temaki-symbol.svg icons/*.svg"
   },
   "devDependencies": {
