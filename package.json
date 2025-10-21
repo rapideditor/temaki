@@ -14,7 +14,7 @@
     "all": "run-s clean check metadata dist",
     "build": "npm run all",
     "check": "bun ./scripts/check.js",
-    "clean": "rm -f ./dist/*.svg || true",
+    "clean": "bun ./scripts/clean.ts",
     "dist": "run-p dist:symbol dist:view",
     "dist:symbol": "run-s pre-symbol symbol post-symbol",
     "dist:view": "svg-sprite --view --view-dest . --shape-transform '' --shape-id-generator \"temaki-%s\" -w 15 -h 15 -p 2 --view-bust false --view-sprite dist/temaki-view.svg icons/*.svg",
