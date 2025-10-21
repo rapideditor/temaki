@@ -16,7 +16,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 -->
 
 # 5.11.0
-##### 2025-??
+##### 2025-Oct-21
 
 * Add [`hotpot`] icon [#95]
 * Add [`paifang`] icon [#96]
