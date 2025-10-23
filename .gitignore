@@ -1,5 +1,8 @@
-/node_modules/
+node_modules/
 
 .DS_Store
+.vscode
 npm-debug.log
 package-lock.json
+pnpm-lock.yaml
+yarn.lock
