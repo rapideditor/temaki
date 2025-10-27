@@ -4907,7 +4907,18 @@
     return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
   }
 
+  function highlightSelectedIcon() {
+    const { hash } = window.location;
+    if (!hash) return;
+
+    const el = document.querySelector(hash)
+    if (!el) return;
+
+    el.classList.add('highlighted')
+  }
+
   function onLoad() {
+    highlightSelectedIcon();
     var metadata = JSON.parse(htmlDecode(document.getElementById('icon-meta').innerHTML));
     var groups = {};
 
@@ -4986,6 +4997,7 @@
 
 
     window.addEventListener('hashchange', updateForHash);
+    window.addEventListener('hashchange', highlightSelectedIcon)
     updateForHash();
   }
 

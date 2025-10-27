@@ -180,6 +180,11 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.highlighted {
+  outline: 3px solid #9e36bb;
+  background: rgba(158, 54, 187, 0.1);
+}
+
 @media only screen and (max-width: 400px) {
   .content {
     width: 100%;
