@@ -4908,6 +4908,13 @@
   }
 
   function highlightSelectedIcon() {
+    // remove `highlighted` class from all other icons
+    const allHighlightedIcons = document.querySelectorAll('.highlighted')
+
+    for (const el of allHighlightedIcons) {
+      el.classList.remove('highlighted')
+    }
+
     const { hash } = window.location;
     if (!hash) return;
 
