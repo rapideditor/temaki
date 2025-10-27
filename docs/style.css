@@ -1,335 +1,201 @@
-<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-    <title>Temaki Icons</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script id="icon-meta" type="application/json">{{icon_meta}}</script>
-    <style>
-        html, body {
-            margin:0;
-            padding:0;
-        }
-        body, body * {
-            box-sizing: border-box;
-        }
-        body{
-            color:#666;
-            background:#fafafa;
-            font-family:sans-serif;
-            font-size:1em;
-            line-height:1.4;
-        }
-        a{
-            color: inherit;
-            text-decoration:none;
-        }
-        .content {
-            width: 90%;
-            max-width: 1400px;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 10px;
-        }
-        #header {
-            color: #fff;
-            background: #333;
-            border-bottom: 5px solid #9E36BB;
-        }
-        #header .line {
-            display: flex;
-            align-items: baseline;
-            justify-content: space-between;
-        }
-        #header h3 {
-            white-space: nowrap;
-            margin: 0;
-            margin-right: 20px;
-        }
-        #header h3 svg {
-            height: 1.5em;
-            width: 1.5em;
-            vertical-align: sub;
-            margin-right: 8px;
-        }
-        #header use {
-            fill: #9E36BB;
-        }
-        #search {
-            width: 100%;
-            max-width: 600px;
-            font-size: 16px;
-            border-radius: 30px;
-            box-shadow: none;
-            border: 0;
-            padding: 8px 16px;
-            background: #eee;
-        }
-        #search:focus {
-            background: #fff;
-        }
-        #main {
-            padding-top: 20px;
-            display: flex;
-        }
-        ul#groups{
-            padding:0;
-            margin: 0;
-            margin-bottom: 20px;
-            list-style: none;
-            width: 10%;
-            min-width: 100px;
-            flex: 0 0 auto;
-        }
-        ul#groups li {
-            display:inline-block;
-            margin-right: 6px;
-            margin-bottom: 9px;
-        }
-        ul#groups li a {
-            color: #fff;
-            padding: 4px;
-            border-radius: 2px;
-            background: #999;
-        }
-        @media (hover) {
-            ul#groups li a:hover {
-                background: #333;
-            }
-        }
-        ul#groups li a:active {
-            background: #333;
-        }
-        ul#groups li a.selected {
-            background: #9E36BB;
-        }
-        ul#icons{
-            padding:0;
-            margin: 0;
-            width: 100%;
-            list-style: none;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-content: start;
-        }
-        #icons li{
-            display:inline-block;
-            position:relative;
-            margin:0;
-            vertical-align:top;
-            margin-right: 8px;
-            margin-bottom: 8px;
-            cursor:default;
-            overflow: hidden;
-        }
-        #icons li.hidden {
-            display:none;
-        }
-        #icons li a{
-            background-color:#fff;
-            border:1px solid #ccc;
-            display: block;
-            padding:5px;
-        }
-        @media (hover) {
-            #icons li a:hover {
-                border:1px solid #666;
-            }
-        }
-        #icons li a:active {
-            border:1px solid #666;
-        }
-        .icon-box{
-            margin:0;
-            width:160px;
-            height:70px;
-            position:relative;
-            display:table-cell;
-            vertical-align:middle;
-            text-align:center;
-        }
-        .icon-lg{
-            display: inline-block;
-            width: 45px;
-            height: 45px;
-            margin: 0 10px;
-        }
-        .icon-sm{
-            display: inline-block;
-            width: 15px;
-            height: 15px;
-            margin: 0 10px;
-        }
-        .icon-name{
-            display: block;
-            font-size:12px;
-            font-weight:normal;
-            white-space:nowrap;
-            overflow:hidden;
-            text-overflow:ellipsis;
-            text-align:center;
-            color:#666;
-        }
-        footer{
-            margin: 20px 0;
-            text-align: center;
-            font-size:12px;
-        }
-        footer p{
-            margin:0;
-        }
-        footer a{
-            color:#9E36BB;
-        }
-        footer a:hover{
-            text-decoration:underline;
-        }
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body,
+body * {
+  box-sizing: border-box;
+}
+body {
+  color: #666;
+  background: #fafafa;
+  font-family: sans-serif;
+  font-size: 1em;
+  line-height: 1.4;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.content {
+  width: 90%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+#header {
+  color: #fff;
+  background: #333;
+  border-bottom: 5px solid #9e36bb;
+}
+#header .line {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+#header h3 {
+  white-space: nowrap;
+  margin: 0;
+  margin-right: 20px;
+}
+#header h3 svg {
+  height: 1.5em;
+  width: 1.5em;
+  vertical-align: sub;
+  margin-right: 8px;
+}
+#header use {
+  fill: #9e36bb;
+}
+#search {
+  width: 100%;
+  max-width: 600px;
+  font-size: 16px;
+  border-radius: 30px;
+  box-shadow: none;
+  border: 0;
+  padding: 8px 16px;
+  background: #eee;
+}
+#search:focus {
+  background: #fff;
+}
+#main {
+  padding-top: 20px;
+  display: flex;
+}
+ul#groups {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  list-style: none;
+  width: 10%;
+  min-width: 100px;
+  flex: 0 0 auto;
+}
+ul#groups li {
+  display: inline-block;
+  margin-right: 6px;
+  margin-bottom: 9px;
+}
+ul#groups li a {
+  color: #fff;
+  padding: 4px;
+  border-radius: 2px;
+  background: #999;
+}
+@media (hover) {
+  ul#groups li a:hover {
+    background: #333;
+  }
+}
+ul#groups li a:active {
+  background: #333;
+}
+ul#groups li a.selected {
+  background: #9e36bb;
+}
+ul#icons {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: start;
+}
+#icons li {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  vertical-align: top;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  cursor: default;
+  overflow: hidden;
+}
+#icons li.hidden {
+  display: none;
+}
+#icons li a {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  display: block;
+  padding: 5px;
+}
+@media (hover) {
+  #icons li a:hover {
+    border: 1px solid #666;
+  }
+}
+#icons li a:active {
+  border: 1px solid #666;
+}
+.icon-box {
+  margin: 0;
+  width: 160px;
+  height: 70px;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.icon-lg {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  margin: 0 10px;
+}
+.icon-sm {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 10px;
+}
+.icon-name {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  color: #666;
+}
+footer {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 12px;
+}
+footer p {
+  margin: 0;
+}
+footer a {
+  color: #9e36bb;
+}
+footer a:hover {
+  text-decoration: underline;
+}
 
-        @media only screen and (max-width: 400px) {
-            .content {
-                width: 100%;
-            }
-            #header .line {
-                flex-direction: column;
-                align-items: center;
-            }
-            #header h3 {
-                margin-bottom: 10px;
-            }
-            #main {
-                flex-direction: column;
-            }
-            ul#groups {
-                width: 100%;
-                max-width: auto;
-            }
-        }
-    </style>
-    </head>
-    <body>
-    <svg width="0" height="0" style="position:absolute">
-{{#shapes}}     {{{svg}}}
-{{/shapes}}
-    </svg>
-
-    <section>
-        <div id="header">
-            <div class="line content">
-                <h3><a href="https://github.com/rapideditor/temaki"><svg><use xlink:href="#temaki-temaki"></use></svg>Temaki Icons</a></h3>
-                <input type="text" id="search" placeholder="Search icons"/>
-            </div>
-        </div>
-        <div id="main" class="content">
-            <ul id="groups"></ul>
-            <ul id="icons">
-{{#shapes}}<li id="icon-{{name}}" title="{{name}}">
-                <a href="#icon-{{name}}">
-                <div class="icon-box">
-                    <svg class="icon-lg"><use xlink:href="#{{name}}"></use></svg>
-                    <svg class="icon-sm"><use xlink:href="#{{name}}"></use></svg>
-                </div>
-                <div class="icon-name">{{name}}</div>
-                </a>
-            </li>{{/shapes}}
-            </ul>
-        </div>
-        <footer>
-            <p>Previews at 40x40 and 15x15. Generated by <a href="https://github.com/jkphl/svg-sprite" target="_blank">svg-sprite</a>.</p>
-        </footer>
-    </section>
-    </body>
-    <script type="text/javascript">
-        function htmlDecode(input){
-            var e = document.createElement('div');
-            e.innerHTML = input;
-            return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
-        }
-
-        function onLoad() {
-            var metadata = JSON.parse(htmlDecode(document.getElementById('icon-meta').innerHTML));
-
-            var groups = {};
-
-            for (var name in metadata) {
-                var iconInfo = metadata[name];
-                var el = document.getElementById('icon-temaki-' + name);
-                for (var i in iconInfo.groups) {
-                    var group = iconInfo.groups[i];
-
-                    if (!groups[group]) groups[group] = [];
-
-                    groups[group].push(name);
-
-                    el.classList.add('grp-' + group);
-                }
-            }
-
-            var sortedGroups = Object.keys(groups).sort();
-
-            for (var i in sortedGroups) {
-                var group = sortedGroups[i];
-                var groupEl = document.createElement('li');
-                var a = groupEl.appendChild(document.createElement('a'));
-                a.setAttribute('href', '#group=' + group);
-                a.classList.add('group-' + group);
-                a.innerHTML = group;
-                a.addEventListener('click', function(e) {
-                    if (e.target.classList.contains('selected')) {
-                        e.preventDefault();
-                        location.hash = '';
-                    }
-                });
-                document.getElementById('groups').appendChild(groupEl);
-            }
-
-            function doSearch(e) {
-                location.hash = '';
-                var s = e && e.target && e.target.value.trim().toLowerCase().replace(/[^a-z0-9]/gi, '');
-                for (var name in metadata) {
-                    var el = document.getElementById('icon-temaki-' + name);
-                    var flatName = s && name.trim().toLowerCase().replace(/[^a-z0-9]/gi, '');
-                    if (flatName && flatName.indexOf(s) === -1) {
-                        el.classList.add('hidden');
-                    } else {
-                        el.classList.remove('hidden');
-                    }
-                }
-            }
-            document.getElementById('search').addEventListener('input', doSearch);
-
-            function updateForHash() {
-                document.querySelectorAll('#groups a.selected').forEach(function(el) {
-                    el.classList.remove('selected');
-                });
-
-                var hash = location.hash;
-                if (hash) hash = hash.slice(1);
-                if (hash.indexOf('group=') === 0) {
-                    document.getElementById('search').value = '';
-                    var group = hash.slice(6);
-
-                    document.querySelector('#groups .group-' + group).classList.add('selected');
-
-                    document.querySelectorAll('#icons li').forEach(function(el) {
-                        el.classList.add('hidden');
-                    });
-                    document.querySelectorAll('#icons .grp-' + group).forEach(function(el) {
-                        el.classList.remove('hidden');
-                    });
-                } else {
-                    document.querySelectorAll('#icons li.hidden').forEach(function(el) {
-                        el.classList.remove('hidden');
-                    });
-                }
-            }
-
-
-            window.addEventListener('hashchange', updateForHash);
-
-            updateForHash();
-        }
-
-        window.addEventListener('load', onLoad);
-    </script>
-</html>
+@media only screen and (max-width: 400px) {
+  .content {
+    width: 100%;
+  }
+  #header .line {
+    flex-direction: column;
+    align-items: center;
+  }
+  #header h3 {
+    margin-bottom: 10px;
+  }
+  #main {
+    flex-direction: column;
+  }
+  ul#groups {
+    width: 100%;
+    max-width: auto;
+  }
+}
