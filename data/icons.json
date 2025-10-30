@@ -1739,6 +1739,11 @@
       "tools"
     ]
   },
+  "pickleball": {
+    "groups": [
+      "sports"
+    ]
+  },
   "picnic_shelter": {
     "groups": [
       "buildings",
