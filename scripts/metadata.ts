@@ -1,6 +1,6 @@
 import { Glob } from 'bun';
 import { styleText } from 'bun:util';
-import * as path from 'node:path';
+import { basename } from 'node:path';
 
 
 const properties = new Set([
@@ -68,7 +68,7 @@ const validKeys = new Set();
 const glob = new Glob('./icons/**/*.svg');
 for (const file of glob.scanSync()) {
   const contents = await Bun.file(file, 'utf8').text();
-  const iconName = path.basename(file).slice(0, -4);
+  const iconName = basename(file).slice(0, -4);
 
   validKeys.add(iconName);
   if (!meta[iconName]) {
