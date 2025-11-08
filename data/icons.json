@@ -2482,6 +2482,11 @@
       "aerialways"
     ]
   },
+  "table_soccer": {
+    "groups": [
+      "sports"
+    ]
+  },
   "tall_gate": {
     "groups": [
       "barriers"
