@@ -2,7 +2,10 @@
   "name": "@rapideditor/temaki",
   "version": "5.11.0",
   "license": "CC0-1.0",
-  "repository": "github:rapideditor/temaki",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rapideditor/temaki.git"
+  },
   "contributors": [
     "Bryan Housel <bhousel@gmail.com> (https://github.com/bhousel)",
     "Quincy Morgan <quincy.morgan@icloud.com> (https://github.com/quincylvania)"
@@ -37,11 +40,11 @@
     "symbol": "svg-sprite --symbol --symbol-dest . --shape-transform '' --variables 'mustache-vars.json' --shape-id-generator \"temaki-%s\" -w 15 -h 15 --symbol-example true --symbol-example-template docs/template.html --symbol-example-dest docs/index.html --symbol-sprite dist/temaki-symbol.svg icons/*.svg"
   },
   "devDependencies": {
-    "@types/bun": "^1.3.1",
+    "@types/bun": "^1.3.4",
     "npm-run-all2": "^8.0.4",
     "svg-path-parse": "^1.1.3",
     "svg-sprite": "^2.0.4",
-    "xmlbuilder2": "^4.0.0"
+    "xmlbuilder2": "^4.0.3"
   },
   "publishConfig": {
     "access": "public"

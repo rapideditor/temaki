@@ -48,7 +48,25 @@
     return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
   }
 
+  function highlightSelectedIcon() {
+    // remove `highlighted` class from all other icons
+    const allHighlightedIcons = document.querySelectorAll('.highlighted')
+
+    for (const el of allHighlightedIcons) {
+      el.classList.remove('highlighted')
+    }
+
+    const { hash } = window.location;
+    if (!hash) return;
+
+    const el = document.querySelector(hash)
+    if (!el) return;
+
+    el.classList.add('highlighted')
+  }
+
   function onLoad() {
+    highlightSelectedIcon();
     var metadata = JSON.parse(htmlDecode(document.getElementById('icon-meta').innerHTML));
     var groups = {};
 
@@ -127,6 +145,7 @@
 
 
     window.addEventListener('hashchange', updateForHash);
+    window.addEventListener('hashchange', highlightSelectedIcon);
     updateForHash();
   }
 
