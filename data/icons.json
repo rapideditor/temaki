@@ -2889,6 +2889,11 @@
       "healthcare"
     ]
   },
+  "viewpoint": {
+    "groups": [
+      "information"
+    ]
+  },
   "wall": {
     "groups": [
       "barriers"

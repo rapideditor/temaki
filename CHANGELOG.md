@@ -12,8 +12,25 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 ##### YYYY-MMM-DD
 
 [`xxxx`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-xxxx
-[#xx]: https://github.com/rapideditor/temaki/issues/xx
+[#xxx]: https://github.com/rapideditor/temaki/issues/xxx
 -->
+# 5.12.0
+##### 2026-Feb-27
+
+* Add [`viewpoint`] icon [#102]
+* Add [`table_soccer`] icon [#101]
+* Add [`pickleball`] icon [#100]
+* Fix `metadata.ts` when run on Windows [#99]
+* Improve Bun/TypeScript setup [#98]
+
+[`viewpoint`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-viewpoint
+[`table_soccer`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-table_soccer
+[`pickleball`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-pickleball
+[#98]: https://github.com/rapideditor/temaki/issues/98
+[#99]: https://github.com/rapideditor/temaki/issues/99
+[#100]: https://github.com/rapideditor/temaki/issues/100
+[#101]: https://github.com/rapideditor/temaki/issues/101
+[#102]: https://github.com/rapideditor/temaki/issues/102
 
 # 5.11.0
 ##### 2025-Oct-21
