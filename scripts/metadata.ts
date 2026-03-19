@@ -39,6 +39,7 @@ const groups = new Set([
   'shapes',
   'snow',
   'sports',
+  'playground',
   'telecom',
   'tools',
   'utilities',

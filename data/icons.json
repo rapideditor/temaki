@@ -17,6 +17,11 @@
       "tools"
     ]
   },
+  "activity_panel": {
+    "groups": [
+      "playground"
+    ]
+  },
   "adit_profile": {
     "groups": [
       "infrastructure"
@@ -98,6 +103,7 @@
   "balance_beam": {
     "groups": [
       "people",
+      "playground",
       "sports"
     ]
   },
@@ -109,6 +115,11 @@
   "barn": {
     "groups": [
       "buildings"
+    ]
+  },
+  "basketswing": {
+    "groups": [
+      "playground"
     ]
   },
   "beach": {
@@ -729,6 +740,16 @@
       "sports"
     ]
   },
+  "climbing_frame": {
+    "groups": [
+      "playground"
+    ]
+  },
+  "climbing_wall": {
+    "groups": [
+      "playground"
+    ]
+  },
   "clock": {
     "groups": [
       "information"
@@ -917,6 +938,11 @@
   "curtains": {
     "groups": [
       "home"
+    ]
+  },
+  "cushion": {
+    "groups": [
+      "playground"
     ]
   },
   "cycle_barrier": {
@@ -1809,6 +1835,11 @@
       "sports"
     ]
   },
+  "playhouse": {
+    "groups": [
+      "playground"
+    ]
+  },
   "plumber": {
     "groups": [
       "utilities",
@@ -2166,6 +2197,7 @@
   "seesaw": {
     "groups": [
       "people",
+      "playground",
       "sports"
     ]
   },
@@ -2269,6 +2301,13 @@
   },
   "slide": {
     "groups": [
+      "playground",
+      "sports"
+    ]
+  },
+  "slide2": {
+    "groups": [
+      "playground",
       "sports"
     ]
   },
@@ -2366,6 +2405,11 @@
       "barriers"
     ]
   },
+  "splash_pad": {
+    "groups": [
+      "playground"
+    ]
+  },
   "spotting_scope": {
     "groups": [
       "tools"
@@ -2374,6 +2418,7 @@
   "spring_rider": {
     "groups": [
       "animals",
+      "playground",
       "sports"
     ]
   },
@@ -2475,6 +2520,11 @@
       "landforms",
       "plants",
       "water"
+    ]
+  },
+  "swing": {
+    "groups": [
+      "playground"
     ]
   },
   "t_bar_lift": {
@@ -2606,6 +2656,7 @@
   },
   "train": {
     "groups": [
+      "playground",
       "railways",
       "vehicles"
     ]
@@ -2650,6 +2701,11 @@
     "groups": [
       "railways",
       "vehicles"
+    ]
+  },
+  "trampoline": {
+    "groups": [
+      "playground"
     ]
   },
   "transit": {
@@ -3067,6 +3123,11 @@
     "groups": [
       "highways",
       "shapes"
+    ]
+  },
+  "zip_wire": {
+    "groups": [
+      "playground"
     ]
   },
   "zoo": {
