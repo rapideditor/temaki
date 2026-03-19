@@ -4943,9 +4943,9 @@
     }
 
     const { hash } = window.location;
-    if (!hash) return;
+    if (!hash || hash === '#') return;
 
-    const el = document.querySelector(hash)
+    const el = document.getElementById(decodeURIComponent(hash.slice(1)))
     if (!el) return;
 
     el.classList.add('highlighted')
