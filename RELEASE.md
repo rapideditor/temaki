@@ -27,6 +27,7 @@ export VERSION=vA.B.C-pre.D
 git add . && git commit -m "$VERSION"
 git tag "$VERSION"
 git push origin main "$VERSION"
+npm login    # if needed, session tokens last 2 hours
 bun publish
 ```
 
