@@ -2,7 +2,7 @@
 
 This file contains agent-specific guidance only.
 
-Read [`README.md`](README.md) first for general project information.
+Read [`README.md`](README.md) and [`CONTRIBUTING.md`](CONTRIBUTING.md) first for general project information.
 
 ---
 

@@ -1,6 +1,6 @@
-## Release Checklist
+# Release Checklist
 
-#### Update version, tag, and publish
+## Update version, tag, and publish
 
 ```bash
 # Make sure your main branch is up to date and all tests pass
