@@ -10,6 +10,17 @@ Read [`README.md`](README.md) and [`CONTRIBUTING.md`](CONTRIBUTING.md) first for
 
 You can use a `SCRATCHPAD.md` file (gitignored) for persistent working memory across chat sessions. At the start of a session, read it for additional context on recent work, lessons learned, and known quirks. As you work, feel free to update the scratchpad with any learnings that a future session would benefit from knowing.
 
+## Prompt Files
+
+This project has reusable Copilot prompt files in `.github/prompts/`:
+
+- `/commit` — stage and commit all changes
+- `/release` — prepare a new release (CHANGELOG entry + version bump); accepts version number as input
+- `/suggest` — review the codebase and suggest concrete improvements
+- `/reflect` — sync all project documentation with the current state of the code
+
+When asked to do one of these tasks, prefer using the prompt file rather than improvising.
+
 ## General Guidelines
 
 ### Constructive Pushback

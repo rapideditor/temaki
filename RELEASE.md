@@ -1,6 +1,16 @@
 # Release Checklist
 
-## Update version, tag, and publish
+## Prepare the release
+
+Use the `/release` prompt in Copilot Chat — it will:
+- Validate the version number
+- Identify commits since the last release and look up PR numbers
+- Update `CHANGELOG.md` with a new entry
+- Bump the version in `package.json`
+
+Review the changes, then commit using the `/commit` prompt.
+
+## Tag and publish
 
 ```bash
 # Make sure your main branch is up to date and all tests pass

@@ -22,7 +22,7 @@ If you want to contribute to temaki, you'll probably need to:
 - `bun install` the dependencies
 
 As you change things, you'll want to `bun run all` to ensure that things are working.
-(This command just runs `clean`, `check`, `metadata`, and `dist` to rebuild the spritesheets.)
+(This command runs `clean`, `check`, `tsc`, `metadata`, and `dist` to type-check and rebuild the spritesheets.)
 
 You can also test the preview page in a local server:
 - `bun start` - then open `http://127.0.0.1:8080/` in a browser.
