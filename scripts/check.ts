@@ -1,10 +1,13 @@
 import { Glob } from 'bun';
-import { styleText } from 'bun:util';
+import { styleText } from 'node:util';
 import svgPathParse from 'svg-path-parse';
 import xmlbuilder2 from 'xmlbuilder2';
 
+import type { XMLBuilder } from 'xmlbuilder2/lib/interfaces';
+import type { Element as DOMElement } from '@oozcitak/dom/lib/dom/interfaces';
 
-const START = '✅   ' + styleText('yellow', 'Checking icons...');
+
+const START = '✅   ' + styleText('yellow', 'Checking icons…');
 const END = '👍  ' + styleText('green', 'done');
 
 console.log('');
@@ -13,13 +16,13 @@ console.time(END);
 
 const glob = new Glob('./icons/**/*.svg');
 for (const file of glob.scanSync()) {
-  const contents = await Bun.file(file, 'utf8').text();
+  const contents = await Bun.file(file).text();
 
   let xml;
   try {
     xml = xmlbuilder2.create(contents);
   } catch (err) {
-    console.error(styleText('red', `Error - ${err.message} reading:`));
+    console.error(styleText('red', `Error - ${(err as Error).message} reading:`));
     console.error('  ' + styleText('yellow', file));
     console.error('');
     process.exit(1);
@@ -30,13 +33,13 @@ for (const file of glob.scanSync()) {
 
   // Check the contents of the file
   let rootCount = 0;
-  let warnings = [];
+  let warnings: string[] = [];
 
-  const childrenToRemove = new Set();
-  const pathDataToAdd = new Set();
+  const childrenToRemove = new Set<XMLBuilder>();
+  const pathDataToAdd = new Set<string>();
 
   xml.each((child, index, level) => {
-    const node = child.node;
+    const node = child.node as DOMElement;
     if (node.nodeType !== 1) {   // ignore and remove things like DOCTYPE, CDATA, comments, text
       childrenToRemove.add(child);
       return;
@@ -68,13 +71,13 @@ for (const file of glob.scanSync()) {
     } else {
       // convert ellipses to paths
       if (node.nodeName === 'ellipse') {
-        const attr = (name) => parseFloat(node.getAttribute(name));
+        const attr = (name: string) => parseFloat(node.getAttribute(name) ?? '0');
         pathDataToAdd.add(ellipseAttrsToPathD(attr('rx'), attr('cx'), attr('ry'), attr('cy')));
         childrenToRemove.add(child);
         return;
       // convert rects to paths
       } else if (node.nodeName === 'rect') {
-        const attr = (name) => node.getAttribute(name);
+        const attr = (name: string) => node.getAttribute(name);
         pathDataToAdd.add(rectAttrsToPathD(attr));
         childrenToRemove.add(child);
         return;
@@ -113,7 +116,7 @@ for (const file of glob.scanSync()) {
       }
 
       // suspicious attributes
-      let suspicious = node.attributes
+      let suspicious = Array.from(node.attributes)
         .map(attr => attr.name)
         .filter(name => name !== 'd' && name !== 'fill-opacity');
 
@@ -162,27 +165,29 @@ console.timeEnd(END);
 
 
 
-function ellipseAttrsToPathD(rx, cx, ry, cy) {
+function ellipseAttrsToPathD(rx: number, cx: number, ry: number, cy: number) {
   return `M${cx - rx},${cy}a${rx},${ry} 0 1,0 ${rx * 2},0a${rx},${ry} 0 1,0 -${rx * 2},0z`;
 }
 
 // https://github.com/elrumordelaluz/element-to-path/blob/master/src/index.js
-function rectAttrsToPathD(attrs) {
-  const w = parseFloat(attrs('width'));
-  const h = parseFloat(attrs('height'));
-  const x = attrs('x') ? parseFloat(attrs('x')) : 0;
-  const y = attrs('y') ? parseFloat(attrs('y')) : 0;
-  let rx = attrs('rx') || 'auto';
-  let ry = attrs('ry') || 'auto';
-  if (rx === 'auto' && ry === 'auto') {
+function rectAttrsToPathD(attrs: (name: string) => string | null) {
+  const w = parseFloat(attrs('width') ?? '0');
+  const h = parseFloat(attrs('height') ?? '0');
+  const x = attrs('x') ? parseFloat(attrs('x')!) : 0;
+  const y = attrs('y') ? parseFloat(attrs('y')!) : 0;
+  const rxStr: string = attrs('rx') ?? 'auto';
+  const ryStr: string = attrs('ry') ?? 'auto';
+  let rx: number;
+  let ry: number;
+  if (rxStr === 'auto' && ryStr === 'auto') {
     rx = ry = 0;
-  } else if (rx !== 'auto' && ry === 'auto') {
-    rx = ry = calcValue(rx, w);
-  } else if (ry !== 'auto' && rx === 'auto') {
-    ry = rx = calcValue(ry, h);
+  } else if (rxStr !== 'auto' && ryStr === 'auto') {
+    rx = ry = calcValue(rxStr, w);
+  } else if (ryStr !== 'auto' && rxStr === 'auto') {
+    ry = rx = calcValue(ryStr, h);
   } else {
-    rx = calcValue(rx, w);
-    ry = calcValue(ry, h);
+    rx = calcValue(rxStr, w);
+    ry = calcValue(ryStr, h);
   }
   if (rx > w / 2) {
     rx = w / 2;
@@ -204,7 +209,7 @@ function rectAttrsToPathD(attrs) {
     'z',
   ].filter(Boolean).join('');
 
-  function calcValue(val, base) {
-    return /%$/.test(val) ? (val.replace('%', '') * 100) / base : parseFloat(val);
+  function calcValue(val: string, base: number): number {
+    return /%$/.test(val) ? (parseFloat(val.replace('%', '')) * 100) / base : parseFloat(val);
   }
 }

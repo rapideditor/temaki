@@ -1,7 +1,7 @@
-import { Glob } from 'bun';
-import { styleText } from 'bun:util';
 import { basename } from 'node:path';
-
+import { Glob } from 'bun';
+import { styleText } from 'node:util';
+import stringify from 'json-stringify-pretty-compact';
 
 const properties = new Set([
   'groups'
@@ -49,7 +49,7 @@ const groups = new Set([
 ]);
 
 
-const START = '✅   ' + styleText('yellow', 'Checking metadata...');
+const START = '✅   ' + styleText('yellow', 'Checking metadata…');
 const END = '👍  ' + styleText('green', 'done');
 
 console.log('');
@@ -68,7 +68,7 @@ const validKeys = new Set();
 
 const glob = new Glob('./icons/**/*.svg');
 for (const file of glob.scanSync()) {
-  const contents = await Bun.file(file, 'utf8').text();
+  const contents = await Bun.file(file).text();
   const iconName = basename(file).slice(0, -4);
 
   validKeys.add(iconName);
@@ -85,14 +85,14 @@ for (const file of glob.scanSync()) {
 
   Object.keys(meta[iconName]).forEach(function(prop) {
     if (!properties.has(prop)) {
-      console.error(styleText('red', `Error - Unexpcted property "${prop}" for "${iconName}" in data/icons.json`));
+      console.error(styleText('red', `Error - Unexpected property "${prop}" for "${iconName}" in data/icons.json`));
       console.error('');
       process.exit(1);
     }
   });
-  meta[iconName].groups.forEach(function(group) {
+  meta[iconName].groups.forEach(function(group: string) {
     if (!groups.has(group)) {
-      console.error(styleText('red', `Error - Unexpcted group "${group}" for "${iconName}" in data/icons.json`));
+      console.error(styleText('red', `Error - Unexpected group "${group}" for "${iconName}" in data/icons.json`));
       console.error('');
       process.exit(1);
     }
@@ -112,6 +112,6 @@ Object.keys(meta).sort().forEach((key) => {
   meta[key] = val;
 });
 
-await Bun.write('./data/icons.json', JSON.stringify(meta, null, '  '));
+await Bun.write('./data/icons.json', stringify(meta, { maxLength: 9999 }) + '\n');
 
 console.timeEnd(END);
