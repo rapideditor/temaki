@@ -1,6 +1,6 @@
 ---
 description: Prepare a new release (CHANGELOG, version bump)
-argument-hint: version number, e.g. 5.13.0
+argument-hint: version number, for example: `A.B.C` or `A.B.C-pre.D`
 ---
 
 You are preparing release **${input:version}** for this repo. Do the following steps in order:

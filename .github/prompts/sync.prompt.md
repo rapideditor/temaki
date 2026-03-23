@@ -1,6 +1,6 @@
 ---
 description: Sync scaffold files in this project against a source repo, creating or updating files with details adapted to this project
-argument-hint: source repo URL, e.g. https://github.com/rapideditor/temaki
+argument-hint: source repo URL, e.g. https://github.com/<owner>/<repo>
 ---
 
 You are doing a scaffold sync. For each file in the manifest below, fetch the source version, compare it to the local version, and **create or update the local file** — substituting any source-specific details with this project's equivalent. The goal is to carry the source's structure and generic content forward while keeping this project's identity intact.
@@ -22,19 +22,19 @@ Before doing anything else:
 Process each file below. For every file: fetch the source, read the local version (if it exists), then apply the specific instructions listed.
 
 - `.github/prompts/commit.prompt.md` — generic workflow; substitute any repo-specific examples or URLs
-- `.github/prompts/suggest.prompt.md` — generic; substitute any repo-specific examples or file paths
 - `.github/prompts/reflect.prompt.md` — generic; substitute any repo-specific layer references (file names, tools, etc.)
-- `.github/prompts/scaffold.prompt.md` — generic; substitute the example source repo URL in the argument-hint
-- `AGENTS.md` — the general guidelines section is portable; substitute project-specific references (scratchpad notes, file paths, tool names) with this project's equivalents; preserve any local sections that have no counterpart in the source
-- `.github/prompts/release.prompt.md` — workflow steps are generic; substitute repo URL, changelog format, and any tooling references
-- `README.md` — preserve this project's actual description, icon list, and any unique content; adopt structural sections (badge layout, contributing footer, license block) from the source if they are absent locally; do not overwrite meaningful local content with source content
-- `CONTRIBUTING.md` — substitute this project's tooling and runtime wherever the source references specific tools (e.g. Bun, npm, make); keep the source's structural sections
-- `RELEASE.md` — substitute this project's repo URL, branch names, and tooling references
-- `LICENSE.md` — if the local license type matches `package.json`, treat as in sync and skip; if the type differs from the source, flag it and ask before changing
-- `tsconfig.json` — apply structural changes and new compiler options from the source; flag any option that differs in value and ask before overwriting, since local values may be intentional
-- `.gitattributes` — apply source content wholesale if missing; if present, add any entries from the source that are absent locally without removing local-only entries
+- `.github/prompts/release.prompt.md` — adapt the workflow to this project's release process (don't just string-replace tool names — rethink the - `.github/prompts/suggest.prompt.md` — generic; substitute any repo-specific examples or file paths
+- `.github/prompts/sync.prompt.md` — generic; the argument-hint uses a placeholder URL and should not need substitution
+steps if the workflow is fundamentally different); substitute repo URL and tooling references
+- `.gitattributes` — adapt file-type entries to match this project's actual file types (e.g. add `*.sh` if the project has shell scripts, drop `*.ts` if it doesn't use TypeScript); if local file exists, add missing entries without removing local-only ones
 - `.gitignore` — merge: add entries from source that are absent locally; do not remove local-only entries
+- `AGENTS.md` — the general guidelines section is portable; substitute project-specific references (scratchpad notes, file paths, tool names) with this project's equivalents; preserve any local sections that have no counterpart in the source
+- `CONTRIBUTING.md` — adapt to this project's tooling and runtime (don't just string-replace tool names — rethink setup steps and commands if the build workflow differs); keep the source's structural sections
+- `LICENSE.md` — if the local license type matches this project's `package.json`, it's correct — skip regardless of what the source uses; only flag if the local file contradicts this project's own `package.json`
+- `README.md` — preserve this project's actual description, icon list, and any unique content; adopt structural sections (badge layout, contributing footer, license block) from the source if they are absent locally; do not overwrite meaningful local content with source content
+- `RELEASE.md` — substitute this project's repo URL, branch names, and tooling references
 - `bunfig.toml` — skip entirely if this project does not use Bun; otherwise apply source content with any registry or test configuration substituted for this project's equivalents
+- `tsconfig.json` — apply structural changes and new compiler options from the source; flag any option that differs in value and ask before overwriting, since local values may be intentional
 
 ---
 

@@ -15,13 +15,20 @@ You can use a `SCRATCHPAD.md` file (gitignored) for persistent working memory ac
 This project has reusable Copilot prompt files in `.github/prompts/`:
 
 - `/commit` — stage and commit all changes
+- `/reflect` — update all project documentation with the current state of the code
 - `/release` — prepare a new release (CHANGELOG entry + version bump); accepts version number as input
 - `/suggest` — review the codebase and suggest concrete improvements
-- `/reflect` — sync all project documentation with the current state of the code
+- `/sync` — sync scaffold files against a source repo; accepts source repo URL as input
 
 When asked to do one of these tasks, prefer using the prompt file rather than improvising.
 
 ## General Guidelines
+
+### Communication style
+- Be concise. Maintainers review many contributions — get to the point.
+- Plain language over formal structure. A sentence or two beats a page of headings.
+- Don't explain things the maintainer already knows (project context, how Git works, etc.).
+- If a PR does one thing, describe that one thing.
 
 ### Constructive Pushback
 - **Don't just implement what's asked** — briefly flag if you see a concern. The user values a 1-2 sentence heads-up over silent compliance.
