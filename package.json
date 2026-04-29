@@ -26,9 +26,11 @@
     "icons/"
   ],
   "scripts": {
-    "all": "bun run --sequential clean check tsc metadata dist",
+    "all": "bun run --sequential clean check metadata dist",
     "build": "bun run all",
-    "check": "bun ./scripts/check.ts",
+    "check": "bun run --parallel 'check:*'",
+    "check:svg": "bun ./scripts/check.ts",
+    "check:ts": "tsc --noEmit",
     "clean": "bun ./scripts/clean.ts",
     "dist": "bun run --parallel 'dist:*'",
     "dist:symbol": "bun run --sequential pre-symbol symbol post-symbol",
@@ -37,8 +39,7 @@
     "post-symbol": "rm mustache-vars.json",
     "pre-symbol": "bun ./scripts/pre-symbol.ts",
     "start": "bun ./scripts/server.ts",
-    "symbol": "svg-sprite --symbol --symbol-dest . --shape-transform '' --variables 'mustache-vars.json' --shape-id-generator \"temaki-%s\" -w 15 -h 15 --symbol-example true --symbol-example-template docs/template.html --symbol-example-dest docs/index.html --symbol-sprite dist/temaki-symbol.svg icons/*.svg",
-    "tsc": "tsc --noEmit"
+    "symbol": "svg-sprite --symbol --symbol-dest . --shape-transform '' --variables 'mustache-vars.json' --shape-id-generator \"temaki-%s\" -w 15 -h 15 --symbol-example true --symbol-example-template docs/template.html --symbol-example-dest docs/index.html --symbol-sprite dist/temaki-symbol.svg icons/*.svg"
   },
   "devDependencies": {
     "@types/bun": "^1.3.9",

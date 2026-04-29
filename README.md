@@ -52,3 +52,9 @@ See the [CONTRIBUTING.md](CONTRIBUTING.md) file for more info.
 To the extent possible under law, the author(s) have dedicated all copyright and related and neighboring rights to this software to the public domain worldwide. This software is distributed without any warranty.
 
 [![CC0-1.0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+
+<!-- sync:
+version=1
+source=https://github.com/rapideditor/agent-practices/blob/main/templates/README.md
+instructions="preserve this project's actual description, icon list, and any unique content; adopt structural sections (badge layout, contributing footer, license block) from the source if they are absent locally; do not overwrite meaningful local content with source content"
+-->

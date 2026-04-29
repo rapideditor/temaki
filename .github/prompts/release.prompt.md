@@ -30,7 +30,13 @@ You are preparing release **${input:version}** for this repo. Do the following s
    - For bug/fix commits, write a plain bullet
    - Internal/dev-only commits (CI config, agent setup, etc.) can be omitted or grouped into a single terse bullet
    - Add reference links at the bottom of the section:
-     - Icon links: `[`icon_name`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-icon_name`
+     - Icon links: `` [`icon_name`]: https://rapideditor.github.io/temaki/docs/#icon-temaki-icon_name ``
      - PR links: `[#NNN]: https://github.com/rapideditor/temaki/issues/NNN`
 
 5. **Update `package.json`** — set `"version"` to `"${input:version}"`.
+
+<!-- sync:
+version=1
+source=https://github.com/rapideditor/agent-practices/blob/main/templates/.github/prompts/release.prompt.md
+instructions="adapt the release workflow to this project's process; rethink steps if release tooling differs"
+-->

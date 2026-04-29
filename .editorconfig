@@ -1,0 +1,15 @@
+root = true
+
+[*]
+trim_trailing_whitespace = true
+insert_final_newline = true
+end_of_line = lf
+
+[*.{js,ts,json,jsonc,json5,css,html,svg,yml,yaml,toml}]
+indent_style = space
+indent_size = 2
+
+# sync:
+# version=1
+# source=https://github.com/rapideditor/agent-practices/blob/main/templates/.editorconfig
+# instructions="adapt the per-extension indent rules to match this project's actual file types"
