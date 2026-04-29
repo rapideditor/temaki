@@ -25,11 +25,11 @@ Skip categories where things look fine. Don't invent problems.
 
 **Code Quality** — outdated practices, duplicated logic, unnecessary indirection, misleading comments, obvious simplifications
 
-**Performance** — unnecessary looping, extra copies, redundant calls
+**Performance** — unnecessary looping, extra copies, redundant calls, known slow browser APIs
 
-**TypeScript** — imprecise types, overuse of `any`/`unknown`, untyped third-party modules, irrelevant `tsconfig.json` options
+**TypeScript** (if used) — imprecise types, overuse of `any`/`unknown`, untyped third-party modules, irrelevant `tsconfig.json` options
 
-**Runtime / tooling (Bun)** — `node:*` APIs where Bun-native equivalents exist, `npm`/`yarn` artifacts in scripts, dependencies Bun now handles natively
+**Runtime / tooling** (Bun-specific entries apply if used) — `node:*` APIs where Bun-native equivalents exist, `npm`/`yarn` artifacts in scripts, dependencies Bun now handles natively
 
 **Developer Experience** — missing or misleading `package.json` scripts, incomplete `.gitignore`/`.gitattributes`, missing docs or source comments
 
@@ -43,9 +43,3 @@ Group findings by category. Number each suggestion sequentially across all categ
 - 🔥 Actionable issue (bug, broken) — should be fixed soon
 - 👉 Improvement (best practice, clarity) — worth doing
 - 💡 Suggestion (optional, bigger change) — idea to track for future work
-
-<!-- sync:
-version=1
-source=https://github.com/rapideditor/agent-practices/blob/main/templates/.github/prompts/suggest.prompt.md
-instructions="steps and categories may be adapted to this project's stack — keep categories that apply, drop ones that don't, and add new ones if the project uses tooling not represented here"
--->

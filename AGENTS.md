@@ -12,15 +12,7 @@ If a `SCRATCHPAD.md` file exists at the repo root (gitignored), read it at sessi
 
 ## Prompt Files
 
-This project has reusable Copilot prompt files in `.github/prompts/`:
-
-- `/commit` — stage and commit all changes
-- `/reflect` — update all project documentation with the current state of the code
-- `/release` — prepare a new release (CHANGELOG entry + version bump); accepts version number as input
-- `/suggest` — review the codebase and suggest concrete improvements
-- `/sync` — sync scaffold files against the canonical agent-practices repo
-
-When asked to do one of these tasks, prefer using the prompt file rather than improvising.
+This project has reusable Copilot prompt files in `.github/prompts/`. Your editor surfaces them via the `/` menu (or equivalent). When a task matches an existing prompt, prefer invoking it over improvising — the prompts encode project-specific conventions.
 
 ## General Guidelines
 
@@ -58,10 +50,4 @@ When asked to do one of these tasks, prefer using the prompt file rather than im
 - For bulk/repetitive edits across multiple files, use `multi_replace_string_in_file` with explicit before/after context in each replacement. The exact-match requirement prevents silent damage that regex-based tools can cause.
 - **Do not use `sed`, `perl -i`, or inline Python/Node scripts to edit source files.** Greedy regexes (especially around whitespace and line boundaries) can collapse or corrupt code in ways that are hard to spot without a full re-read. If an edit feels too repetitive for `multi_replace_string_in_file`, that's a signal to slow down, not to reach for a script.
 - Avoid `cat` with heredoc or other terminal-based file writing.
-
-<!-- sync:
-version=1
-source=https://github.com/rapideditor/agent-practices/blob/main/templates/AGENTS.md
-instructions="keep the local Prompt Files list (it reflects this project's actual prompts) and any local sections that have no counterpart in the template; adopt new General Guidelines subsections from the template if absent locally"
--->
 

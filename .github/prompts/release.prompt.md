@@ -16,15 +16,15 @@ You are preparing release **${input:version}** for this repo. Do the following s
    ```
    Find the commit that corresponds to the previous release (look for the version bump or a release tag) and note all commits after it.
 
-3. **Look up PR numbers** by fetching:
+3. **Look up PR numbers** — read the repo URL from `package.json` (the `"repository"` field) to confirm `owner` and `repo` (`rapideditor/temaki`), then fetch the closed PRs list:
    ```
    https://github.com/rapideditor/temaki/pulls?q=is%3Apr+is%3Aclosed
    ```
-   Match each commit to its PR number.  PR titles listed there are authoritative — prefer them over raw commit messages.
+   Match each commit to its PR number. PR titles listed there are authoritative — prefer them over raw commit messages.
 
 4. **Update `CHANGELOG.md`** — insert a new section immediately above the previous release heading. Follow the existing format exactly:
    - Header: `# ${input:version}`
-   - Date: `##### YYYY-Mon-DD` (use today's date)
+   - Date: `##### YYYY-MMM-DD` (use today's date)
    - Bullet points for each user-visible change (new icons, fixes, improvements)
    - For new icons, list each one as `` [`icon_name`] `` with a link at the bottom
    - For bug/fix commits, write a plain bullet
@@ -34,9 +34,3 @@ You are preparing release **${input:version}** for this repo. Do the following s
      - PR links: `[#NNN]: https://github.com/rapideditor/temaki/issues/NNN`
 
 5. **Update `package.json`** — set `"version"` to `"${input:version}"`.
-
-<!-- sync:
-version=1
-source=https://github.com/rapideditor/agent-practices/blob/main/templates/.github/prompts/release.prompt.md
-instructions="adapt the release workflow to this project's process; rethink steps if release tooling differs"
--->

@@ -20,9 +20,7 @@ jobs:
       with:
         bun-version: latest
     - run: bun install
+    - run: |
+        echo "::remove-matcher owner=eslint-compact::"
+        echo "::remove-matcher owner=eslint-stylish::"
     - run: bun run all
-
-# sync:
-# version=1
-# source=https://github.com/rapideditor/agent-practices/blob/main/templates/.github/workflows/build.yml
-# instructions="skip entirely if this project does not use Bun or GitHub Actions; otherwise adapt the build steps and toolchain to match this project, and ensure action versions are current"

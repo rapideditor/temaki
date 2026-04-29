@@ -22,8 +22,3 @@ You are performing a git commit for this repo. Do the following steps in order:
      printf '%s\n' 'First line' '' 'closes #123' > /tmp/commitmsg.txt
      ```
 5. Run `git push` to push commits up to the origin
-
-<!-- sync:
-version=1
-source=https://github.com/rapideditor/agent-practices/blob/main/templates/.github/prompts/commit.prompt.md
--->

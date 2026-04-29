@@ -12,8 +12,3 @@ shell = "bun"
 # skip coverage of tests and sample data
 coverageSkipTestFiles = true
 coveragePathIgnorePatterns = ['test/**']
-
-# sync:
-# version=1
-# source=https://github.com/rapideditor/agent-practices/blob/main/templates/bunfig.toml
-# instructions="skip entirely if this project does not use Bun; otherwise apply source content with any registry or test configuration substituted for this project's equivalents"
