@@ -19,10 +19,11 @@ If you want to contribute to temaki, you'll probably need to:
 - `bun install` the dependencies
 
 As you change things, you'll want to `bun run all` to ensure that things are working.
-(This command runs `clean`, `check`, `metadata`, and `dist` to type-check and rebuild the spritesheets.)
+(This command runs `clean`, `check`, `metadata`, and `dist` to lint the icons, type-check the scripts, and rebuild the spritesheets.)
+Note that the icon linter rewrites the files in `icons/` in place, so check `git diff` afterward.
 
 You can also type-check the project without emitting files:
-- `bun run check:ts` — runs `tsc --noEmit` across all source and script files.
+- `bun run check:ts` — runs `tsc --noEmit` across the build scripts in `scripts/`.
 
 You can also test the preview page in a local server:
 - `bun start` - then open `http://127.0.0.1:8080/` in a browser.
