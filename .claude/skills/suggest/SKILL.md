@@ -1,5 +1,6 @@
 ---
-description: Review the codebase and suggest improvements
+name: suggest
+description: Review the codebase and suggest improvements, without making edits. Use when asked for a review, an audit, or ideas for what to improve.
 argument-hint: additional optional context
 ---
 
@@ -35,7 +36,7 @@ Skip categories where things look fine. Don't invent problems.
 
 **SVG / icon hygiene** — inconsistent path normalization, stray attributes, viewbox or sizing irregularities, naming convention drift in `data/icons.json`
 
-**Architecture / Technical Debt** — signs that complexity is accumulating: inconsistent patterns across similar code, coupling that makes changes harder than they should be, conventions the project has outgrown
+**Architecture / Technical Debt** — signs that complexity is accumulating: growing god-objects, framework or library choices that are becoming a liability, inconsistent patterns across similar code, coupling that makes changes harder than they should be, conventions the project has outgrown
 
 ## How to respond
 
